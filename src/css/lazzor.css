@@ -1,0 +1,44 @@
+
+.navbar {
+    background-color: transparent;
+    border: none;
+    margin-top: 10px;
+}
+
+.navbar-brand {
+    padding-top: 5px;
+    height: 80px;
+    margin-top: -60px;
+}
+.navbar-brand img {
+    width: 100%;
+}
+
+/* This parent can be any width and height */
+/*.search-wrap {
+  /*text-align: center;
+
+  /* May want to do this if there is risk the container may be narrower than the element inside
+  white-space: nowrap;
+}*/
+
+/* The ghost, nudged to maintain perfect centering */
+.search-wrap:before {
+    content: '';
+    display: inline-block;
+    height: 100%;
+    vertical-align: middle;
+    margin-right: -0.25em; /* Adjusts for spacing */
+}
+
+/* The element to be centered, can also be of any width and height */
+.search-wrap input {
+    display: inline-block;
+    vertical-align: middle;
+    height: 42px;
+}
+
+.search-wrap button[type=submit] {
+    height: 42px;
+    width: 45px;
+}

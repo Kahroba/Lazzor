@@ -1,0 +1,24 @@
+{
+  "name": "lazzor",
+  "description": "",
+  "main": "../index.html",
+  "authors": [
+    "farshad"
+  ],
+  "license": "MIT",
+  "homepage": "http://www.lazzor.com",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "../lib",
+    "../test",
+    "../tests"
+  ],
+  "dependencies": {
+    "modernizr": "^3.3.1",
+    "bootstrap": "^3.3.6",
+    "jquery": "^2.0.0"
+  }
+}
