@@ -12,6 +12,20 @@ html {
     color: #222;
     font-size: 1em;
     line-height: 1.4;
+    box-sizing: border-box;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family:'Roboto',sans-serif;
+    letter-spacing: 0.04em;
+    margin: 0;
+    padding: 0;
 }
 
 /*
@@ -88,6 +102,168 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+
+/*--------------Header Style-------------------------*/
+
+.header {
+    background-color: white;
+    position:fixed;
+    top:0;
+    width:100%;
+    z-index: 9999;
+    border-bottom: solid #CBCDD2 0.1rem;
+
+}
+
+.header > .content {
+    height: 4.375rem;
+    margin: 0 auto;
+    width:70%;
+    color: #838994;
+    font-size: 1.05rem;
+    min-width: 50rem;
+}
+
+.links{
+    float:right;
+    margin-top:1.7rem;
+    -webkit-font-smoothing: antialiased;
+}
+
+.links li {
+    display:inline-block;
+    margin-left:1.05rem;
+}
+
+.links li:hover {
+    color: #333333;
+    cursor: pointer;
+}
+
+.active {
+    color: #4c5058;
+    font-weight: 500;
+}
+
+/*--------------------cover style----------------------*/
+.cover {
+    position:relative;
+    top:4.375rem;
+    background-image: url('../img/bgnd2.jpg');
+    background-repeat: no-repeat;
+    background-size:cover;
+    height: 37rem;
+    background-position:center center ;
+}
+
+.cover > .content {
+    text-align: center;
+    margin:0 auto;
+    padding-top:12rem;
+    width:60%;
+    color: black;
+}
+
+.cover > .content > h1 {
+    font-size: 3.125rem;
+    margin:0;
+    font-weight: 100;}
+
+form {
+  width:500px;
+  margin:30px auto;
+  }
+
+  input[type=text] {
+      width: 150px;
+      box-sizing: border-box;
+      border: 2px solid #ccc;
+      border-radius: 4px;
+      font-size: 16px;
+      background-color: white;
+      background-image: url('searchicon.png');
+      background-position: 10px 10px;
+      background-repeat: no-repeat;
+      padding: 12px 20px 12px 40px;
+      -webkit-transition: width 0.4s ease-in-out;
+      transition: width 0.4s ease-in-out;
+  }
+
+  input[type=button] {
+    width: 80px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    background-color: grey;
+    background-position: 10px 10px;
+    padding: 12px;
+}
+
+
+/*-------------------------footer style--------------------------*/
+/*.footer{
+    position:relative;
+    top:1srem;
+    padding-bottom:4rem;}*/
+
+.footer > .content {
+    text-align: center;
+    margin:0 auto;
+    text-align: center;
+    width:60%;
+    padding:4rem 0;
+}
+
+.footer li {
+    border-radius: 1.25rem;
+    width: 2.5rem;
+    display: inline-block;
+    margin: 1.25rem 5px;
+    border: 1px solid #eaebec;
+    padding: 0.625rem 0;
+    text-align: center;
+    cursor:pointer;
+}
+
+.footer h3{
+    font-weight: 100;
+    margin-bottom: 0;
+    margin-top: 1rem;}
+
+.container div {
+    width: 33%;
+}
+.col1 {
+    float: left;
+}
+.col2 {
+    display:inline-block;
+}
+.col3 {
+    float:right;
+}
+
+.icons {
+    list-style: none;
+    padding-left: 0;
+    margin-top:0;
+    margin-bottom: 0;
+}
+
+.footer p{
+    margin-top:0;
+    color: #838994;
+    font-weight: 100; }
+
+.fa-twitter{color:#4099FF;}
+
+.fa-facebook{color:#3b5998;}
+
+.fa-instagram{color:#3f729b;}
+
+.fa{font: normal normal normal 14px/1 FontAwesome;}
+Status API Training Shop Blog About
 
 
 
