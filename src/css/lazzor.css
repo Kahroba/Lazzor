@@ -1,4 +1,8 @@
 
+header {
+	padding-bottom: 2em;
+}
+
 .navbar {
     background-color: transparent;
     border: none;
@@ -41,4 +45,37 @@
 .search-wrap button[type=submit] {
     height: 42px;
     width: 45px;
+}
+
+@media screen and (min-width: 769px) {
+  .search-wrap {
+	float: right;
+	width: 400px;
+	margin-top: -150px;
+  }
+}
+
+.search-wrap form {
+    height: 45px;
+}
+
+.fh5co-navbar-brand img {
+	position: relative;
+	top: -8px;
+}
+header .fh5co-navbar-brand .fh5co-logo {
+	font-size: 36px;
+}
+
+@media screen and (max-width: 768px) {
+	.fh5co-navbar-brand {
+		padding-left: 15px;
+	}
+
+	.search-wrap {
+		display: block;
+		float: none;
+		margin-top: -50px;
+		margin-bottom: 50px;
+	}
 }

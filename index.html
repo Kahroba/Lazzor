@@ -1,23 +1,40 @@
 <!doctype html>
-<html class="no-js" lang="">
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
     <head>
         <meta charset="utf-8">
         <meta http-equiv="x-ua-compatible" content="ie=edge">
         <title></title>
-        <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+        <meta name="description" content="">
+		<meta name="keywords" content="" />
+		<meta name="author" content="" />
 
-        <meta name="msapplication-config" content="browserconfig.xml" />
-
-        <link rel="apple-touch-icon" href="/src/img/apple-touch-icon.png">
         <!-- Place favicon.ico in the root directory -->
+		<link rel="shortcut icon" href="favicon.ico">
+
+		<!-- Pin to home screen -->
+        <meta name="msapplication-config" content="browserconfig.xml" />
+        <link rel="apple-touch-icon" href="/src/img/apple-touch-icon.png">
 
         <link rel="stylesheet" href="/lib/bootstrap/dist/css/bootstrap.css">
+		<link rel="stylesheet" href="/lib/owl.carousel/dist/assets/owl.carousel.min.css">
+		<link rel="stylesheet" href="/lib/owl.carousel/dist/assets/owl.theme.default.min.css">
         <link rel="stylesheet" href="/src/css/normalize.css">
+        <link rel="stylesheet" href="/src/css/icomoon.css">
         <link rel="stylesheet" href="/src/css/main.css">
+        <link rel="stylesheet" href="/src/css/style.css">
+        <link rel="stylesheet" href="/src/css/owl.css">
         <link rel="stylesheet" href="/src/css/lazzor.css">
 
-        <!--<script src="/lib/modernizr-2.8.3.min.js"></script>-->
+		<!-- Modernizr JS -->
+        <script src="/lib/modernizr/modernizr-2.8.3.min.js"></script>
+		<!-- FOR IE9 below -->
+		<!--[if lt IE 9]>
+		<script src="/lib/respond/dest/respond.min.js"></script>
+		<![endif]-->
     </head>
     <body>
         <!--[if lt IE 8]>
@@ -25,7 +42,47 @@
         <![endif]-->
 
         <!-- Add your site or application content here -->
-        <div class="container">
+		<header>
+			<div class="container">
+				<div class="fh5co-navbar-brand">
+					<img src="/src/img/brand-nav.png" alt="Logo">
+					<a class="fh5co-logo" href="index.html">Lazzor</a>
+				</div>
+
+				<div class="form-group search-wrap">
+					<form role="search">
+						<div class="col-xs-12">
+							<input type="text" class="form-control" placeholder="Search">
+						</div>
+					</form>
+				</div>
+
+				<nav id="fh5co-main-nav" role="navigation" class=" text-center">
+					<ul>
+						<li><a href="#">دسته بندی 1</a></li>
+						<li><a href="#">دسته بندی 2</a></li>
+						<li><a href="#">دسته بندی 3</a></li>
+						<li><a href="#">دسته بندی 4</a></li>
+						<li><a href="#">دسته بندی 5</a></li>
+					</ul>
+				</nav>
+			</div>
+		</header>
+
+		<div class="main-slider owl-carousel owl-carousel1 owl-carousel-fullwidth fh5co-light-arrow" data-animate-effect="fadeIn">
+			<div class="item">
+				<a href="images/featured-1.jpg" class="image-popup">
+					<img src="/src/img/featured-1.jpg" alt="image">
+				</a>
+			</div>
+			<div class="item">
+				<a href="images/featured-2.jpg" class="image-popup">
+					<img src="/src/img/featured-2.jpg" alt="image">
+				</a>
+			</div>
+		</div>
+
+        <div class="container" style="display: none;">
 
             <nav class="navbar navbar-default">
                 <div class="container-fluid">
@@ -102,8 +159,9 @@
         </div>
 
         <!--<script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>-->
-        <script>window.jQuery || document.write('<script src="/lib/jquery/jquery.js"><\/script>')</script>
+        <script>window.jQuery || document.write('<script src="/lib/jquery/dist/jquery.js"><\/script>')</script>
         <script src="/lib/bootstrap/dist/js/bootstrap.js"></script>
+        <script src="/lib/owl.carousel/dist/owl.carousel.js"></script>
         <script src="/src/js/plugins.js"></script>
         <script src="/src/js/main.js"></script>
 

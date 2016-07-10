@@ -3,4 +3,5 @@
 
 /.vscode
 /lib
+/theme
 /build/node_modules
