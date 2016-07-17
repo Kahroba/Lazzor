@@ -1,0 +1,14 @@
+<div data-ng-controller="trailController">
+
+    This is trail page.
+
+    <div class="glyphicons glyphicons-search" ng-if="!!fetching">I'm fetching data. Please be patient.</div>
+    <div class="glyphicons glyphicons-search" ng-if="!fetching">Fetching is complete.</div>
+
+    <div>
+        <a data-ng-href="#/trail/{{trail.id}}">
+            <div data-ng-bind="trail.title"></div>
+            <span data-ng-bind="'season: ' + trail.season"></span>
+        </a>
+    </div>
+</div>

@@ -1,0 +1,30 @@
+{
+  "name": "lazzor",
+  "description": "",
+  "main": "../index.html",
+  "authors": [
+    "farshad"
+  ],
+  "license": "MIT",
+  "homepage": "http://www.lazzor.com",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "../lib",
+    "../test",
+    "../tests"
+  ],
+  "dependencies": {
+    "modernizr": "^3.3.1",
+    "bootstrap": "^3.3.6",
+    "jquery": "^2.0.0",
+    "slick-carousel": "^1.6.0",
+    "respond": "^1.4.2",
+    "owl.carousel": "^2.1.6",
+    "angular": "^1.5.7",
+    "angular-route": "^1.5.7",
+    "angular-bootstrap": "^1.3.3"
+  }
+}
