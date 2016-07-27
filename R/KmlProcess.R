@@ -4,6 +4,13 @@ library(geosphere);
 library(RODBC);
 
 
+dbc <-
+  odbcDriverConnect(
+    "driver=SQL Server;server=172.16.183.214;database=Paakoob;uid=RUser;pwd=x2mf3Oi7COZ8"
+  );
+
+
+
 files = dir(pattern = '[^\\.R]$');
 
 for(ii in 1:length(files)) {
@@ -70,6 +77,21 @@ trackData$totalDistance = cumsum(trackData$distance);
 str <- paste(as.character(trackData$totalDistance), as.character(trackData$elevation), sep = ',');
 str <- paste(str, collapse = ' ');
 
+id = strsplit(files[ii], '_')[[1]][1];
+id = as.integer(id);
+kmlStr = readChar(files, file.info(files)$size);
 
+sqlQuery(dbc,
+    paste(sep = '',
+         'update dbo.Trail set KmlInfo = \'',
+         kmlStr,
+         '\', ElevationProfile = \'',
+         str,
+         '\' where ID = ',
+         id
+    )
+  );
 
 }
+
+odbcClose(dbc)
