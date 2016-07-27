@@ -1,4 +1,4 @@
-rm(list = ls())
+rm(list = ls());
 library(XML);
 library(geosphere);
 library(RODBC);
@@ -14,6 +14,7 @@ dbc <-
 files = dir(pattern = '[^\\.R]$');
 
 for(ii in 1:length(files)) {
+# ii = 1;
 
 
 xmlFile <- xmlParse(file = files[ii]);
@@ -79,7 +80,7 @@ str <- paste(str, collapse = ' ');
 
 id = strsplit(files[ii], '_')[[1]][1];
 id = as.integer(id);
-kmlStr = readChar(files, file.info(files)$size);
+kmlStr = readChar(files[ii], file.info(files[ii])$size);
 
 sqlQuery(dbc,
     paste(sep = '',
