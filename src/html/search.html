@@ -1,19 +1,29 @@
 <div data-ng-controller="searchController">
 
-    <div class="glyphicons glyphicons-search" ng-if="!!searching">I'm searching. Please be patient.</div>
-    <div class="glyphicons glyphicons-search" ng-if="!searching">Your search is complete.</div>
+    <div class="glyphicons glyphicons-search" ng-if="!!searching">
+        <span>I'm searching. Please be patient.</span>
+    </div>
+    <div class="glyphicons glyphicons-search" ng-if="!searching">
+        <span>Your search is complete.</span>
+    </div>
 
     <div class="form-group search-wrap">
         <form role="search" data-ng-submit="search()">
-            <div class="col-xs-12">
+            <div class="col-xs-9">
                 <input type="text" class="form-control" placeholder="Search" data-ng-model="q">
+            </div>
+            <div class="col-xs-3">
+                <input type="button" class="form-control" value="search">
             </div>
         </form>
     </div>
 
-    <div data-ng-repeat="result in searchResults">
-        <a data-ng-href="#/trail/{{result.id}}">
-            <span data-ng-bind="result.title"></span>
+    <div class="search-item" data-ng-repeat="result in searchResults">
+        <a class="search-link" data-ng-href="#/trail/{{result.Id}}">
+            <span data-ng-bind="result.Name"></span>
         </a>
+        <span data-ng-bind="result.DepartureCity"></span>
+        <img data-ng-src="{{result.ThumbnailPath}}" />
     </div>
+
 </div>
