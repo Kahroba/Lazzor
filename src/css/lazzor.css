@@ -1,6 +1,84 @@
+html {
+    font-family: IRANSans
+    color: #222;
+    font-size: 1em;
+    line-height: 1.4;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
 
-header {
-    padding-bottom: 2em;
+*, *:before, *:after {
+    box-sizing: inherit;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family:'Roboto',sans-serif;
+    letter-spacing: 0.04em;
+    margin: 0;
+    padding: 0;
+}
+
+
+/*--------------Header Style-------------------------*/
+
+.header {
+    background-color: white;
+    position:fixed;
+    top:0;
+    width:100%;
+    z-index: 9999;
+    border-bottom: solid #CBCDD2 0.1rem;
+
+}
+
+.header > .content {
+    height: 4.375rem;
+    margin: 0 auto;
+    width:70%;
+    color: #838994;
+    font-size: 1.05rem;
+    min-width: 50rem;
+}
+
+.content h1 {
+  margin: 33px 0 0 0;
+  font-size: 30px;
+  letter-spacing: -0.05em
+}
+
+.content span {color: #f05c14;
+}
+
+.header .logo {
+  float:left;
+}
+
+.links{
+    float:right;
+    margin-top:1.7rem;
+    -webkit-font-smoothing: antialiased;
+}
+
+.links li {
+    display:inline-block;
+    margin-left:1.05rem;
+}
+
+.links li:hover {
+    color: #333333;
+    cursor: pointer;
+}
+
+.active {
+    color: #4c5058;
+    font-weight: 500;
+}
+
+/**************************************************/
+.nav-bar-header {
+
 }
 
 .navbar {
@@ -18,71 +96,57 @@ header {
     width: 100%;
 }
 
-/* This parent can be any width and height */
-/*.search-wrap {
-  /*text-align: center;
-
-  /* May want to do this if there is risk the container may be narrower than the element inside
-  white-space: nowrap;
-}*/
-
-/* The ghost, nudged to maintain perfect centering */
-.search-wrap:before {
-    content: '';
-    display: inline-block;
-    height: 100%;
-    vertical-align: middle;
-    margin-right: -0.25em; /* Adjusts for spacing */
-}
-
-/* The element to be centered, can also be of any width and height */
-.search-wrap input {
-    display: inline-block;
-    vertical-align: middle;
-    height: 42px;
-}
-
-.search-wrap button[type=submit] {
-    height: 42px;
-    width: 45px;
-}
-
-@media screen and (min-width: 769px) {
-  .search-wrap {
-    float: right;
-    width: 400px;
-    margin-top: -150px;
-  }
-}
-
 .search-wrap form {
     height: 45px;
 }
 
-.fh5co-navbar-brand img {
-    position: relative;
-    top: -8px;
-}
-header .fh5co-navbar-brand .fh5co-logo {
-    font-size: 36px;
+.form-group {
+  height:100px;
+  margin:0;
+  padding-top: 40px
 }
 
-@media screen and (max-width: 768px) {
-    .fh5co-navbar-brand {
-        padding-left: 15px;
-    }
+form {
+  width:40%;
+  margin: 0 auto;
+}
 
-    .search-wrap {
-        display: block;
-        float: none;
-        margin-top: -50px;
-        margin-bottom: 50px;
-    }
+input[type=text] {
+  height:50px;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+input[type=button] {
+  height: 50px;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+  background-color: grey;
 }
 
 .home-slider {
-    height: 450px;
+    height: 550px;
 }
 .home-slider img {
-    height: 450px !important;
+    height: 550px !important;
+    width: 100%;
+}
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0;
+}
+/*-------------------------------------------*/
+
+.footer > .content {
+    margin:0 auto;
+    text-align: center;
+    /*width:60%;*/
+    padding:2rem 0;
 }

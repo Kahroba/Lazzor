@@ -36,12 +36,12 @@
                 {
                     id: 1,
                     image: '/src/img/slide-1.jpg',
-                    text: 'first'
+                    // text: 'first'
                 },
                 {
                     id: 2,
                     image: '/src/img/slide-2.jpg',
-                    text: 'second'
+                    // text: 'second'
                 }
             ];
         };
