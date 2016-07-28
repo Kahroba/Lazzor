@@ -11,7 +11,7 @@ dbc <-
 
 
 
-files = dir(pattern = '[^\\.R]$');
+files = dir(pattern = '[^\\.R|\\.Rhistory]$');
 
 for(ii in 1:length(files)) {
 # ii = 1;
@@ -78,9 +78,11 @@ trackData$totalDistance = cumsum(trackData$distance);
 str <- paste(as.character(trackData$totalDistance), as.character(trackData$elevation), sep = ',');
 str <- paste(str, collapse = ' ');
 
-id = strsplit(files[ii], '_')[[1]][1];
-id = as.integer(id);
-kmlStr = readChar(files[ii], file.info(files[ii])$size);
+id <- strsplit(files[ii], '_')[[1]][1];
+id <- as.integer(id);
+kmlStr <- readChar(files[ii], file.info(files[ii])$size);
+kmlStr <- gsub("\\'", "\\'\\'", kmlStr);
+str <- gsub("\\'", "\\'\\'", str);
 
 sqlQuery(dbc,
     paste(sep = '',
