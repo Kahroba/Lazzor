@@ -14,7 +14,7 @@ dbc <-
 files = dir(pattern = '[^\\.R|\\.Rhistory]$');
 
 for(ii in 1:length(files)) {
-# ii = 1;
+# ii = 6;
 
 
 xmlFile <- xmlParse(file = files[ii]);
@@ -55,6 +55,7 @@ for (i in 1:length(coordinates)) {
   
 }
 
+trackData <- trackData[!is.na(trackData$elevation),];
 
 A <- as.matrix(trackData[1:(nrow(trackData)-1), 1:2]);
 B <- as.matrix(trackData[2:nrow(trackData), 1:2]);
@@ -83,6 +84,10 @@ id <- as.integer(id);
 kmlStr <- readChar(files[ii], file.info(files[ii])$size);
 kmlStr <- gsub("\\'", "\\'\\'", kmlStr);
 str <- gsub("\\'", "\\'\\'", str);
+
+if(substr(kmlStr, 1, 3) == '﻿'){
+  kmlStr <- substr(kmlStr, 4, nchar(kmlStr));
+}
 
 sqlQuery(dbc,
     paste(sep = '',
