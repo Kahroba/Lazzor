@@ -93,6 +93,7 @@ sqlQuery(dbc,
     )
   );
 
+print(files[ii]);
 }
 
 odbcClose(dbc)
