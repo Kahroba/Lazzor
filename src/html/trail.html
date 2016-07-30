@@ -20,60 +20,68 @@
     </div>
 
     <div class="trail-features">
-		<span class="track-title" data-ng-bind="trail.Name"></span>
-		<!--<span class="track-title" data-ng-bind="trail.Description"></span>-->
-		<ul data-ng-href="#/trail/{{trail.id}}">
-			<li>
-				<span class="glyphicons glyphicons-check"></span>
-			</li>
-			<li>
-				<span class="feature-title">دشواری مسیر</span>
-				<span class="feature" data-ng-bind="trail.DifficultyTitle"></span>
-			</li>
-			<li>
-				<span class="feature-title">بهترین فصل</span>
-				<span class="feature" data-ng-bind="'season: ' + trail.season"></span>
-			</li>
+        <span class="track-title" data-ng-bind="trail.Name"></span>
+        <!--<span class="track-title" data-ng-bind="trail.Description"></span>-->
+        <ul data-ng-href="#/trail/{{trail.id}}">
+            <li>
+                <span class="glyphicons glyphicons-check"></span>
+            </li>
+            <li>
+                <span class="feature-title">دشواری مسیر</span>
+                <span class="feature" data-ng-bind="trail.DifficultyTitle"></span>
+            </li>
+            <li>
+                <span class="feature-title">بهترین فصل</span>
+                <span class="feature" data-ng-bind="'season: ' + trail.season"></span>
+            </li>
         </ul>
     </div>
 
-
+    <div id="map"></div>
+    <div
+        nvd3-sparkline-chart
+        class="trail-elevation-chart"
+        data="chartData"
+        id="exampleId"
+        x="xFunction()"
+        y="yFunction()">
+        <svg></svg>
+    </div>
 
 </div>
 
-<div id="map"></div>
-    <script>
+<script type="text/javascript">-->
+    var map;
+    var src = 'http://rahaeegallery.com/test/test.kml';
 
-     var map;
-	 var src = 'http://rahaeegallery.com/test/test.kml'
+    function initMap() {
+        var mapElement = document.getElementById('map'),
+            mapOptions = {
+                center: new google.maps.LatLng(35.71, 51.40),
+                zoom: 2,
+                mapTypeId: google.maps.MapTypeId.TERRAIN
+            };
+        map = new google.maps.Map(mapElement, mapOptions);
 
-	 function initMap() {
-  map = new google.maps.Map(document.getElementById('map'), {
-    center: new google.maps.LatLng(35.71, 51.40),
-    zoom: 2,
-    mapTypeId: google.maps.MapTypeId.TERRAIN
-  });
+        loadKmlLayer(src, map);
+    }
 
-	loadKmlLayer(src, map);
-}
+    function loadKmlLayer(src, map) {
+        var layerOptions = {
+            suppressInfoWindows: true,
+            preserveViewport: false,
+            map: map
+        };
+        var kmlLayer = new google.maps.KmlLayer(src, layerOptions);
 
-function loadKmlLayer(src, map) {
-  var kmlLayer = new google.maps.KmlLayer(src, {
-    suppressInfoWindows: true,
-    preserveViewport: false,
-    map: map
-  });
-  google.maps.event.addListener(kmlLayer, 'click', function(event) {
-    var content = event.featureData.infoWindowHtml;
-    var testimonial = document.getElementById('capture');
-    testimonial.innerHTML = content;
-  });
-}
+        google.maps.event.addListener(kmlLayer, 'click', onLayerClick);
 
-   </script>
+        function onLayerClick (event) {
+            var content = event.featureData.infoWindowHtml,
+                testimonial = document.getElementById('capture');
 
-
-    <script async defer
-        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDMYa2MeMowwvphSPuUurU0tXxuSh3OgcY&callback=initMap">
-    </script>
-
+            testimonial.innerHTML = content;
+        }
+    }
+</script>
+<script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDMYa2MeMowwvphSPuUurU0tXxuSh3OgcY&callback=initMap"></script>
