@@ -1,4 +1,4 @@
-
+﻿
 <div data-ng-controller="trailController">
 
     <div class="glyphicons glyphicons-search" ng-if="!!fetching">
@@ -19,11 +19,22 @@
         </form>
     </div>
 
-    <div class="">
-        <a data-ng-href="#/trail/{{trail.id}}">
-            <div data-ng-bind="trail.DifficultyTitle"></div>
-            <span data-ng-bind="'season: ' + trail.season"></span>
-        </a>
+    <div class="trail-features">
+		<span class="track-title" data-ng-bind="trail.Name"></span>
+		<!--<span class="track-title" data-ng-bind="trail.Description"></span>-->
+		<ul data-ng-href="#/trail/{{trail.id}}">
+			<li>
+				<span class="glyphicons glyphicons-check"></span>
+			</li>
+			<li>
+				<span class="feature-title">دشواری مسیر</span>
+				<span class="feature" data-ng-bind="trail.DifficultyTitle"></span>
+			</li>
+			<li>
+				<span class="feature-title">بهترین فصل</span>
+				<span class="feature" data-ng-bind="'season: ' + trail.season"></span>
+			</li>
+        </ul>
     </div>
 
 

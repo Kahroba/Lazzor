@@ -156,4 +156,44 @@ hr {
     height: 400px;
       }
 
+.trail-features {
+	float:right;
+}
 
+.trail-features ul {
+	text-decoration: none;
+	text-align: right;
+	list-style: none;
+}
+
+.feature-title {
+	font-weight:800;
+	background-color: #f0f1f2;
+	width:100px;
+	float:right;
+	margin-bottom:5px;
+	padding-right:10px;
+	display:block;
+
+}
+
+.feature {
+	background-color: #f7f9fa;
+	margin-right: 5px;
+	margin-bottom: 5px;
+	float:right;
+	padding-right:10px;
+	width: 100px;
+}
+
+.trail-features li{
+	margin-right: 10px;
+}
+.track-title{
+	display:block;
+	text-align:right;
+	padding-right:10px;
+	margin-bottom:10px;
+	font-size: 16px;
+	font-weight:600;
+}
