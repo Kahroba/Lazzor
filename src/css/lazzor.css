@@ -21,7 +21,10 @@ body {
 	direction: rtl;
 }
 
-
+.content-container {
+	width: 800px;
+	margin: 0 auto;
+}
 /*--------------Header Style-------------------------*/
 
 .header {
@@ -100,6 +103,9 @@ body {
 .search-wrap form {
     height: 45px;
 }
+.search-wrap div {
+    display: inline-block;
+}
 
 .form-group {
   height:100px;
@@ -107,24 +113,26 @@ body {
   padding-top: 40px
 }
 
-form {
-  width:40%;
+.search-wrap form {
   margin: 0 auto;
+  width: 500px;
 }
 
-input[type=text] {
-  height:30px;
+.search-wrap input[type=text] {
+  height: 30px;
   border: 2px solid #ccc;
   border-radius: 4px;
   font-size: 16px;
+  width: 400px;
 }
 
-input[type=button] {
+.search-wrap input[type=submit] {
   height: 30px;
-  border: 2px solid #ff9937;
+  border: none;
   border-radius: 4px;
   font-size: 16px;
-  background-color: #ff9937;
+  background-color: #fba859;
+  color: #fff;
   width: 80px;
   text-align: center;
   line-height: 16px;
@@ -158,7 +166,7 @@ hr {
 #map {
     width: 100%;
     height: 400px;
-	top-margin: 10px;
+	margin-top: 10px;
       }
 
 .trail-features {
@@ -168,54 +176,43 @@ hr {
     text-decoration: none;
     text-align: right;
     list-style: none;
-	width: 830px;
-	margin: 10px auto;
 }
 
 .feature-title {
-    font-weight:800;
+    font-weight: 800;
     background-color: #f0f1f2;
-    width:150px;
-    margin-bottom:5px;
-    padding-right:10px;
-    display:inline-block;
+    width: 150px;
 	padding: 10px;
-
-
+	float: right;
+	margin-left: 10px;
 }
 
 .feature {
     background-color: #f7f9fa;
-    margin-bottom: 5px;
-    padding-right:10px;
-    width: 660px;
-	display:inline-block;
+    padding-right: 10px;
+	display: block;
 	padding: 10px;
-
+	overflow: hidden;
 }
 
 .trail-features li{
-
+	margin-bottom: 5px;
 }
+
 .track-title {
     display:block;
     text-align:right;
     margin-bottom:10px;
     font-size: 16px;
     font-weight:600;
-	width:830px;
 	margin: 10px auto;
 }
+
 .track-Description {
-	width: 830px;
 	display:block;
-	margin: 10px auto;
 	text-justify:newspaper;
 }
-.track-content {
-	width: 830px;
-	margin: 0 auto;
-}
+
 
 /*-------------------trail---------------------*/
 .trail-elevation-chart {
@@ -228,4 +225,67 @@ hr {
     display: none;
 }
 
+/*--------------------search-------------------*/
+.search-result {
+	list-style: none;
+	text-align: right;
+	display: inline-block;
+	padding-right: 10px;
+	background-color: #f0f1f2;
+	height: 70px;
+	padding-top: 10px;
+	overflow: hidden;
+	display: block;
+}
+.search-title a {
+	text-decoration: none;
+	font-weight: 600;
+}
+
+.search-thumbnail {
+	vertical-align: top;
+	margin-bottom: 10px;
+	width: 70px;
+	height: 70px;
+	float: right;
+	margin-left: 10px;
+}
+
+.search-item {
+	margin-bottom: 20px;
+}
+.search-result li {
+	margin-left: 10px;
+	display: inline-block;
+}
+
+.search-result .search-link {
+	display: block;
+	margin-bottom: 10px;
+	font-weight: 700;
+	padding-bottom: 0px;
+}
+
+.search-result .departue-city {
+	width: 100px;
+}
+
+.search-result .difficulty-level {
+	width: 80px;
+}
+
+.search-result .duration {
+	width: 40px;
+}
+.search-result .duration i {
+	margin-left: 2px;
+}
+
+.search-result .season {
+	width: 200px;
+}
+
+.search-result .length i {
+	font-size: 16px;
+}
 

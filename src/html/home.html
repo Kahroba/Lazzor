@@ -1,6 +1,4 @@
-<div ng-controller="homeController">
-
-    This is home page
+﻿<div ng-controller="homeController">
 
     <uib-carousel class="home-slider" active="active" interval="3000" no-wrap="false">
         <uib-slide ng-repeat="slide in slides track by slide.id" index="$index">
@@ -16,11 +14,11 @@
 
     <div class="form-group search-wrap">
         <form role="search" data-ng-submit="search()">
-            <div class="col-xs-9">
+            <div>
                 <input type="text" class="form-control" placeholder="Search" data-ng-model="q">
             </div>
-            <div class="col-xs-3">
-                <input type="button" class="form-control" value="search" data-ng-model="q">
+            <div>
+                <input type="submit" class="form-control" value="جستجو">
             </div>
         </form>
     </div>

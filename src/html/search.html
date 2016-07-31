@@ -1,29 +1,55 @@
-<div data-ng-controller="searchController">
+﻿<div data-ng-controller="searchController">
 
-    <div class="glyphicons glyphicons-search" ng-if="!!searching">
-        <span>I'm searching. Please be patient.</span>
-    </div>
-    <div class="glyphicons glyphicons-search" ng-if="!searching">
-        <span>Your search is complete.</span>
-    </div>
+	<div class="glyphicons glyphicons-search" ng-if="!!searching">
+		<span>I'm searching. Please be patient.</span>
+	</div>
+	<div class="glyphicons glyphicons-search" ng-if="!searching">
+		<span>Your search is complete.</span>
+	</div>
 
-    <div class="form-group search-wrap">
-        <form role="search" data-ng-submit="search()">
-            <div class="col-xs-9">
-                <input type="text" class="form-control" placeholder="Search" data-ng-model="q">
-            </div>
-            <div class="col-xs-3">
-                <input type="button" class="form-control" value="search">
-            </div>
-        </form>
-    </div>
+	<div class="form-group search-wrap">
+		<form role="search" data-ng-submit="search()">
+			<div>
+				<input type="text" class="form-control" placeholder="Search" data-ng-model="q">
+			</div>
+			<div>
+				<input type="submit" class="form-control" value="جستجو">
+			</div>
+		</form>
+	</div>
 
-    <div class="search-item" data-ng-repeat="result in searchResults">
-        <a class="search-link" data-ng-href="#/trail/{{result.Id}}">
-            <span data-ng-bind="result.Name"></span>
-        </a>
-        <span data-ng-bind="result.DepartureCity"></span>
-        <img data-ng-src="{{result.ThumbnailPath}}" />
-    </div>
+	<div class="search-result-wrap">
 
+		<div class="search-item" data-ng-repeat="result in searchResults">
+			<img data-ng-src="{{result.ThumbnailPath}}" class="search-thumbnail" />
+			<ul class="search-result">
+				<li class="search-link">
+					<a data-ng-href="#/trail/{{result.Id}}" class="search-title">
+						<span data-ng-bind="result.Name"></span>
+					</a>
+				</li>
+				<li class="departue-city">
+					<i class="fa fa-bus" title="شهر مبداء"></i>
+					<span data-ng-bind="result.DepartureCity"></span>
+				</li>
+				<li class="difficulty-level">
+					<i class="fa fa-coffee" title="درجه سختی"></i>
+					<span data-ng-bind="result.DifficultyTitle"></span>
+				</li>
+				<li class="duration">
+					<i class="fa fa-hourglass-half" title="مدت زمان پیمایش"></i>
+					<span data-ng-bind="result.Duration"></span>
+				</li>
+				<li class="season">
+					<i class="fa fa-calendar-o" title="بهترین فصل"></i>
+					<span data-ng-bind="result.Season"></span>
+				</li>
+				<li class="length">
+					<i class="fa fa-blind" title="طول مسیر (متر)"></i>
+					<span data-ng-bind="result.Length"></span>
+				</li>
+			</ul>
+		</div>
+
+	</div>
 </div>

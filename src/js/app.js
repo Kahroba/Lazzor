@@ -47,7 +47,7 @@
         };
     });
 
-    app.controller("searchController", function ($scope, $routeParams, $location, $http) {
+    app.controller("searchController", function ($scope, $location, $routeParams, $http) {
         /// todo: load search results from server
 
         $scope.search = search;
@@ -268,10 +268,15 @@
         };
     });
 
-    app.controller("trailController", function ($scope, $routeParams, $http) {
-        $scope.fetch = fetch;
+    app.controller("trailController", function ($scope, $location, $routeParams, $http) {
+    	$scope.fetch = fetch;
+    	$scope.search = search;
 
         fetch();
+
+        function search() {
+        	$scope.q && $location.path('search/' + $scope.q);
+        };
 
         function fetch() {
             var id = $routeParams.id;
