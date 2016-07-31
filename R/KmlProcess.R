@@ -81,18 +81,24 @@ str <- paste(str, collapse = ' ');
 
 id <- strsplit(files[ii], '_')[[1]][1];
 id <- as.integer(id);
-kmlStr <- readChar(files[ii], file.info(files[ii])$size);
-kmlStr <- gsub("\\'", "\\'\\'", kmlStr);
 str <- gsub("\\'", "\\'\\'", str);
 
-if(substr(kmlStr, 1, 3) == '﻿'){
-  kmlStr <- substr(kmlStr, 4, nchar(kmlStr));
-}
+
+# kmlStr <- readChar(files[ii], file.info(files[ii])$size);
+# kmlStr <- gsub("\\'", "\\'\\'", kmlStr);
+# if(substr(kmlStr, 1, 3) == '﻿'){
+#   kmlStr <- substr(kmlStr, 4, nchar(kmlStr));
+# }
+
+# cat(kmlStr, file = paste('../KMLCorrected/',files[ii], sep = ''));
+
+
+kmlPath <- files[ii];
 
 sqlQuery(dbc,
     paste(sep = '',
-         'update dbo.Trail set KmlInfo = \'',
-         kmlStr,
+         'update dbo.Trail set KmlPath = \'',
+         kmlPath,
          '\', ElevationProfile = \'',
          str,
          '\' where ID = ',
