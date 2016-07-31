@@ -112,7 +112,6 @@ textarea {
     width:100%;
     z-index: 9999;
     border-bottom: solid #CBCDD2 0.1rem;
-
 }
 
 .header > .content {
@@ -122,6 +121,10 @@ textarea {
     color: #838994;
     font-size: 1.05rem;
     min-width: 50rem;
+}
+
+.header .logo {
+  float:left;
 }
 
 .links{
