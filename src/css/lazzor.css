@@ -18,6 +18,7 @@ body {
     letter-spacing: 0.04em;
     margin: 0;
     padding: 132px 0 0 0;
+	direction: rtl;
 }
 
 
@@ -112,18 +113,21 @@ form {
 }
 
 input[type=text] {
-  height:50px;
+  height:30px;
   border: 2px solid #ccc;
   border-radius: 4px;
   font-size: 16px;
 }
 
 input[type=button] {
-  height: 50px;
-  border: 2px solid #ccc;
+  height: 30px;
+  border: 2px solid #ff9937;
   border-radius: 4px;
   font-size: 16px;
-  background-color: grey;
+  background-color: #ff9937;
+  width: 80px;
+  text-align: center;
+  line-height: 16px;
 }
 
 .home-slider {
@@ -154,50 +158,64 @@ hr {
 #map {
     width: 100%;
     height: 400px;
+	top-margin: 10px;
       }
 
 .trail-features {
-    float:right;
 }
 
 .trail-features ul {
     text-decoration: none;
     text-align: right;
     list-style: none;
+	width: 830px;
+	margin: 10px auto;
 }
 
 .feature-title {
     font-weight:800;
     background-color: #f0f1f2;
-    width:100px;
-    float:right;
+    width:150px;
     margin-bottom:5px;
     padding-right:10px;
-    display:block;
+    display:inline-block;
+	padding: 10px;
+
 
 }
 
 .feature {
     background-color: #f7f9fa;
-    margin-right: 5px;
     margin-bottom: 5px;
-    float:right;
     padding-right:10px;
-    width: 100px;
+    width: 660px;
+	display:inline-block;
+	padding: 10px;
+
 }
 
 .trail-features li{
-    margin-right: 10px;
+
 }
-.track-title{
+.track-title {
     display:block;
     text-align:right;
-    padding-right:10px;
     margin-bottom:10px;
     font-size: 16px;
     font-weight:600;
+	width:830px;
+	margin: 10px auto;
 }
-
+.track-Description {
+	width: 830px;
+	display:block;
+	margin: 10px auto;
+	text-justify:newspaper;
+}
+.track-content {
+	width: 830px;
+	margin: 0 auto;
+}
 
 /*-------------------trail---------------------*/
 .trail-elevation-chart {
@@ -209,3 +227,5 @@ hr {
 .trail-elevation-chart .nv-hoverValue {
     display: none;
 }
+
+

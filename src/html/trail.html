@@ -1,7 +1,8 @@
 ﻿
 <div data-ng-controller="trailController">
 
-    <div class="glyphicons glyphicons-search" ng-if="!!fetching">
+<div class="track-content">    
+	<div class="glyphicons glyphicons-search" ng-if="!!fetching">
         <span>I'm fetching data. Please be patient.</span>
     </div>
     <div class="glyphicons glyphicons-search" ng-if="!fetching">
@@ -14,29 +15,59 @@
                 <input type="text" class="form-control" placeholder="Search" data-ng-model="q">
             </div>
             <div class="col-xs-3">
-                <input type="button" class="form-control" value="search">
+                <input type="button" class="form-control" value="جستجو">
             </div>
         </form>
     </div>
 
     <div class="trail-features">
         <span class="track-title" data-ng-bind="trail.Name"></span>
-        <!--<span class="track-title" data-ng-bind="trail.Description"></span>-->
-        <ul data-ng-href="#/trail/{{trail.id}}">
+        <span class="track-Description" data-ng-bind="trail.Description"></span>
+        <p class="track-title">خصوصیات</p>
+		<ul>
             <li>
                 <span class="glyphicons glyphicons-check"></span>
             </li>
-            <li>
+			<li>
+				<span class="feature-title">عنوان</span>
+				<span class="feature" data-ng-bind="trail.Name"></span>
+			</li>
+			<li>
                 <span class="feature-title">دشواری مسیر</span>
                 <span class="feature" data-ng-bind="trail.DifficultyTitle"></span>
             </li>
             <li>
                 <span class="feature-title">بهترین فصل</span>
-                <span class="feature" data-ng-bind="'season: ' + trail.season"></span>
+                <span class="feature" data-ng-bind="trail.Season"></span>
             </li>
+			<li>
+				<span class="feature-title">شهر مبداء</span>
+				<span class="feature" data-ng-bind="trail.DepartureCity"></span>
+			</li>
+			<li>
+				<span class="feature-title">مسیر</span>
+				<span class="feature" data-ng-bind="trail.DepartureCityPath"></span>
+			</li>
+			<li>
+				<span class="feature-title">درجه سختی</span>
+				<span class="feature" data-ng-bind="trail.DifficultyTitle"></span>
+			</li>
+			<li>
+				<span class="feature-title">مدت زمان پیمایش</span>
+				<span class="feature" data-ng-bind="trail.Duration"></span>
+			</li>
+			<li>
+				<span class="feature-title">طول مسیر (متر)</span>
+				<span class="feature" data-ng-bind="trail.Length"></span>
+			</li>
+			<li>
+				<span class="feature-title">امداد</span>
+				<span class="feature" data-ng-bind="trail.SosService"></span>
+			</li>
         </ul>
     </div>
-
+</div>
+</div>
     <div id="map"></div>
     <div
         nvd3-sparkline-chart
@@ -50,7 +81,7 @@
 
 </div>
 
-<script type="text/javascript">-->
+<script type="text/javascript">
     var map;
     var src = 'http://rahaeegallery.com/test/test.kml';
 
