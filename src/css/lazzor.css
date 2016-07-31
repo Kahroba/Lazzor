@@ -46,17 +46,18 @@ body {
     min-width: 50rem;
 }
 
-.content h1 {
-  margin: 33px 0 0 0;
-  font-size: 30px;
-  letter-spacing: -0.05em
+.site-title h1 {
+	margin: 20px 0 0 0;
+	font-size: 30px;
+	letter-spacing: -0.05em
 }
-
 .content span {color: #f05c14;
 }
 
-.header .logo {
+.header .logo img {
   float:left;
+  width: 450px;
+  margin-top: 15px;
 }
 
 .links{
