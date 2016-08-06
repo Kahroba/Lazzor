@@ -1,0 +1,257 @@
+<?xml version="1.0" standalone="yes"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name><![CDATA[053_ChoretLake]]></name>
+    <visibility>1</visibility>
+    <open>1</open>
+    <Snippet><![CDATA[created using <A href="http://www.gpsvisualizer.com/?ref=ge&time=20160728022544">GPS Visualizer</A>]]></Snippet>
+    <Style id="gv_waypoint_normal">
+      <IconStyle>
+        <color>ffffffff</color>
+        <scale>1</scale>
+        <Icon>
+          <href>http://maps.google.ca/mapfiles/kml/pal4/icon56.png</href>
+        </Icon>
+        <hotSpot x="0.5" xunits="fraction" y="0.5" yunits="fraction" />
+      </IconStyle>
+      <LabelStyle>
+        <color>ffffffff</color>
+        <scale>1</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<div style="font-family:Arial,sans-serif; min-width:200px;"><h3>$[name]</h3> <div style="margin-top:8px;">$[description]</div></div>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="gv_waypoint_highlight">
+      <IconStyle>
+        <color>ffffffff</color>
+        <scale>1.2</scale>
+        <Icon>
+          <href>http://maps.google.ca/mapfiles/kml/pal4/icon56.png</href>
+        </Icon>
+        <hotSpot x="0.5" xunits="fraction" y="0.5" yunits="fraction" />
+      </IconStyle>
+      <LabelStyle>
+        <color>ffffffff</color>
+        <scale>1</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<div style="font-family:Arial,sans-serif; min-width:200px;"><h3>$[name]</h3> <div style="margin-top:8px;">$[description]</div></div>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="gv_track">
+      <LineStyle>
+        <color>ff0000e6</color>
+        <width>4</width>
+      </LineStyle>
+    </Style>
+    <StyleMap id="gv_waypoint">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#gv_waypoint_normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#gv_waypoint_highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Folder id="Waypoints">
+      <name>Waypoints</name>
+      <visibility>1</visibility>
+      <Placemark>
+        <name>Camp1</name>
+        <description><![CDATA[<table width="400" style="color:#666"><tr><td colspan="2" align="left"><a href="http://www.wikiloc.com"><img src="http://mw2.google.com/mw-earth-vectordb/dynamic/wikiloc/2/images/wikiloc.png" alt="Wikiloc"></a></td></tr><tr><td colspan="2"><font style="font-size:14pt;color:#2B60DE"><a href="http://www.wikiloc.com/wikiloc/view.do?id=5438990">Camp1</a></font><br/> by <a style="color:#2B60DE" href="http://www.wikiloc.com/wikiloc/user.do?name=Peyman Amiri">Peyman Amiri</a></td></tr><tr><td width="40">&nbsp;</td><td align="left"><b>Coordinates (lat,lon):</b> 36.371472, 53.498843<br/><b>Elevation:</b> 1035 meters<br/></td></tr><tr><td colspan="2"> </td></tr><tr><td align="right" colspan="2"><br/><a href="http://www.wikiloc.com/wikiloc/upload.do"><b>Upload your own trails &rarr;</b></a></td></tr></table>]]></description>
+        <styleUrl>#gv_waypoint</styleUrl>
+        <Style>
+          <IconStyle>
+            <scale>0.5</scale>
+            <Icon>
+              <href>http://maps.gpsvisualizer.com/google_maps/icons/garmin/gpsmap/Flag%2C_Blue.png</href>
+            </Icon>
+          </IconStyle>
+        </Style>
+        <Point>
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>53.498842958,36.371471984,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Door</name>
+        <description><![CDATA[<table width="400" style="color:#666"><tr><td colspan="2" align="left"><a href="http://www.wikiloc.com"><img src="http://mw2.google.com/mw-earth-vectordb/dynamic/wikiloc/2/images/wikiloc.png" alt="Wikiloc"></a></td></tr><tr><td colspan="2"><font style="font-size:14pt;color:#2B60DE"><a href="http://www.wikiloc.com/wikiloc/view.do?id=5438991">Door</a></font><br/> by <a style="color:#2B60DE" href="http://www.wikiloc.com/wikiloc/user.do?name=Peyman Amiri">Peyman Amiri</a></td></tr><tr><td width="40">&nbsp;</td><td align="left"><b>Coordinates (lat,lon):</b> 36.37163, 53.482072<br/><b>Elevation:</b> 1122 meters<br/></td></tr><tr><td colspan="2"> </td></tr><tr><td align="right" colspan="2"><br/><a href="http://www.wikiloc.com/wikiloc/upload.do"><b>Upload your own trails &rarr;</b></a></td></tr></table>]]></description>
+        <styleUrl>#gv_waypoint</styleUrl>
+        <Style>
+          <IconStyle>
+            <scale>0.5</scale>
+            <Icon>
+              <href>http://maps.gpsvisualizer.com/google_maps/icons/garmin/gpsmap/Flag%2C_Blue.png</href>
+            </Icon>
+          </IconStyle>
+        </Style>
+        <Point>
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>53.482072027,36.371629983,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Lake choret</name>
+        <description><![CDATA[<table width="400" style="color:#666"><tr><td colspan="2" align="left"><a href="http://www.wikiloc.com"><img src="http://mw2.google.com/mw-earth-vectordb/dynamic/wikiloc/2/images/wikiloc.png" alt="Wikiloc"></a></td></tr><tr><td colspan="2"><font style="font-size:14pt;color:#2B60DE"><a href="http://www.wikiloc.com/wikiloc/view.do?id=5438992">Lake</a></font><br/> by <a style="color:#2B60DE" href="http://www.wikiloc.com/wikiloc/user.do?name=Peyman Amiri">Peyman Amiri</a></td></tr><tr><td width="40">&nbsp;</td><td align="left"><b>Coordinates (lat,lon):</b> 36.371905, 53.499523<br/><b>Elevation:</b> 1006 meters<br/></td></tr><tr><td colspan="2"> </td></tr><tr><td align="right" colspan="2"><br/><a href="http://www.wikiloc.com/wikiloc/upload.do"><b>Upload your own trails &rarr;</b></a></td></tr></table>]]></description>
+        <styleUrl>#gv_waypoint</styleUrl>
+        <Style>
+          <IconStyle>
+            <scale>0.5</scale>
+            <Icon>
+              <href>http://maps.gpsvisualizer.com/google_maps/icons/garmin/gpsmap/Flag%2C_Blue.png</href>
+            </Icon>
+          </IconStyle>
+        </Style>
+        <Point>
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>53.499522982,36.371904993,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>OffRoad</name>
+        <description><![CDATA[<table width="400" style="color:#666"><tr><td colspan="2" align="left"><a href="http://www.wikiloc.com"><img src="http://mw2.google.com/mw-earth-vectordb/dynamic/wikiloc/2/images/wikiloc.png" alt="Wikiloc"></a></td></tr><tr><td colspan="2"><font style="font-size:14pt;color:#2B60DE"><a href="http://www.wikiloc.com/wikiloc/view.do?id=5438993">OffRoad</a></font><br/> by <a style="color:#2B60DE" href="http://www.wikiloc.com/wikiloc/user.do?name=Peyman Amiri">Peyman Amiri</a></td></tr><tr><td width="40">&nbsp;</td><td align="left"><b>Coordinates (lat,lon):</b> 36.371451, 53.486942<br/><b>Elevation:</b> 1197 meters<br/></td></tr><tr><td colspan="2"> </td></tr><tr><td align="right" colspan="2"><br/><a href="http://www.wikiloc.com/wikiloc/upload.do"><b>Upload your own trails &rarr;</b></a></td></tr></table>]]></description>
+        <styleUrl>#gv_waypoint</styleUrl>
+        <Style>
+          <IconStyle>
+            <scale>0.5</scale>
+            <Icon>
+              <href>http://maps.gpsvisualizer.com/google_maps/icons/garmin/gpsmap/Flag%2C_Blue.png</href>
+            </Icon>
+          </IconStyle>
+        </Style>
+        <Point>
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>53.486941997,36.37145103,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>RoadVillage</name>
+        <description><![CDATA[<table width="400" style="color:#666"><tr><td colspan="2" align="left"><a href="http://www.wikiloc.com"><img src="http://mw2.google.com/mw-earth-vectordb/dynamic/wikiloc/2/images/wikiloc.png" alt="Wikiloc"></a></td></tr><tr><td colspan="2"><font style="font-size:14pt;color:#2B60DE"><a href="http://www.wikiloc.com/wikiloc/view.do?id=5438994">RoadVillage</a></font><br/> by <a style="color:#2B60DE" href="http://www.wikiloc.com/wikiloc/user.do?name=Peyman Amiri">Peyman Amiri</a></td></tr><tr><td width="40">&nbsp;</td><td align="left"><b>Coordinates (lat,lon):</b> 36.371999, 53.470088<br/><b>Elevation:</b> 1054 meters<br/></td></tr><tr><td colspan="2"> </td></tr><tr><td align="right" colspan="2"><br/><a href="http://www.wikiloc.com/wikiloc/upload.do"><b>Upload your own trails &rarr;</b></a></td></tr></table>]]></description>
+        <styleUrl>#gv_waypoint</styleUrl>
+        <Style>
+          <IconStyle>
+            <scale>0.5</scale>
+            <Icon>
+              <href>http://maps.gpsvisualizer.com/google_maps/icons/garmin/gpsmap/Flag%2C_Blue.png</href>
+            </Icon>
+          </IconStyle>
+        </Style>
+        <Point>
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>53.470088001,36.371999038,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Shopping</name>
+        <description><![CDATA[<table width="400" style="color:#666"><tr><td colspan="2" align="left"><a href="http://www.wikiloc.com"><img src="http://mw2.google.com/mw-earth-vectordb/dynamic/wikiloc/2/images/wikiloc.png" alt="Wikiloc"></a></td></tr><tr><td colspan="2"><font style="font-size:14pt;color:#2B60DE"><a href="http://www.wikiloc.com/wikiloc/view.do?id=5438995">Shopping</a></font><br/> by <a style="color:#2B60DE" href="http://www.wikiloc.com/wikiloc/user.do?name=Peyman Amiri">Peyman Amiri</a></td></tr><tr><td width="40">&nbsp;</td><td align="left"><b>Coordinates (lat,lon):</b> 36.372808, 53.467793<br/><b>Elevation:</b> 1088 meters<br/></td></tr><tr><td colspan="2"> </td></tr><tr><td align="right" colspan="2"><br/><a href="http://www.wikiloc.com/wikiloc/upload.do"><b>Upload your own trails &rarr;</b></a></td></tr></table>]]></description>
+        <styleUrl>#gv_waypoint</styleUrl>
+        <Style>
+          <IconStyle>
+            <scale>0.5</scale>
+            <Icon>
+              <href>http://maps.gpsvisualizer.com/google_maps/icons/garmin/gpsmap/Flag%2C_Blue.png</href>
+            </Icon>
+          </IconStyle>
+        </Style>
+        <Point>
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>53.467793036,36.372807976,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Spring</name>
+        <description><![CDATA[<table width="400" style="color:#666"><tr><td colspan="2" align="left"><a href="http://www.wikiloc.com"><img src="http://mw2.google.com/mw-earth-vectordb/dynamic/wikiloc/2/images/wikiloc.png" alt="Wikiloc"></a></td></tr><tr><td colspan="2"><font style="font-size:14pt;color:#2B60DE"><a href="http://www.wikiloc.com/wikiloc/view.do?id=5438996">Spring</a></font><br/> by <a style="color:#2B60DE" href="http://www.wikiloc.com/wikiloc/user.do?name=Peyman Amiri">Peyman Amiri</a></td></tr><tr><td width="40">&nbsp;</td><td align="left"><b>Coordinates (lat,lon):</b> 36.369634, 53.49836<br/><b>Elevation:</b> 1017 meters<br/></td></tr><tr><td colspan="2"> </td></tr><tr><td align="right" colspan="2"><br/><a href="http://www.wikiloc.com/wikiloc/upload.do"><b>Upload your own trails &rarr;</b></a></td></tr></table>]]></description>
+        <styleUrl>#gv_waypoint</styleUrl>
+        <Style>
+          <IconStyle>
+            <scale>0.5</scale>
+            <Icon>
+              <href>http://maps.gpsvisualizer.com/google_maps/icons/garmin/gpsmap/Flag%2C_Blue.png</href>
+            </Icon>
+          </IconStyle>
+        </Style>
+        <Point>
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>53.498359993,36.369634001,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Start1</name>
+        <description><![CDATA[<table width="400" style="color:#666"><tr><td colspan="2" align="left"><a href="http://www.wikiloc.com"><img src="http://mw2.google.com/mw-earth-vectordb/dynamic/wikiloc/2/images/wikiloc.png" alt="Wikiloc"></a></td></tr><tr><td colspan="2"><font style="font-size:14pt;color:#2B60DE"><a href="http://www.wikiloc.com/wikiloc/view.do?id=5438997">Start</a></font><br/> by <a style="color:#2B60DE" href="http://www.wikiloc.com/wikiloc/user.do?name=Peyman Amiri">Peyman Amiri</a></td></tr><tr><td width="40">&nbsp;</td><td align="left"><b>Coordinates (lat,lon):</b> 36.371941, 53.468196<br/><b>Elevation:</b> 1080 meters<br/></td></tr><tr><td colspan="2"> </td></tr><tr><td align="right" colspan="2"><br/><a href="http://www.wikiloc.com/wikiloc/upload.do"><b>Upload your own trails &rarr;</b></a></td></tr></table>]]></description>
+        <styleUrl>#gv_waypoint</styleUrl>
+        <Style>
+          <IconStyle>
+            <scale>0.5</scale>
+            <Icon>
+              <href>http://maps.gpsvisualizer.com/google_maps/icons/garmin/gpsmap/Flag%2C_Blue.png</href>
+            </Icon>
+          </IconStyle>
+        </Style>
+        <Point>
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>53.468196038,36.371941036,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>To Choret</name>
+        <description><![CDATA[<table width="400" style="color:#666"><tr><td colspan="2" align="left"><a href="http://www.wikiloc.com"><img src="http://mw2.google.com/mw-earth-vectordb/dynamic/wikiloc/2/images/wikiloc.png" alt="Wikiloc"></a></td></tr><tr><td colspan="2"><font style="font-size:14pt;color:#2B60DE"><a href="http://www.wikiloc.com/wikiloc/view.do?id=5438998">To Choret</a></font><br/> by <a style="color:#2B60DE" href="http://www.wikiloc.com/wikiloc/user.do?name=Peyman Amiri">Peyman Amiri</a></td></tr><tr><td width="40">&nbsp;</td><td align="left"><b>Coordinates (lat,lon):</b> 36.337351, 53.371336<br/><b>Elevation:</b> 521 meters<br/></td></tr><tr><td colspan="2"> </td></tr><tr><td align="right" colspan="2"><br/><a href="http://www.wikiloc.com/wikiloc/upload.do"><b>Upload your own trails &rarr;</b></a></td></tr></table>]]></description>
+        <styleUrl>#gv_waypoint</styleUrl>
+        <Style>
+          <IconStyle>
+            <scale>0.5</scale>
+            <Icon>
+              <href>http://maps.gpsvisualizer.com/google_maps/icons/garmin/gpsmap/Flag%2C_Blue.png</href>
+            </Icon>
+          </IconStyle>
+        </Style>
+        <Point>
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>53.371336022,36.337351017,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>To Yal</name>
+        <description><![CDATA[<table width="400" style="color:#666"><tr><td colspan="2" align="left"><a href="http://www.wikiloc.com"><img src="http://mw2.google.com/mw-earth-vectordb/dynamic/wikiloc/2/images/wikiloc.png" alt="Wikiloc"></a></td></tr><tr><td colspan="2"><font style="font-size:14pt;color:#2B60DE"><a href="http://www.wikiloc.com/wikiloc/view.do?id=5438999">To Yal</a></font><br/> by <a style="color:#2B60DE" href="http://www.wikiloc.com/wikiloc/user.do?name=Peyman Amiri">Peyman Amiri</a></td></tr><tr><td width="40">&nbsp;</td><td align="left"><b>Coordinates (lat,lon):</b> 36.371657, 53.48579<br/><b>Elevation:</b> 1169 meters<br/></td></tr><tr><td colspan="2"> </td></tr><tr><td align="right" colspan="2"><br/><a href="http://www.wikiloc.com/wikiloc/upload.do"><b>Upload your own trails &rarr;</b></a></td></tr></table>]]></description>
+        <styleUrl>#gv_waypoint</styleUrl>
+        <Style>
+          <IconStyle>
+            <scale>0.5</scale>
+            <Icon>
+              <href>http://maps.gpsvisualizer.com/google_maps/icons/garmin/gpsmap/Flag%2C_Blue.png</href>
+            </Icon>
+          </IconStyle>
+        </Style>
+        <Point>
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>53.485789988,36.371656973,0</coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+    <Folder id="Tracks">
+      <name>Tracks</name>
+      <visibility>1</visibility>
+      <open>0</open>
+      <Placemark>
+        <name><![CDATA[Track 001]]></name>
+        <Snippet></Snippet>
+        <description><![CDATA[&nbsp;]]></description>
+        <styleUrl>#gv_track</styleUrl>
+        <Style>
+          <LineStyle>
+            <color>ffa9a9a9</color>
+            <width>4</width>
+          </LineStyle>
+        </Style>
+        <MultiGeometry>
+          <LineString>
+            <tessellate>1</tessellate>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>53.371189171,36.337251691 53.371564765,36.337066619 53.371999282,36.336927228 53.37225711,36.336786412 53.372524492,36.336565213 53.373213736,36.336311745 53.373353798,36.336215269 53.373567034,36.336179059 53.374049328,36.336179059 53.3742515,36.336236726 53.374483846,36.336310403 53.374937475,36.336551802 53.375184238,36.336775683 53.375598053,36.337081371 53.375769965,36.337258397 53.375879768,36.337416563 53.37618378,36.337564085 53.376632631,36.337845633 53.376748804,36.337950239 53.377067149,36.337977061 53.377496889,36.338013187 53.377703754,36.338030621 53.377743568,36.3381017,555.3 53.378050011,36.338477042,556.7 53.378854003,36.339532994,569.2 53.380049011,36.34023699,575 53.381060036,36.341526965,585.6 53.381890012,36.341645988,593.3 53.38264103,36.341986042,601.9 53.383374028,36.34204396,607.7 53.385009002,36.342605967,620.2 53.385830009,36.34380701,638 53.385309996,36.343803992,644.7 53.384766011,36.343409959,651.4 53.38382598,36.343639037,659.6 53.38323799,36.343529988,662.5 53.383033974,36.343639037,663.9 53.384152958,36.344083026,675.5 53.384919986,36.344730025,685.6 53.385629011,36.344956001,691.3 53.385926988,36.34526303,695.2 53.386267042,36.345408037,697.6 53.386938013,36.345399991,700.9 53.387299022,36.34595898,707.2 53.387933029,36.346062999,715.8 53.388532,36.346581001,721.6 53.389203977,36.346863974,725 53.38938402,36.347432015,731.2 53.390006963,36.348317983,741.3 53.390829982,36.34889801,752.4 53.390927967,36.349145025,755.3 53.390840963,36.350127971,764.4 53.39138696,36.351457005,777.8 53.391273972,36.352101993,781.7 53.391271038,36.351920022,787 53.393207006,36.351416018,785.1 53.395058988,36.351232035,780.3 53.395676985,36.35098896,781.7 53.397929035,36.35079802,780.3 53.398348968,36.35087396,777.4 53.399090013,36.351400008,786 53.401623024,36.351329014,798.5 53.403259004,36.352085983,804.8 53.403386995,36.352387983,808.6 53.402871005,36.352706999,816.8 53.402638994,36.353222989,823.5 53.402708983,36.354206018,835.5 53.402580991,36.354530985,837.5 53.401817987,36.355175972,846.1 53.401206024,36.356036039,860.5 53.401580025,36.356944973,860.5 53.402125016,36.357714012,858.1 53.402400026,36.357948035,855.7 53.403542982,36.358337961,857.6 53.403756972,36.358651025,860 53.403935004,36.359857013,862.4 53.405356994,36.359971007,869.2 53.405617001,36.360235959,875.9 53.406749982,36.360277031,887.9 53.407423971,36.359817032,899.5 53.409293974,36.359724998,922.5 53.410355961,36.358926035,939.8 53.410643041,36.358921006,939.8 53.411482992,36.359203979,935 53.412492005,36.359933037,918.2 53.412884027,36.359987017,915.8 53.413745016,36.359677976,908.6 53.414237034,36.359745031,904.7 53.414757969,36.36058297,899 53.415951971,36.361170961,895.6 53.416937012,36.362450961,892.7 53.417155026,36.362541988,891.3 53.417612007,36.361909993,901.9 53.417961029,36.361046992,909.1 53.418436032,36.36071004,912.4 53.41910298,36.360579031,915.8 53.419802031,36.360245012,915.8 53.420766033,36.360393958,915.8 53.422001023,36.360264039,913.9 53.424207978,36.359212026,926.4 53.425245993,36.35991401,925.4 53.427015999,36.360163959,921.1 53.427279023,36.360363029,919.2 53.427267959,36.360586993,917.7 53.426705031,36.361367013,912.9 53.426648034,36.361793987,907.6 53.426729003,36.361916028,906.7 53.427392012,36.361992974,912 53.427635003,36.362216016,914.4 53.427721001,36.362665035,913.9 53.429186996,36.364449961,904.7 53.429530989,36.364367986,903.8 53.431122964,36.363284038,919.6 53.43181598,36.362363035,927.3 53.432402965,36.362031028,932.6 53.432974024,36.36211996,935.5 53.433776004,36.362660006,935 53.43473196,36.362703005,935 53.435240993,36.363013973,935.5 53.435410978,36.363482019,935 53.436212037,36.363921985,939.8 53.436141964,36.365219001,948 53.436577991,36.365550002,949 53.437736034,36.365240039,958.6 53.437996963,36.365297958,964.3 53.438403988,36.365789976,971.1 53.438716969,36.367100989,975.4 53.439444015,36.367460992,975.4 53.439967968,36.367440037,974.4 53.441053005,36.366994958,976.8 53.441519039,36.367243985,972.5 53.441950958,36.367226969,970.1 53.444628976,36.366732018,986.5 53.446467966,36.367007028,1004.7 53.44680802,36.367397038,1004.2 53.447146984,36.368954983,999.4 53.447631961,36.369776996,998.5 53.448239984,36.369689992,1004.7 53.448880026,36.368683996,1010.5 53.449371038,36.368266996,1018.7 53.449569019,36.36831997,1022 53.449842017,36.369186994,1030.7 53.450549031,36.369937006,1032.1 53.450556993,36.37093504,1027.3 53.450853964,36.371065965,1028.8 53.45155796,36.370910984,1036.9 53.452477036,36.371192029,1039.8 53.453057986,36.371091027,1037.9 53.453447996,36.370854992,1033.1 53.453791989,36.370915007,1028.8 53.454037998,36.371089015,1025.9 53.454373023,36.371902982,1018.2 53.455704991,36.373420022,1008.6 53.456213018,36.373414993,1009 53.456604034,36.373161022,1013.4 53.457338959,36.371993003,1027.8 53.457640037,36.371758981,1034 53.458305979,36.371700978,1036.9 53.45979603,36.372472029,1034 53.460443029,36.372552998,1032.1 53.460708987,36.372399023,1032.6 53.461107966,36.371507021,1039.8 53.461603001,36.371225975,1042.7 53.46309498,36.370475041,1054.2 53.464784017,36.370297009,1063.4 53.465949018,36.370538995,1070.1 53.466662988,36.371333012,1071.5 53.468082966,36.372029968,1080.2 53.468259992,36.372745028,1086.4 53.467698991,36.372888023,1091.7 53.468302991,36.372663975,1085.5 53.468152033,36.37195101,1079.7 53.468355965,36.371942041,1079.2 53.468432995,36.371639036,1071.5 53.470013989,36.372051006,1054.2 53.470141981,36.371615985,1045.1 53.470333004,36.371447006,1039.3 53.471000036,36.371424962,1027.8 53.472093036,36.371693015,1006.2 53.47300197,36.371410964,1012.9 53.47410704,36.371853026,1027.3 53.474453967,36.371798962,1027.3 53.474692013,36.37195101,1031.6 53.475914011,36.372080008,1046.5 53.476182986,36.371998033,1051.8 53.477045987,36.372213028,1066.2 53.478291035,36.371770967,1084 53.478591023,36.371525042,1091.7 53.479155041,36.371642975,1094.1 53.479946963,36.371423034,1103.7 53.482301021,36.371625038,1121 53.483448001,36.371289007,1138.3 53.48454603,36.37168698,1147 53.485096972,36.371475002,1154.2 53.485900965,36.371653033,1171 53.486766983,36.371407025,1197.5 53.487188006,36.371498974,1191.7 53.487643981,36.371176019,1173.9 53.488206994,36.37103403,1156.6 53.48942304,36.371893007,1125.4 53.490225021,36.372042038,1108.5 53.490346977,36.372194001,1109 53.490574965,36.372082019,1103.3 53.490539007,36.371576004,1095.1 53.491104031,36.370706968,1074.9 53.491383987,36.370522985,1068.6 53.492834978,36.370182009,1054.2 53.493391033,36.369378017,1035.5 53.49384198,36.369129997,1027.8 53.49407902,36.368813999,1023.5 53.494612025,36.368579976,1022.5 53.495811978,36.368864039,1024.4 53.496253034,36.369074006,1028.3 53.496557968,36.369439038,1024.4 53.49739599,36.369526964,1025.4 53.497774014,36.369847991,1022 53.498430988,36.369848996,1017.7 53.49883399,36.369997021,1011.9 53.499099026,36.370860022,1015.3 53.499544021,36.371233016,1009.5 53.499521976,36.371894013,1007.6 </coordinates>
+          </LineString>
+        </MultiGeometry>
+      </Placemark>
+    </Folder>
+  </Document>
+</kml>

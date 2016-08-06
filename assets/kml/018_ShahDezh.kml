@@ -1,0 +1,141 @@
+<?xml version="1.0" standalone="yes"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name><![CDATA[018_ShahDezh]]></name>
+    <visibility>1</visibility>
+    <open>1</open>
+    <Snippet><![CDATA[created using <A href="http://www.gpsvisualizer.com/?ref=ge&time=20160727110657">GPS Visualizer</A>]]></Snippet>
+    <Style id="gv_waypoint_normal">
+      <IconStyle>
+        <color>ffffffff</color>
+        <scale>1</scale>
+        <Icon>
+          <href>http://maps.google.ca/mapfiles/kml/pal4/icon56.png</href>
+        </Icon>
+        <hotSpot x="0.5" xunits="fraction" y="0.5" yunits="fraction" />
+      </IconStyle>
+      <LabelStyle>
+        <color>ffffffff</color>
+        <scale>1</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<div style="font-family:Arial,sans-serif; min-width:200px;"><h3>$[name]</h3> <div style="margin-top:8px;">$[description]</div></div>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="gv_waypoint_highlight">
+      <IconStyle>
+        <color>ffffffff</color>
+        <scale>1.2</scale>
+        <Icon>
+          <href>http://maps.google.ca/mapfiles/kml/pal4/icon56.png</href>
+        </Icon>
+        <hotSpot x="0.5" xunits="fraction" y="0.5" yunits="fraction" />
+      </IconStyle>
+      <LabelStyle>
+        <color>ffffffff</color>
+        <scale>1</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<div style="font-family:Arial,sans-serif; min-width:200px;"><h3>$[name]</h3> <div style="margin-top:8px;">$[description]</div></div>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="gv_track">
+      <LineStyle>
+        <color>ff0000e6</color>
+        <width>4</width>
+      </LineStyle>
+    </Style>
+    <StyleMap id="gv_waypoint">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#gv_waypoint_normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#gv_waypoint_highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Folder id="Waypoints">
+      <name>Waypoints</name>
+      <visibility>1</visibility>
+      <Placemark>
+        <name>dificult</name>
+        <Snippet></Snippet>
+        <description><![CDATA[&nbsp;]]></description>
+        <styleUrl>#gv_waypoint</styleUrl>
+        <Style>
+          <IconStyle>
+            <scale>0.5</scale>
+            <Icon>
+              <href>http://maps.gpsvisualizer.com/google_maps/icons/garmin/gpsmap/Flag%2C_Blue.png</href>
+            </Icon>
+          </IconStyle>
+        </Style>
+        <Point>
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>51.131919315,35.943336189</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>khozankala road</name>
+        <Snippet></Snippet>
+        <description><![CDATA[&nbsp;]]></description>
+        <styleUrl>#gv_waypoint</styleUrl>
+        <Style>
+          <IconStyle>
+            <scale>0.5</scale>
+            <Icon>
+              <href>http://maps.gpsvisualizer.com/google_maps/icons/garmin/gpsmap/Flag%2C_Blue.png</href>
+            </Icon>
+          </IconStyle>
+        </Style>
+        <Point>
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>51.131546488,35.925648864</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>shahdej peak</name>
+        <Snippet></Snippet>
+        <description><![CDATA[&nbsp;]]></description>
+        <styleUrl>#gv_waypoint</styleUrl>
+        <Style>
+          <IconStyle>
+            <scale>0.5</scale>
+            <Icon>
+              <href>http://maps.gpsvisualizer.com/google_maps/icons/garmin/gpsmap/Summit.png</href>
+            </Icon>
+          </IconStyle>
+        </Style>
+        <Point>
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>51.134173963,35.945044672</coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+    <Folder id="Tracks">
+      <name>Tracks</name>
+      <visibility>1</visibility>
+      <open>0</open>
+      <Placemark>
+        <name><![CDATA[Track 001]]></name>
+        <Snippet></Snippet>
+        <description><![CDATA[&nbsp;]]></description>
+        <styleUrl>#gv_track</styleUrl>
+        <Style>
+          <LineStyle>
+            <color>ffa9a9a9</color>
+            <width>4</width>
+          </LineStyle>
+        </Style>
+        <MultiGeometry>
+          <LineString>
+            <tessellate>1</tessellate>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>51.131520336,35.925697982 51.130904937,35.926864911 51.130640153,35.92697354 51.130652977,35.927045038,2061.2 51.13066203,35.927235978,2063.3 51.131805992,35.928023038,2081.4 51.132754991,35.92820501,2091.8 51.133375,35.928648999,2099.8 51.133718994,35.929160966,2108.7 51.133903982,35.930196969,2121.4 51.133761993,35.931233978,2140.3 51.133414982,35.932044005,2156.8 51.132827997,35.932763005,2173.6 51.132531026,35.932923015,2175.1 51.132341009,35.933375973,2185.8 51.132273031,35.934051974,2196.5 51.132393982,35.934515996,2205.1 51.132234978,35.934763011,2212.1 51.132179992,35.935355024,2228.4 51.132446034,35.936434027,2242.5 51.132260039,35.936192963,2246.1 51.131834993,35.936341994,2258.2 51.131443977,35.936726974,2277.8 51.130678039,35.937153026,2321 51.130350977,35.937186973,2341.2 51.128278971,35.938430009,2477.3 51.12799298,35.938724969,2488.5 51.128849024,35.940380981,2551.1 51.129688974,35.94139603,2600.1 51.130543007,35.941970022,2646 51.131094033,35.941919982,2658.5 51.130990013,35.942723975,2698.2 51.131173996,35.943075009,2710.2 51.131315986,35.943236025,2718.9 51.131642964,35.943178022,2727.1 51.131911017,35.943308026,2727.6 51.132042026,35.943865003,2724.5 51.131743966,35.944139007,2719.8 51.131590996,35.944681987,2728.1 51.131220013,35.944961021,2730.4 51.13131104,35.945294034,2747.8 51.130879037,35.94544298,2761.6 51.130997976,35.945519004,2762.5 51.130920025,35.945586981,2766.5 51.131144995,35.945571978,2769.4 51.130705029,35.945686977,2780.6 51.130811982,35.945730982,2785 51.130693965,35.945699969,2786.4 51.130686002,35.945940027,2803.1 51.13037101,35.946076987,2818.2 51.130701005,35.946356021,2849.7 51.130589023,35.946529023,2858.8 51.131801968,35.946585014,2873.9 51.132486016,35.946001969,2893.7 51.132932017,35.945909014,2907.3 51.134114033,35.945050959,2920.6 51.133787977,35.945165958,2918.1 51.132951966,35.945918988,2903.7 51.132613001,35.945944972,2891.8 51.132047977,35.946293995,2884.9 51.131931972,35.946536986,2873.5 51.131202998,35.946647041,2876.8 51.131070983,35.946516031,2869.8 51.130686002,35.946714012,2864.4 51.130741993,35.946350992,2844.6 51.130434042,35.946365995,2824.6 51.130410992,35.946084028,2808.3 51.130906027,35.945873978,2782.6 51.131079029,35.945338961,2754.3 51.131291008,35.945263021,2746.1 51.131283967,35.945081972,2738.5 51.131533999,35.94487804,2737.4 51.131661991,35.944227017,2726.2 51.131711025,35.944318967,2726.2 51.132118972,35.943810018,2728.5 51.131948987,35.94334499,2723.7 51.132323993,35.943383966,2723.5 51.13185402,35.943333004,2722.9 51.131339036,35.943483962,2722.8 51.132452991,35.943354964,2723 51.132015958,35.943292016,2723.9 51.132167,35.943275001,2724.3 51.132084019,35.943209035,2724.4 51.131330989,35.943292016,2714.8 51.131021027,35.942773009,2690.8 51.131096967,35.942060966,2657.6 51.130554993,35.942005981,2641.5 51.129643042,35.941398963,2592.8 51.128806025,35.940395985,2545.3 51.12810404,35.938997967,2502 51.128340997,35.938478038,2474.8 51.129238028,35.938468985,2447.6 51.130518029,35.937821986,2350.4 51.130637974,35.937576983,2335.5 51.131230993,35.937268026,2296.8 51.131397039,35.93663997,2262.9 51.131995004,35.936276028,2251.7 </coordinates>
+          </LineString>
+        </MultiGeometry>
+      </Placemark>
+    </Folder>
+  </Document>
+</kml>

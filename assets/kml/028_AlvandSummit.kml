@@ -1,0 +1,172 @@
+<?xml version="1.0" standalone="yes"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name><![CDATA[028_AlvandSummit]]></name>
+    <visibility>1</visibility>
+    <open>1</open>
+    <Snippet><![CDATA[created using <A href="http://www.gpsvisualizer.com/?ref=ge&time=20160727111311">GPS Visualizer</A>]]></Snippet>
+    <Style id="gv_waypoint_normal">
+      <IconStyle>
+        <color>ffffffff</color>
+        <scale>1</scale>
+        <Icon>
+          <href>http://maps.google.ca/mapfiles/kml/pal4/icon56.png</href>
+        </Icon>
+        <hotSpot x="0.5" xunits="fraction" y="0.5" yunits="fraction" />
+      </IconStyle>
+      <LabelStyle>
+        <color>ffffffff</color>
+        <scale>1</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<div style="font-family:Arial,sans-serif; min-width:200px;"><h3>$[name]</h3> <div style="margin-top:8px;">$[description]</div></div>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="gv_waypoint_highlight">
+      <IconStyle>
+        <color>ffffffff</color>
+        <scale>1.2</scale>
+        <Icon>
+          <href>http://maps.google.ca/mapfiles/kml/pal4/icon56.png</href>
+        </Icon>
+        <hotSpot x="0.5" xunits="fraction" y="0.5" yunits="fraction" />
+      </IconStyle>
+      <LabelStyle>
+        <color>ffffffff</color>
+        <scale>1</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<div style="font-family:Arial,sans-serif; min-width:200px;"><h3>$[name]</h3> <div style="margin-top:8px;">$[description]</div></div>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="gv_track">
+      <LineStyle>
+        <color>ff0000e6</color>
+        <width>4</width>
+      </LineStyle>
+    </Style>
+    <StyleMap id="gv_waypoint">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#gv_waypoint_normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#gv_waypoint_highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Folder id="Waypoints">
+      <name>Waypoints</name>
+      <visibility>1</visibility>
+      <Placemark>
+        <name>تخت نادر</name>
+        <description><![CDATA[<table width="400" style="color:#666"><tr><td colspan="2" align="left"><a href="http://www.wikiloc.com"><img src="http://mw2.google.com/mw-earth-vectordb/dynamic/wikiloc/2/images/wikiloc.png" alt="Wikiloc"></a></td></tr><tr><td colspan="2"><font style="font-size:14pt;color:#2B60DE"><a href="http://www.wikiloc.com/wikiloc/view.do?id=12319955">تخت نادر</a></font><br/> by <a style="color:#2B60DE" href="http://www.wikiloc.com/wikiloc/user.do?id=537522">Nader Montazeryani نادر منتظریانی</a></td></tr><tr><td width="40">&nbsp;</td><td align="left"><b>Coordinates (lat,lon):</b> 34.770183, 48.409738<br/><b>Elevation:</b> 0 meters<br/></td></tr><tr><td colspan="2"><a href="http://www.wikiloc.com/wikiloc/imgServer.do?id=7555068"><img width="60" height="60" src="http://mw2.google.com/mw-earth-vectordb/dynamic/wikiloc/2/image_17/537522/12319955/7555068_tn.jpg" alt=""/></a>&nbsp;<a href="http://www.wikiloc.com/wikiloc/imgServer.do?id=7555119"><img width="60" height="60" src="http://mw2.google.com/mw-earth-vectordb/dynamic/wikiloc/2/image_17/537522/12319955/7555119_tn.jpg" alt=""/></a>&nbsp;</td></tr><tr><td colspan="2">تخت نادر</td></tr><tr><td align="right" colspan="2"><br/><a href="http://www.wikiloc.com/wikiloc/upload.do"><b>Upload your own trails &rarr;</b></a></td></tr></table>]]></description>
+        <styleUrl>#gv_waypoint</styleUrl>
+        <Style>
+          <IconStyle>
+            <scale>0.5</scale>
+            <Icon>
+              <href>http://maps.gpsvisualizer.com/google_maps/icons/garmin/gpsmap/Flag%2C_Blue.png</href>
+            </Icon>
+          </IconStyle>
+        </Style>
+        <Point>
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>48.40973801,34.770182976,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>قله الوند</name>
+        <description><![CDATA[<table width="400" style="color:#666"><tr><td colspan="2" align="left"><a href="http://www.wikiloc.com"><img src="http://mw2.google.com/mw-earth-vectordb/dynamic/wikiloc/2/images/wikiloc.png" alt="Wikiloc"></a></td></tr><tr><td colspan="2"><font style="font-size:14pt;color:#2B60DE"><a href="http://www.wikiloc.com/wikiloc/view.do?id=12319953">قله الوند</a></font><br/> by <a style="color:#2B60DE" href="http://www.wikiloc.com/wikiloc/user.do?id=537522">Nader Montazeryani نادر منتظریانی</a></td></tr><tr><td width="40"><img src="http://mw2.google.com/mw-earth-vectordb/dynamic/wikiloc/2/images/pictograms/33.png" alt=""/></td><td align="left"><b>Coordinates (lat,lon):</b> 34.763236, 48.404322<br/><b>Elevation:</b> 0 meters<br/></td></tr><tr><td colspan="2"><a href="http://www.wikiloc.com/wikiloc/imgServer.do?id=7555230"><img width="60" height="60" src="http://mw2.google.com/mw-earth-vectordb/dynamic/wikiloc/2/image_17/537522/12319953/7555230_tn.jpg" alt=""/></a>&nbsp;</td></tr><tr><td colspan="2">قله الوند</td></tr><tr><td align="right" colspan="2"><br/><a href="http://www.wikiloc.com/wikiloc/upload.do"><b>Upload your own trails &rarr;</b></a></td></tr></table>]]></description>
+        <styleUrl>#gv_waypoint</styleUrl>
+        <Style>
+          <IconStyle>
+            <scale>0.5</scale>
+            <Icon>
+              <href>http://maps.gpsvisualizer.com/google_maps/icons/garmin/gpsmap/Flag%2C_Blue.png</href>
+            </Icon>
+          </IconStyle>
+        </Style>
+        <Point>
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>48.404321959,34.763235971,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>پارکینگ</name>
+        <description><![CDATA[<table width="400" style="color:#666"><tr><td colspan="2" align="left"><a href="http://www.wikiloc.com"><img src="http://mw2.google.com/mw-earth-vectordb/dynamic/wikiloc/2/images/wikiloc.png" alt="Wikiloc"></a></td></tr><tr><td colspan="2"><font style="font-size:14pt;color:#2B60DE"><a href="http://www.wikiloc.com/wikiloc/view.do?id=12319957">پارکینگ</a></font><br/> by <a style="color:#2B60DE" href="http://www.wikiloc.com/wikiloc/user.do?id=537522">Nader Montazeryani نادر منتظریانی</a></td></tr><tr><td width="40"><img src="http://mw2.google.com/mw-earth-vectordb/dynamic/wikiloc/2/images/pictograms/32.png" alt=""/></td><td align="left"><b>Coordinates (lat,lon):</b> 34.763154, 48.440833<br/><b>Elevation:</b> 0 meters<br/></td></tr><tr><td colspan="2"><a href="http://www.wikiloc.com/wikiloc/imgServer.do?id=7555072"><img width="60" height="60" src="http://mw2.google.com/mw-earth-vectordb/dynamic/wikiloc/2/image_17/537522/12319957/7555072_tn.jpg" alt=""/></a>&nbsp;</td></tr><tr><td colspan="2">پارکینگ</td></tr><tr><td align="right" colspan="2"><br/><a href="http://www.wikiloc.com/wikiloc/upload.do"><b>Upload your own trails &rarr;</b></a></td></tr></table>]]></description>
+        <styleUrl>#gv_waypoint</styleUrl>
+        <Style>
+          <IconStyle>
+            <scale>0.5</scale>
+            <Icon>
+              <href>http://maps.gpsvisualizer.com/google_maps/icons/garmin/gpsmap/Flag%2C_Blue.png</href>
+            </Icon>
+          </IconStyle>
+        </Style>
+        <Point>
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>48.440833027,34.763153996,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>پناهگاه چال میشان</name>
+        <description><![CDATA[<table width="400" style="color:#666"><tr><td colspan="2" align="left"><a href="http://www.wikiloc.com"><img src="http://mw2.google.com/mw-earth-vectordb/dynamic/wikiloc/2/images/wikiloc.png" alt="Wikiloc"></a></td></tr><tr><td colspan="2"><font style="font-size:14pt;color:#2B60DE"><a href="http://www.wikiloc.com/wikiloc/view.do?id=12319956">پناهگاه چال میشان</a></font><br/> by <a style="color:#2B60DE" href="http://www.wikiloc.com/wikiloc/user.do?id=537522">Nader Montazeryani نادر منتظریانی</a></td></tr><tr><td width="40"><img src="http://mw2.google.com/mw-earth-vectordb/dynamic/wikiloc/2/images/pictograms/30.png" alt=""/></td><td align="left"><b>Coordinates (lat,lon):</b> 34.769376, 48.426857<br/><b>Elevation:</b> 0 meters<br/></td></tr><tr><td colspan="2"><a href="http://www.wikiloc.com/wikiloc/imgServer.do?id=7555070"><img width="60" height="60" src="http://mw2.google.com/mw-earth-vectordb/dynamic/wikiloc/2/image_17/537522/12319956/7555070_tn.jpg" alt=""/></a>&nbsp;</td></tr><tr><td colspan="2">پناهگاه چال میشان</td></tr><tr><td align="right" colspan="2"><br/><a href="http://www.wikiloc.com/wikiloc/upload.do"><b>Upload your own trails &rarr;</b></a></td></tr></table>]]></description>
+        <styleUrl>#gv_waypoint</styleUrl>
+        <Style>
+          <IconStyle>
+            <scale>0.5</scale>
+            <Icon>
+              <href>http://maps.gpsvisualizer.com/google_maps/icons/garmin/gpsmap/Flag%2C_Blue.png</href>
+            </Icon>
+          </IconStyle>
+        </Style>
+        <Point>
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>48.426857041,34.769375967,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>چال میشان</name>
+        <description><![CDATA[<table width="400" style="color:#666"><tr><td colspan="2" align="left"><a href="http://www.wikiloc.com"><img src="http://mw2.google.com/mw-earth-vectordb/dynamic/wikiloc/2/images/wikiloc.png" alt="Wikiloc"></a></td></tr><tr><td colspan="2"><font style="font-size:14pt;color:#2B60DE"><a href="http://www.wikiloc.com/wikiloc/view.do?id=12319954">چال میشان</a></font><br/> by <a style="color:#2B60DE" href="http://www.wikiloc.com/wikiloc/user.do?id=537522">Nader Montazeryani نادر منتظریانی</a></td></tr><tr><td width="40">&nbsp;</td><td align="left"><b>Coordinates (lat,lon):</b> 34.768543, 48.424434<br/><b>Elevation:</b> 0 meters<br/></td></tr><tr><td colspan="2"><a href="http://www.wikiloc.com/wikiloc/imgServer.do?id=7555067"><img width="60" height="60" src="http://mw2.google.com/mw-earth-vectordb/dynamic/wikiloc/2/image_17/537522/12319954/7555067_tn.jpg" alt=""/></a>&nbsp;</td></tr><tr><td colspan="2">چال میشان</td></tr><tr><td align="right" colspan="2"><br/><a href="http://www.wikiloc.com/wikiloc/upload.do"><b>Upload your own trails &rarr;</b></a></td></tr></table>]]></description>
+        <styleUrl>#gv_waypoint</styleUrl>
+        <Style>
+          <IconStyle>
+            <scale>0.5</scale>
+            <Icon>
+              <href>http://maps.gpsvisualizer.com/google_maps/icons/garmin/gpsmap/Flag%2C_Blue.png</href>
+            </Icon>
+          </IconStyle>
+        </Style>
+        <Point>
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>48.424434001,34.768542973,0</coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+    <Folder id="Tracks">
+      <name>Tracks</name>
+      <visibility>1</visibility>
+      <open>0</open>
+      <Placemark>
+        <name><![CDATA[Alvand summit قله الوند]]></name>
+        <Snippet></Snippet>
+        <description><![CDATA[&nbsp;]]></description>
+        <styleUrl>#gv_track</styleUrl>
+        <Style>
+          <LineStyle>
+            <color>ff0000ff</color>
+            <width>4</width>
+          </LineStyle>
+        </Style>
+        <MultiGeometry>
+          <LineString>
+            <tessellate>1</tessellate>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>48.440852975,34.763161959,2198.7 48.440490961,34.763823962,2200.6 48.439655034,34.76399797,2211.7 48.438821035,34.76369597,2229.9 48.437572969,34.763601003,2260.2 48.436937034,34.763864027,2269.8 48.435922991,34.763786998,2293.4 48.435312035,34.763479969,2299.6 48.434718009,34.76276801,2329.4 48.434711974,34.762966996,2333.7 48.434064975,34.762811009,2350.6 48.433184959,34.763211999,2370.3 48.432979016,34.763476029,2372.2 48.43296703,34.764334001,2390 48.432718003,34.76533304,2410.2 48.433031989,34.766345993,2448.6 48.433750989,34.766958961,2475.1 48.434000015,34.767855993,2505.8 48.433920974,34.768306017,2515.9 48.433150006,34.768654034,2539.5 48.433170039,34.768793005,2546.2 48.432634016,34.769004984,2557.7 48.431965979,34.769662041,2569.7 48.431257037,34.770081975,2587 48.430528985,34.770194041,2606.3 48.430257998,34.770395961,2619.3 48.427851973,34.769631028,2675.5 48.427668996,34.769739993,2686.5 48.42672402,34.769269014,2702.9 48.426114991,34.769570008,2705.8 48.425306976,34.769618958,2713 48.422290999,34.769260967,2733.7 48.421855979,34.769368004,2741.3 48.421778027,34.769638991,2740.4 48.421891015,34.769350989,2739.4 48.419537041,34.769918025,2776.4 48.418783005,34.76994996,2796.1 48.418703964,34.770083986,2799 48.418679992,34.769961024,2800 48.417797964,34.769998994,2824 48.41695399,34.770313986,2852.4 48.416368011,34.770368971,2868.7 48.413962992,34.770245003,2921.6 48.412688021,34.770540968,2963.4 48.411939014,34.770293031,2989.4 48.411744973,34.769958006,3005.7 48.411800964,34.769822974,3009.5 48.41128598,34.769674027,3016.8 48.41043002,34.768719999,3050.9 48.410235979,34.767901003,3090.8 48.409864996,34.767500013,3111.4 48.409922998,34.76729298,3119.6 48.409514967,34.766794005,3145.6 48.408605028,34.765029028,3210.5 48.408335969,34.764857031,3214.8 48.40811301,34.764156975,3233.1 48.405688042,34.763236977,3294.1 48.405362992,34.763279976,3302.8 48.404799979,34.763033967,3317.2 48.404434025,34.763291962,3337.8 48.404307039,34.763236977,3341.7 </coordinates>
+          </LineString>
+        </MultiGeometry>
+      </Placemark>
+    </Folder>
+  </Document>
+</kml>
