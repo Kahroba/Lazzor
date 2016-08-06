@@ -1,12 +1,5 @@
 ﻿<div data-ng-controller="searchController">
 
-	<div class="glyphicons glyphicons-search" ng-if="!!searching">
-		<span>I'm searching. Please be patient.</span>
-	</div>
-	<div class="glyphicons glyphicons-search" ng-if="!searching">
-		<span>Your search is complete.</span>
-	</div>
-
 	<div class="form-group search-wrap">
 		<form role="search" data-ng-submit="search()">
 			<div>
@@ -18,10 +11,15 @@
 		</form>
 	</div>
 
+	<div class="search-wait" data-ng-if="!!searching">
+		<i class="fa fa-spin fa-2x fa-circle-o-notch"></i>
+		<span>در حال جستجو. لطفاً منتظر بمانید.</span>
+	</div>
+
 	<div class="search-result-wrap">
 
 		<div class="search-item" data-ng-repeat="result in searchResults">
-			<img data-ng-src="{{result.ThumbnailPath}}" class="search-thumbnail" />
+			<img data-ng-src="{{'/assets/images/' + result.ThumbnailPath}}" class="search-thumbnail" />
 			<ul class="search-result">
 				<li class="search-link">
 					<a data-ng-href="#/trail/{{result.Id}}" class="search-title">
@@ -46,7 +44,7 @@
 				</li>
 				<li class="length">
 					<i class="fa fa-blind" title="طول مسیر (متر)"></i>
-					<span data-ng-bind="result.Length"></span>
+					<span data-ng-bind="result.Length | number"></span>
 				</li>
 			</ul>
 		</div>

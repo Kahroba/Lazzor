@@ -1,10 +1,10 @@
 ﻿<!doctype html>
-<!--[if lt IE 7]>      <html ng-app="Lazzor" class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
-<!--[if IE 7]>         <html ng-app="Lazzor" class="no-js lt-ie9 lt-ie8"> <![endif]-->
-<!--[if IE 8]>         <html ng-app="Lazzor" class="no-js lt-ie9"> <![endif]-->
+<!--[if lt IE 7]>      <html data-ng-app="Lazzor" class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html data-ng-app="Lazzor" class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html data-ng-app="Lazzor" class="no-js lt-ie9"> <![endif]-->
 <!--[if gt IE 8]><!-->
-<html ng-app="Lazzor" class="no-js">
- <!--<![endif]-->
+<html data-ng-app="Lazzor" class="no-js">
+<!--<![endif]-->
 <head>
 	<meta charset="utf-8">
 	<meta http-equiv="x-ua-compatible" content="ie=edge">
@@ -15,7 +15,6 @@
 	<meta name="author" content="" />
 	<meta name="fontiran.com:license" content="QEMER">
 
-	<!-- Place favicon.ico in the root directory -->
 	<link rel="shortcut icon" href="src/img/favicon.png">
 
 	<!-- Pin to home screen -->
@@ -32,83 +31,50 @@
 
 	<!-- Modernizr JS -->
 	<script src="/lib/modernizr/modernizr-2.8.3.min.js"></script>
-	<!--<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>-->
-	<!--<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>-->
-	<!-- <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css"> -->
 	<!-- FOR IE9 below -->
 	<!--[if lt IE 9]>
 	<script src="/lib/respond/dest/respond.min.js"></script>
 	<![endif]-->
 </head>
 <body>
-	<section class="header">
-		<div class="content">
-			<div class="row">
-				<div class="logo">
-					<a data-ng-href="#/"><img src="src/img/logo.png" alt="logo"></a>
-				</div>
-				<div class="site-title">
-					<h1><span>پاکوب</span> پورتال طبیعت گردی ایران</h1>
+
+	<div class="page-wrap">
+
+		<section class="header">
+			<div class="content">
+				<div class="row">
+					<div class="logo">
+						<a data-ng-href="#/"><img src="src/img/logo.png" alt="logo"></a>
+					</div>
+					<div class="site-title">
+						<h1><span>پاکوب</span> پورتال طبیعت&zwnj;گردی ایران</h1>
+					</div>
 				</div>
 			</div>
-		</div>
+		</section>
 
-	</section>
+		<div data-ng-view class="content-container"></div>
 
-	<div ng-view class="content-container"></div>
-
-	<section class="footer">
-		<div class="content">
-			<div class="row">
-				<div class="col-sm-4">
-					<h3>Column 1</h3>
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
-					<p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...</p>
-				</div>
-				<div class="col-sm-4">
-					<h3>Column 2</h3>
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
-					<p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...</p>
-				</div>
-				<div class="col-sm-4">
-					<h3>Column 3</h3>
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
-					<p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...</p>
-				</div>
-			</div>
-		</div>
-	</section>
-
-	<!-- <section class="footer">
-	  <div class="content">
-		<div class="sontainer">
-		<div class="col1">
-		  <h3>شرکت فن آوری کهربا</h3>
-		  امیرآباد شمالی,<br>
-		  تهران<br>
-		  تلفن:<br>
-	   </div>
-	   <div class="col2">
-		  <h3>Contact</h3>
-		  fanavarikahroba<br>
-		  Phone:
-	  </div>
-	  <div class="col3">
-		<h3>Connect</h3>
-		<ul class="icons">
-		  <li><i class="fa fa-twitter"></i></li>
-		  <li><i class="fa fa-facebook"></i></li>
-		  <li><i class="fa fa-instagram"></i></li>
-		</ul>
-	  </div>
 	</div>
-	  </div>
-	</section> -->
+
+	<footer>
+		<div class="footer-wrap">
+			<div class="title">
+				<h3>پاکوب</h3>
+				<span>پورتال طبیعت&zwnj;گردی ایران</span>
+			</div>
+			<div class="copyright">
+				<span class="year">&#x06f1;&#x06f3;&#x06f9;&#x06f5;</span>
+				<i class="fa fa-copyright"></i>
+				<span class="notice">همه&zwnj;ی حقوق برای پاکوب محفوظ است</span>
+			</div>
+		</div>
+	</footer>
 
 	<script>window.jQuery || document.write('<script src="/lib/jquery/dist/jquery.js"><\/script>')</script>
-	<script src="/lib/angular/angular.js"></script>
-	<script src="/lib/angular-route/angular-route.js"></script>
-	<script src="/lib/angular-bootstrap/ui-bootstrap-tpls.js"></script>
+	<script src="/lib/angular/angular.min.js"></script>
+	<script src="/lib/angular-route/angular-route.min.js"></script>
+	<script src="/lib/angular-bootstrap/ui-bootstrap-tpls.min.js"></script>
 	<script src="/lib/d3/d3.min.js"></script>
 	<script src="/lib/nvd3/nv.d3.min.js"></script>
 	<script src="/lib/angularjs-nvd3-directives/dist/angularjs-nvd3-directives.min.js"></script>

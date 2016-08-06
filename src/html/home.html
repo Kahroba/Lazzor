@@ -1,7 +1,7 @@
-﻿<div ng-controller="homeController">
+﻿<div data-ng-controller="homeController">
 
     <uib-carousel class="home-slider" active="active" interval="3000" no-wrap="false">
-        <uib-slide ng-repeat="slide in slides track by slide.id" index="$index">
+        <uib-slide data-ng-repeat="slide in slides track by slide.id" index="$index">
             <a href="#/trail/{{slide.id}}" class="image-popup">
                 <img data-ng-src="{{slide.image}}" style="margin: auto;">
                 <!-- <div class="carousel-caption"> -->
