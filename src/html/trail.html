@@ -77,39 +77,3 @@
 
 	</div>
 </div>
-
-<!--<script type="text/javascript">
-	var map;
-	var src = 'http://rahaeegallery.com/test/test.kml';
-
-	function initMap() {
-		var mapElement = document.getElementById('map'),
-            mapOptions = {
-            	center: new google.maps.LatLng(35.71, 51.40),
-            	zoom: 2,
-            	mapTypeId: google.maps.MapTypeId.TERRAIN
-            };
-		map = new google.maps.Map(mapElement, mapOptions);
-
-		loadKmlLayer(src, map);
-	}
-
-	function loadKmlLayer(src, map) {
-		var layerOptions = {
-			suppressInfoWindows: true,
-			preserveViewport: false,
-			map: map
-		};
-		var kmlLayer = new google.maps.KmlLayer(src, layerOptions);
-
-		google.maps.event.addListener(kmlLayer, 'click', onLayerClick);
-
-		function onLayerClick(event) {
-			var content = event.featureData.infoWindowHtml,
-                testimonial = document.getElementById('capture');
-
-			testimonial.innerHTML = content;
-		}
-	}
-</script>
-<script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDMYa2MeMowwvphSPuUurU0tXxuSh3OgcY&callback=initMap"></script>-->

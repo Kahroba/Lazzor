@@ -1,0 +1,1248 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tour start="node59">
+  <panorama id="node1" hideabout="1">
+    <input tile3url="images/360_0091_Stitch_XHC_o_3.jpg" prev3url="images/360_0091_Stitch_XHC_o_preview_3.jpg" tilesize="1500" tile1url="images/360_0091_Stitch_XHC_o_1.jpg" prev1url="images/360_0091_Stitch_XHC_o_preview_1.jpg" tile4url="images/360_0091_Stitch_XHC_o_4.jpg" prev4url="images/360_0091_Stitch_XHC_o_preview_4.jpg" levelingroll="0" levelingpitch="0" tilescale="1.006667" tile2url="images/360_0091_Stitch_XHC_o_2.jpg" prev2url="images/360_0091_Stitch_XHC_o_preview_2.jpg" tile0url="images/360_0091_Stitch_XHC_o_0.jpg" prev0url="images/360_0091_Stitch_XHC_o_preview_0.jpg" tile5url="images/360_0091_Stitch_XHC_o_5.jpg" prev5url="images/360_0091_Stitch_XHC_o_preview_5.jpg">
+      <preview color="0x808080"/>
+    </input>
+    <view pannorth="0" fovmode="0">
+      <start tilt="0" fov="70" pan="0"/>
+      <min tilt="-90" fov="5" pan="0"/>
+      <max tilt="90" fov="120" pan="360"/>
+    </view>
+    <userdata longitude="" datetime="" info="" description="" copyright="" comment="" title="قله دماوند" author="" source="" tags="pano" latitude=""/>
+    <hotspots wordwrap="1" height="20" width="180">
+      <label borderalpha="1" borderradius="1" backgroundcolor="0xffffff" textalpha="1" background="1" wordwrap="1" bordercolor="0x000000" border="1" height="20" textcolor="0x000000" backgroundalpha="1" enabled="1" width="180"/>
+      <polystyle mode="0" borderalpha="1" backgroundcolor="0x0000ff" bordercolor="0x0000ff" handcursor="1" backgroundalpha="0.2509803921568627"/>
+      <hotspot id="Point01" description="" tilt="-10.55" target="" title="" url="{node2}" skinid="ht_node" pan="-178.92"/>
+    </hotspots>
+    <media>
+      <sound mode="0" pansize="10.000" id="_background" tilt="-1.000" level="1.000" loop="1" ambientlevel="0.000" field="90.000" tiltsize="10.000" pan="-1.000">
+        <source url="media/آهنگ غار.MP3"/>
+      </sound>
+    </media>
+    <transition type="crossdissolve" zoomspeed="2" zoomin="2" zoomfov="20" softedge="0" blendtime="1" zoomout="3" enabled="1" zoomoutpause="1" blendcolor="0x000000"/>
+    <autorotate noderandom="1" useanimation="0" returntohorizon="0.000" delay="30.00" nodedelay="0.00" startloaded="1" speed="0.050"/>
+    <control simulatemass="1" sensitivity="8" hideabout="1" lockedkeyboardzoom="0" speedwheel="1" invertcontrol="1" dblclickfullscreen="0" lockedmouse="0" invertwheel="0" lockedkeyboard="0" lockedwheel="0" contextfullscreen="1"/>
+  </panorama>
+  <panorama id="node2" hideabout="1">
+    <input tile3url="images/360_0092_Stitch_XHC_o_3.jpg" prev3url="images/360_0092_Stitch_XHC_o_preview_3.jpg" tilesize="1500" tile1url="images/360_0092_Stitch_XHC_o_1.jpg" prev1url="images/360_0092_Stitch_XHC_o_preview_1.jpg" tile4url="images/360_0092_Stitch_XHC_o_4.jpg" prev4url="images/360_0092_Stitch_XHC_o_preview_4.jpg" levelingroll="0" levelingpitch="0" tilescale="1.006667" tile2url="images/360_0092_Stitch_XHC_o_2.jpg" prev2url="images/360_0092_Stitch_XHC_o_preview_2.jpg" tile0url="images/360_0092_Stitch_XHC_o_0.jpg" prev0url="images/360_0092_Stitch_XHC_o_preview_0.jpg" tile5url="images/360_0092_Stitch_XHC_o_5.jpg" prev5url="images/360_0092_Stitch_XHC_o_preview_5.jpg">
+      <preview color="0x808080"/>
+    </input>
+    <view pannorth="0" fovmode="0">
+      <start tilt="0" fov="70" pan="0"/>
+      <min tilt="-90" fov="5" pan="0"/>
+      <max tilt="90" fov="120" pan="360"/>
+    </view>
+    <userdata longitude="" datetime="" info="" description="" copyright="" comment="" title="" author="" source="" tags="pano" latitude=""/>
+    <hotspots wordwrap="1" height="20" width="180">
+      <label borderalpha="1" borderradius="1" backgroundcolor="0xffffff" textalpha="1" background="1" wordwrap="1" bordercolor="0x000000" border="1" height="20" textcolor="0x000000" backgroundalpha="1" enabled="1" width="180"/>
+      <polystyle mode="0" borderalpha="1" backgroundcolor="0x0000ff" bordercolor="0x0000ff" handcursor="1" backgroundalpha="0.2509803921568627"/>
+      <hotspot id="Point01" description="" tilt="2.35" target="" title="" url="{node3}" skinid="ht_node" pan="153.74"/>
+      <hotspot id="Point02" description="" tilt="4.11" target="" title="" url="{node1}" skinid="ht_node" pan="16.82"/>
+    </hotspots>
+    <media/>
+    <transition type="crossdissolve" zoomspeed="2" zoomin="2" zoomfov="20" softedge="0" blendtime="1" zoomout="3" enabled="1" zoomoutpause="1" blendcolor="0x000000"/>
+    <autorotate noderandom="1" useanimation="0" returntohorizon="0.000" delay="30.00" nodedelay="0.00" startloaded="1" speed="0.050"/>
+    <control simulatemass="1" sensitivity="8" hideabout="1" lockedkeyboardzoom="0" speedwheel="1" invertcontrol="1" dblclickfullscreen="0" lockedmouse="0" invertwheel="0" lockedkeyboard="0" lockedwheel="0" contextfullscreen="1"/>
+  </panorama>
+  <panorama id="node3" hideabout="1">
+    <input tile3url="images/360_0093_Stitch_XHC_o_3.jpg" prev3url="images/360_0093_Stitch_XHC_o_preview_3.jpg" tilesize="1500" tile1url="images/360_0093_Stitch_XHC_o_1.jpg" prev1url="images/360_0093_Stitch_XHC_o_preview_1.jpg" tile4url="images/360_0093_Stitch_XHC_o_4.jpg" prev4url="images/360_0093_Stitch_XHC_o_preview_4.jpg" levelingroll="0" levelingpitch="0" tilescale="1.006667" tile2url="images/360_0093_Stitch_XHC_o_2.jpg" prev2url="images/360_0093_Stitch_XHC_o_preview_2.jpg" tile0url="images/360_0093_Stitch_XHC_o_0.jpg" prev0url="images/360_0093_Stitch_XHC_o_preview_0.jpg" tile5url="images/360_0093_Stitch_XHC_o_5.jpg" prev5url="images/360_0093_Stitch_XHC_o_preview_5.jpg">
+      <preview color="0x808080"/>
+    </input>
+    <view pannorth="0" fovmode="0">
+      <start tilt="0" fov="70" pan="0"/>
+      <min tilt="-90" fov="5" pan="0"/>
+      <max tilt="90" fov="120" pan="360"/>
+    </view>
+    <userdata longitude="" datetime="" info="" description="" copyright="" comment="" title="" author="" source="" tags="pano" latitude=""/>
+    <hotspots wordwrap="1" height="20" width="180">
+      <label borderalpha="1" borderradius="1" backgroundcolor="0xffffff" textalpha="1" background="1" wordwrap="1" bordercolor="0x000000" border="1" height="20" textcolor="0x000000" backgroundalpha="1" enabled="1" width="180"/>
+      <polystyle mode="0" borderalpha="1" backgroundcolor="0x0000ff" bordercolor="0x0000ff" handcursor="1" backgroundalpha="0.2509803921568627"/>
+      <hotspot id="Point01" description="" tilt="-3.64" target="" title="" url="{node2}" skinid="ht_node" pan="-92.15"/>
+      <hotspot id="Point02" description="" tilt="-2.09" target="" title="" url="{node4}" skinid="ht_node" pan="91.43"/>
+    </hotspots>
+    <media/>
+    <transition type="crossdissolve" zoomspeed="2" zoomin="2" zoomfov="20" softedge="0" blendtime="1" zoomout="3" enabled="1" zoomoutpause="1" blendcolor="0x000000"/>
+    <autorotate noderandom="1" useanimation="0" returntohorizon="0.000" delay="30.00" nodedelay="0.00" startloaded="1" speed="0.050"/>
+    <control simulatemass="1" sensitivity="8" hideabout="1" lockedkeyboardzoom="0" speedwheel="1" invertcontrol="1" dblclickfullscreen="0" lockedmouse="0" invertwheel="0" lockedkeyboard="0" lockedwheel="0" contextfullscreen="1"/>
+  </panorama>
+  <panorama id="node4" hideabout="1">
+    <input tile3url="images/360_0094_Stitch_XHC_o_3.jpg" prev3url="images/360_0094_Stitch_XHC_o_preview_3.jpg" tilesize="1500" tile1url="images/360_0094_Stitch_XHC_o_1.jpg" prev1url="images/360_0094_Stitch_XHC_o_preview_1.jpg" tile4url="images/360_0094_Stitch_XHC_o_4.jpg" prev4url="images/360_0094_Stitch_XHC_o_preview_4.jpg" levelingroll="0" levelingpitch="0" tilescale="1.006667" tile2url="images/360_0094_Stitch_XHC_o_2.jpg" prev2url="images/360_0094_Stitch_XHC_o_preview_2.jpg" tile0url="images/360_0094_Stitch_XHC_o_0.jpg" prev0url="images/360_0094_Stitch_XHC_o_preview_0.jpg" tile5url="images/360_0094_Stitch_XHC_o_5.jpg" prev5url="images/360_0094_Stitch_XHC_o_preview_5.jpg">
+      <preview color="0x808080"/>
+    </input>
+    <view pannorth="0" fovmode="0">
+      <start tilt="0" fov="70" pan="0"/>
+      <min tilt="-90" fov="5" pan="0"/>
+      <max tilt="90" fov="120" pan="360"/>
+    </view>
+    <userdata longitude="" datetime="" info="" description="" copyright="" comment="" title="" author="" source="" tags="pano" latitude=""/>
+    <hotspots wordwrap="1" height="20" width="180">
+      <label borderalpha="1" borderradius="1" backgroundcolor="0xffffff" textalpha="1" background="1" wordwrap="1" bordercolor="0x000000" border="1" height="20" textcolor="0x000000" backgroundalpha="1" enabled="1" width="180"/>
+      <polystyle mode="0" borderalpha="1" backgroundcolor="0x0000ff" bordercolor="0x0000ff" handcursor="1" backgroundalpha="0.2509803921568627"/>
+      <hotspot id="Point01" description="" tilt="-5.3" target="" title="" url="{node3}" skinid="ht_node" pan="-60.94"/>
+      <hotspot id="Point02" description="" tilt="-3.66" target="" title="" url="{node5}" skinid="ht_node" pan="84.33"/>
+    </hotspots>
+    <media/>
+    <transition type="crossdissolve" zoomspeed="2" zoomin="2" zoomfov="20" softedge="0" blendtime="1" zoomout="3" enabled="1" zoomoutpause="1" blendcolor="0x000000"/>
+    <autorotate noderandom="1" useanimation="0" returntohorizon="0.000" delay="30.00" nodedelay="0.00" startloaded="1" speed="0.050"/>
+    <control simulatemass="1" sensitivity="8" hideabout="1" lockedkeyboardzoom="0" speedwheel="1" invertcontrol="1" dblclickfullscreen="0" lockedmouse="0" invertwheel="0" lockedkeyboard="0" lockedwheel="0" contextfullscreen="1"/>
+  </panorama>
+  <panorama id="node5" hideabout="1">
+    <input tile3url="images/360_0095_Stitch_XHC_o_3.jpg" prev3url="images/360_0095_Stitch_XHC_o_preview_3.jpg" tilesize="1500" tile1url="images/360_0095_Stitch_XHC_o_1.jpg" prev1url="images/360_0095_Stitch_XHC_o_preview_1.jpg" tile4url="images/360_0095_Stitch_XHC_o_4.jpg" prev4url="images/360_0095_Stitch_XHC_o_preview_4.jpg" levelingroll="0" levelingpitch="0" tilescale="1.006667" tile2url="images/360_0095_Stitch_XHC_o_2.jpg" prev2url="images/360_0095_Stitch_XHC_o_preview_2.jpg" tile0url="images/360_0095_Stitch_XHC_o_0.jpg" prev0url="images/360_0095_Stitch_XHC_o_preview_0.jpg" tile5url="images/360_0095_Stitch_XHC_o_5.jpg" prev5url="images/360_0095_Stitch_XHC_o_preview_5.jpg">
+      <preview color="0x808080"/>
+    </input>
+    <view pannorth="0" fovmode="0">
+      <start tilt="0" fov="70" pan="0"/>
+      <min tilt="-90" fov="5" pan="0"/>
+      <max tilt="90" fov="120" pan="360"/>
+    </view>
+    <userdata longitude="" datetime="" info="" description="" copyright="" comment="" title="" author="" source="" tags="pano" latitude=""/>
+    <hotspots wordwrap="1" height="20" width="180">
+      <label borderalpha="1" borderradius="1" backgroundcolor="0xffffff" textalpha="1" background="1" wordwrap="1" bordercolor="0x000000" border="1" height="20" textcolor="0x000000" backgroundalpha="1" enabled="1" width="180"/>
+      <polystyle mode="0" borderalpha="1" backgroundcolor="0x0000ff" bordercolor="0x0000ff" handcursor="1" backgroundalpha="0.2509803921568627"/>
+      <hotspot id="Point01" description="" tilt="-3.98" target="" title="" url="{node4}" skinid="ht_node" pan="-69.91"/>
+      <hotspot id="Point02" description="" tilt="1.77" target="" title="" url="{node6}" skinid="ht_node" pan="45.84"/>
+    </hotspots>
+    <media/>
+    <transition type="crossdissolve" zoomspeed="2" zoomin="2" zoomfov="20" softedge="0" blendtime="1" zoomout="3" enabled="1" zoomoutpause="1" blendcolor="0x000000"/>
+    <autorotate noderandom="1" useanimation="0" returntohorizon="0.000" delay="30.00" nodedelay="0.00" startloaded="1" speed="0.050"/>
+    <control simulatemass="1" sensitivity="8" hideabout="1" lockedkeyboardzoom="0" speedwheel="1" invertcontrol="1" dblclickfullscreen="0" lockedmouse="0" invertwheel="0" lockedkeyboard="0" lockedwheel="0" contextfullscreen="1"/>
+  </panorama>
+  <panorama id="node6" hideabout="1">
+    <input tile3url="images/360_0096_Stitch_XHC_o_3.jpg" prev3url="images/360_0096_Stitch_XHC_o_preview_3.jpg" tilesize="1500" tile1url="images/360_0096_Stitch_XHC_o_1.jpg" prev1url="images/360_0096_Stitch_XHC_o_preview_1.jpg" tile4url="images/360_0096_Stitch_XHC_o_4.jpg" prev4url="images/360_0096_Stitch_XHC_o_preview_4.jpg" levelingroll="0" levelingpitch="0" tilescale="1.006667" tile2url="images/360_0096_Stitch_XHC_o_2.jpg" prev2url="images/360_0096_Stitch_XHC_o_preview_2.jpg" tile0url="images/360_0096_Stitch_XHC_o_0.jpg" prev0url="images/360_0096_Stitch_XHC_o_preview_0.jpg" tile5url="images/360_0096_Stitch_XHC_o_5.jpg" prev5url="images/360_0096_Stitch_XHC_o_preview_5.jpg">
+      <preview color="0x808080"/>
+    </input>
+    <view pannorth="0" fovmode="0">
+      <start tilt="0" fov="70" pan="0"/>
+      <min tilt="-90" fov="5" pan="0"/>
+      <max tilt="90" fov="120" pan="360"/>
+    </view>
+    <userdata longitude="" datetime="" info="" description="" copyright="" comment="" title="" author="" source="" tags="pano" latitude=""/>
+    <hotspots wordwrap="1" height="20" width="180">
+      <label borderalpha="1" borderradius="1" backgroundcolor="0xffffff" textalpha="1" background="1" wordwrap="1" bordercolor="0x000000" border="1" height="20" textcolor="0x000000" backgroundalpha="1" enabled="1" width="180"/>
+      <polystyle mode="0" borderalpha="1" backgroundcolor="0x0000ff" bordercolor="0x0000ff" handcursor="1" backgroundalpha="0.2509803921568627"/>
+      <hotspot id="Point01" description="" tilt="27.68" target="" title="" url="{node5}" skinid="ht_node" pan="132"/>
+      <hotspot id="Point02" description="" tilt="-26.31" target="" title="" url="{node7}" skinid="ht_node" pan="-120.47"/>
+    </hotspots>
+    <media/>
+    <transition type="crossdissolve" zoomspeed="2" zoomin="2" zoomfov="20" softedge="0" blendtime="1" zoomout="3" enabled="1" zoomoutpause="1" blendcolor="0x000000"/>
+    <autorotate noderandom="1" useanimation="0" returntohorizon="0.000" delay="30.00" nodedelay="0.00" startloaded="1" speed="0.050"/>
+    <control simulatemass="1" sensitivity="8" hideabout="1" lockedkeyboardzoom="0" speedwheel="1" invertcontrol="1" dblclickfullscreen="0" lockedmouse="0" invertwheel="0" lockedkeyboard="0" lockedwheel="0" contextfullscreen="1"/>
+  </panorama>
+  <panorama id="node7" hideabout="1">
+    <input tile3url="images/360_0100_Stitch_XHC_o_3.jpg" prev3url="images/360_0100_Stitch_XHC_o_preview_3.jpg" tilesize="1500" tile1url="images/360_0100_Stitch_XHC_o_1.jpg" prev1url="images/360_0100_Stitch_XHC_o_preview_1.jpg" tile4url="images/360_0100_Stitch_XHC_o_4.jpg" prev4url="images/360_0100_Stitch_XHC_o_preview_4.jpg" levelingroll="0" levelingpitch="0" tilescale="1.006667" tile2url="images/360_0100_Stitch_XHC_o_2.jpg" prev2url="images/360_0100_Stitch_XHC_o_preview_2.jpg" tile0url="images/360_0100_Stitch_XHC_o_0.jpg" prev0url="images/360_0100_Stitch_XHC_o_preview_0.jpg" tile5url="images/360_0100_Stitch_XHC_o_5.jpg" prev5url="images/360_0100_Stitch_XHC_o_preview_5.jpg">
+      <preview color="0x808080"/>
+    </input>
+    <view pannorth="0" fovmode="0">
+      <start tilt="0" fov="70" pan="0"/>
+      <min tilt="-90" fov="5" pan="0"/>
+      <max tilt="90" fov="120" pan="360"/>
+    </view>
+    <userdata longitude="" datetime="" info="" description="" copyright="" comment="" title="" author="" source="" tags="pano" latitude=""/>
+    <hotspots wordwrap="1" height="20" width="180">
+      <label borderalpha="1" borderradius="1" backgroundcolor="0xffffff" textalpha="1" background="1" wordwrap="1" bordercolor="0x000000" border="1" height="20" textcolor="0x000000" backgroundalpha="1" enabled="1" width="180"/>
+      <polystyle mode="0" borderalpha="1" backgroundcolor="0x0000ff" bordercolor="0x0000ff" handcursor="1" backgroundalpha="0.2509803921568627"/>
+      <hotspot id="Point01" description="" tilt="10.6" target="" title="" url="{node6}" skinid="ht_node" pan="-170.89"/>
+      <hotspot id="Point02" description="" tilt="-19.19" target="" title="" url="{node8}" skinid="ht_node" pan="3.67"/>
+    </hotspots>
+    <media>
+      <sound mode="0" pansize="10.000" id="_background" tilt="-1.000" level="1.000" loop="1" ambientlevel="0.000" field="90.000" tiltsize="10.000" pan="-1.000">
+        <source url="media/آهنگ غار.MP3"/>
+      </sound>
+    </media>
+    <transition type="crossdissolve" zoomspeed="2" zoomin="2" zoomfov="20" softedge="0" blendtime="1" zoomout="3" enabled="1" zoomoutpause="1" blendcolor="0x000000"/>
+    <autorotate noderandom="1" useanimation="0" returntohorizon="0.000" delay="30.00" nodedelay="0.00" startloaded="1" speed="0.050"/>
+    <control simulatemass="1" sensitivity="8" hideabout="1" lockedkeyboardzoom="0" speedwheel="1" invertcontrol="1" dblclickfullscreen="0" lockedmouse="0" invertwheel="0" lockedkeyboard="0" lockedwheel="0" contextfullscreen="1"/>
+  </panorama>
+  <panorama id="node8" hideabout="1">
+    <input tile3url="images/360_0101_Stitch_XHC_o_3.jpg" prev3url="images/360_0101_Stitch_XHC_o_preview_3.jpg" tilesize="1500" tile1url="images/360_0101_Stitch_XHC_o_1.jpg" prev1url="images/360_0101_Stitch_XHC_o_preview_1.jpg" tile4url="images/360_0101_Stitch_XHC_o_4.jpg" prev4url="images/360_0101_Stitch_XHC_o_preview_4.jpg" levelingroll="0" levelingpitch="0" tilescale="1.006667" tile2url="images/360_0101_Stitch_XHC_o_2.jpg" prev2url="images/360_0101_Stitch_XHC_o_preview_2.jpg" tile0url="images/360_0101_Stitch_XHC_o_0.jpg" prev0url="images/360_0101_Stitch_XHC_o_preview_0.jpg" tile5url="images/360_0101_Stitch_XHC_o_5.jpg" prev5url="images/360_0101_Stitch_XHC_o_preview_5.jpg">
+      <preview color="0x808080"/>
+    </input>
+    <view pannorth="0" fovmode="0">
+      <start tilt="0" fov="70" pan="0"/>
+      <min tilt="-90" fov="5" pan="0"/>
+      <max tilt="90" fov="120" pan="360"/>
+    </view>
+    <userdata longitude="" datetime="" info="" description="" copyright="" comment="" title="" author="" source="" tags="pano" latitude=""/>
+    <hotspots wordwrap="1" height="20" width="180">
+      <label borderalpha="1" borderradius="1" backgroundcolor="0xffffff" textalpha="1" background="1" wordwrap="1" bordercolor="0x000000" border="1" height="20" textcolor="0x000000" backgroundalpha="1" enabled="1" width="180"/>
+      <polystyle mode="0" borderalpha="1" backgroundcolor="0x0000ff" bordercolor="0x0000ff" handcursor="1" backgroundalpha="0.2509803921568627"/>
+      <hotspot id="Point01" description="" tilt="10.74" target="" title="" url="{node7}" skinid="ht_node" pan="150.23"/>
+      <hotspot id="Point02" description="" tilt="-35.88" target="" title="" url="{node9}" skinid="ht_node" pan="-77.12"/>
+    </hotspots>
+    <media/>
+    <transition type="crossdissolve" zoomspeed="2" zoomin="2" zoomfov="20" softedge="0" blendtime="1" zoomout="3" enabled="1" zoomoutpause="1" blendcolor="0x000000"/>
+    <autorotate noderandom="1" useanimation="0" returntohorizon="0.000" delay="30.00" nodedelay="0.00" startloaded="1" speed="0.050"/>
+    <control simulatemass="1" sensitivity="8" hideabout="1" lockedkeyboardzoom="0" speedwheel="1" invertcontrol="1" dblclickfullscreen="0" lockedmouse="0" invertwheel="0" lockedkeyboard="0" lockedwheel="0" contextfullscreen="1"/>
+  </panorama>
+  <panorama id="node9" hideabout="1">
+    <input tile3url="images/360_0102_Stitch_XHC_o_3.jpg" prev3url="images/360_0102_Stitch_XHC_o_preview_3.jpg" tilesize="1500" tile1url="images/360_0102_Stitch_XHC_o_1.jpg" prev1url="images/360_0102_Stitch_XHC_o_preview_1.jpg" tile4url="images/360_0102_Stitch_XHC_o_4.jpg" prev4url="images/360_0102_Stitch_XHC_o_preview_4.jpg" levelingroll="0" levelingpitch="0" tilescale="1.006667" tile2url="images/360_0102_Stitch_XHC_o_2.jpg" prev2url="images/360_0102_Stitch_XHC_o_preview_2.jpg" tile0url="images/360_0102_Stitch_XHC_o_0.jpg" prev0url="images/360_0102_Stitch_XHC_o_preview_0.jpg" tile5url="images/360_0102_Stitch_XHC_o_5.jpg" prev5url="images/360_0102_Stitch_XHC_o_preview_5.jpg">
+      <preview color="0x808080"/>
+    </input>
+    <view pannorth="0" fovmode="0">
+      <start tilt="0" fov="70" pan="0"/>
+      <min tilt="-90" fov="5" pan="0"/>
+      <max tilt="90" fov="120" pan="360"/>
+    </view>
+    <userdata longitude="" datetime="" info="" description="" copyright="" comment="" title="" author="" source="" tags="pano" latitude=""/>
+    <hotspots wordwrap="1" height="20" width="180">
+      <label borderalpha="1" borderradius="1" backgroundcolor="0xffffff" textalpha="1" background="1" wordwrap="1" bordercolor="0x000000" border="1" height="20" textcolor="0x000000" backgroundalpha="1" enabled="1" width="180"/>
+      <polystyle mode="0" borderalpha="1" backgroundcolor="0x0000ff" bordercolor="0x0000ff" handcursor="1" backgroundalpha="0.2509803921568627"/>
+      <hotspot id="Point01" description="" tilt="8.85" target="" title="" url="{node8}" skinid="ht_node" pan="63.52"/>
+      <hotspot id="Point02" description="" tilt="-2.48" target="" title="" url="{node10}" skinid="ht_node" pan="-151.04"/>
+    </hotspots>
+    <media/>
+    <transition type="crossdissolve" zoomspeed="2" zoomin="2" zoomfov="20" softedge="0" blendtime="1" zoomout="3" enabled="1" zoomoutpause="1" blendcolor="0x000000"/>
+    <autorotate noderandom="1" useanimation="0" returntohorizon="0.000" delay="30.00" nodedelay="0.00" startloaded="1" speed="0.050"/>
+    <control simulatemass="1" sensitivity="8" hideabout="1" lockedkeyboardzoom="0" speedwheel="1" invertcontrol="1" dblclickfullscreen="0" lockedmouse="0" invertwheel="0" lockedkeyboard="0" lockedwheel="0" contextfullscreen="1"/>
+  </panorama>
+  <panorama id="node10" hideabout="1">
+    <input tile3url="images/360_0103_Stitch_XHC_o_3.jpg" prev3url="images/360_0103_Stitch_XHC_o_preview_3.jpg" tilesize="1500" tile1url="images/360_0103_Stitch_XHC_o_1.jpg" prev1url="images/360_0103_Stitch_XHC_o_preview_1.jpg" tile4url="images/360_0103_Stitch_XHC_o_4.jpg" prev4url="images/360_0103_Stitch_XHC_o_preview_4.jpg" levelingroll="0" levelingpitch="0" tilescale="1.006667" tile2url="images/360_0103_Stitch_XHC_o_2.jpg" prev2url="images/360_0103_Stitch_XHC_o_preview_2.jpg" tile0url="images/360_0103_Stitch_XHC_o_0.jpg" prev0url="images/360_0103_Stitch_XHC_o_preview_0.jpg" tile5url="images/360_0103_Stitch_XHC_o_5.jpg" prev5url="images/360_0103_Stitch_XHC_o_preview_5.jpg">
+      <preview color="0x808080"/>
+    </input>
+    <view pannorth="0" fovmode="0">
+      <start tilt="0" fov="70" pan="0"/>
+      <min tilt="-90" fov="5" pan="0"/>
+      <max tilt="90" fov="120" pan="360"/>
+    </view>
+    <userdata longitude="" datetime="" info="" description="" copyright="" comment="" title="" author="" source="" tags="pano" latitude=""/>
+    <hotspots wordwrap="1" height="20" width="180">
+      <label borderalpha="1" borderradius="1" backgroundcolor="0xffffff" textalpha="1" background="1" wordwrap="1" bordercolor="0x000000" border="1" height="20" textcolor="0x000000" backgroundalpha="1" enabled="1" width="180"/>
+      <polystyle mode="0" borderalpha="1" backgroundcolor="0x0000ff" bordercolor="0x0000ff" handcursor="1" backgroundalpha="0.2509803921568627"/>
+      <hotspot id="Point01" description="" tilt="-9.84" target="" title="" url="{node11}" skinid="ht_node" pan="-167.33"/>
+      <hotspot id="Point02" description="" tilt="20.33" target="" title="" url="{node9}" skinid="ht_node" pan="-21.89"/>
+    </hotspots>
+    <media/>
+    <transition type="crossdissolve" zoomspeed="2" zoomin="2" zoomfov="20" softedge="0" blendtime="1" zoomout="3" enabled="1" zoomoutpause="1" blendcolor="0x000000"/>
+    <autorotate noderandom="1" useanimation="0" returntohorizon="0.000" delay="30.00" nodedelay="0.00" startloaded="1" speed="0.050"/>
+    <control simulatemass="1" sensitivity="8" hideabout="1" lockedkeyboardzoom="0" speedwheel="1" invertcontrol="1" dblclickfullscreen="0" lockedmouse="0" invertwheel="0" lockedkeyboard="0" lockedwheel="0" contextfullscreen="1"/>
+  </panorama>
+  <panorama id="node11" hideabout="1">
+    <input tile3url="images/360_0109_Stitch_XHC_o_3.jpg" prev3url="images/360_0109_Stitch_XHC_o_preview_3.jpg" tilesize="1500" tile1url="images/360_0109_Stitch_XHC_o_1.jpg" prev1url="images/360_0109_Stitch_XHC_o_preview_1.jpg" tile4url="images/360_0109_Stitch_XHC_o_4.jpg" prev4url="images/360_0109_Stitch_XHC_o_preview_4.jpg" levelingroll="0" levelingpitch="0" tilescale="1.006667" tile2url="images/360_0109_Stitch_XHC_o_2.jpg" prev2url="images/360_0109_Stitch_XHC_o_preview_2.jpg" tile0url="images/360_0109_Stitch_XHC_o_0.jpg" prev0url="images/360_0109_Stitch_XHC_o_preview_0.jpg" tile5url="images/360_0109_Stitch_XHC_o_5.jpg" prev5url="images/360_0109_Stitch_XHC_o_preview_5.jpg">
+      <preview color="0x808080"/>
+    </input>
+    <view pannorth="0" fovmode="0">
+      <start tilt="0" fov="70" pan="0"/>
+      <min tilt="-90" fov="5" pan="0"/>
+      <max tilt="90" fov="120" pan="360"/>
+    </view>
+    <userdata longitude="" datetime="" info="" description="" copyright="" comment="" title="" author="" source="" tags="pano" latitude=""/>
+    <hotspots wordwrap="1" height="20" width="180">
+      <label borderalpha="1" borderradius="1" backgroundcolor="0xffffff" textalpha="1" background="1" wordwrap="1" bordercolor="0x000000" border="1" height="20" textcolor="0x000000" backgroundalpha="1" enabled="1" width="180"/>
+      <polystyle mode="0" borderalpha="1" backgroundcolor="0x0000ff" bordercolor="0x0000ff" handcursor="1" backgroundalpha="0.2509803921568627"/>
+      <hotspot id="Point01" description="" tilt="9.69" target="" title="" url="{node10}" skinid="ht_node" pan="-6.28"/>
+      <hotspot id="Point02" description="" tilt="-18.99" target="" title="" url="{node12}" skinid="ht_node" pan="87.01"/>
+    </hotspots>
+    <media/>
+    <transition type="crossdissolve" zoomspeed="2" zoomin="2" zoomfov="20" softedge="0" blendtime="1" zoomout="3" enabled="1" zoomoutpause="1" blendcolor="0x000000"/>
+    <autorotate noderandom="1" useanimation="0" returntohorizon="0.000" delay="30.00" nodedelay="0.00" startloaded="1" speed="0.050"/>
+    <control simulatemass="1" sensitivity="8" hideabout="1" lockedkeyboardzoom="0" speedwheel="1" invertcontrol="1" dblclickfullscreen="0" lockedmouse="0" invertwheel="0" lockedkeyboard="0" lockedwheel="0" contextfullscreen="1"/>
+  </panorama>
+  <panorama id="node12" hideabout="1">
+    <input tile3url="images/360_0112_Stitch_XHC_o_3.jpg" prev3url="images/360_0112_Stitch_XHC_o_preview_3.jpg" tilesize="1500" tile1url="images/360_0112_Stitch_XHC_o_1.jpg" prev1url="images/360_0112_Stitch_XHC_o_preview_1.jpg" tile4url="images/360_0112_Stitch_XHC_o_4.jpg" prev4url="images/360_0112_Stitch_XHC_o_preview_4.jpg" levelingroll="0" levelingpitch="0" tilescale="1.006667" tile2url="images/360_0112_Stitch_XHC_o_2.jpg" prev2url="images/360_0112_Stitch_XHC_o_preview_2.jpg" tile0url="images/360_0112_Stitch_XHC_o_0.jpg" prev0url="images/360_0112_Stitch_XHC_o_preview_0.jpg" tile5url="images/360_0112_Stitch_XHC_o_5.jpg" prev5url="images/360_0112_Stitch_XHC_o_preview_5.jpg">
+      <preview color="0x808080"/>
+    </input>
+    <view pannorth="0" fovmode="0">
+      <start tilt="0" fov="70" pan="0"/>
+      <min tilt="-90" fov="5" pan="0"/>
+      <max tilt="90" fov="120" pan="360"/>
+    </view>
+    <userdata longitude="" datetime="" info="" description="" copyright="" comment="" title="" author="" source="" tags="pano" latitude=""/>
+    <hotspots wordwrap="1" height="20" width="180">
+      <label borderalpha="1" borderradius="1" backgroundcolor="0xffffff" textalpha="1" background="1" wordwrap="1" bordercolor="0x000000" border="1" height="20" textcolor="0x000000" backgroundalpha="1" enabled="1" width="180"/>
+      <polystyle mode="0" borderalpha="1" backgroundcolor="0x0000ff" bordercolor="0x0000ff" handcursor="1" backgroundalpha="0.2509803921568627"/>
+      <hotspot id="Point01" description="" tilt="3.86" target="" title="" url="{node11}" skinid="ht_node" pan="-16.52"/>
+      <hotspot id="Point02" description="" tilt="-10.93" target="" title="" url="{node13}" skinid="ht_node" pan="-175.82"/>
+    </hotspots>
+    <media/>
+    <transition type="crossdissolve" zoomspeed="2" zoomin="2" zoomfov="20" softedge="0" blendtime="1" zoomout="3" enabled="1" zoomoutpause="1" blendcolor="0x000000"/>
+    <autorotate noderandom="1" useanimation="0" returntohorizon="0.000" delay="30.00" nodedelay="0.00" startloaded="1" speed="0.050"/>
+    <control simulatemass="1" sensitivity="8" hideabout="1" lockedkeyboardzoom="0" speedwheel="1" invertcontrol="1" dblclickfullscreen="0" lockedmouse="0" invertwheel="0" lockedkeyboard="0" lockedwheel="0" contextfullscreen="1"/>
+  </panorama>
+  <panorama id="node13" hideabout="1">
+    <input tile3url="images/360_0115_Stitch_XHC_o_3.jpg" prev3url="images/360_0115_Stitch_XHC_o_preview_3.jpg" tilesize="1500" tile1url="images/360_0115_Stitch_XHC_o_1.jpg" prev1url="images/360_0115_Stitch_XHC_o_preview_1.jpg" tile4url="images/360_0115_Stitch_XHC_o_4.jpg" prev4url="images/360_0115_Stitch_XHC_o_preview_4.jpg" levelingroll="0" levelingpitch="0" tilescale="1.006667" tile2url="images/360_0115_Stitch_XHC_o_2.jpg" prev2url="images/360_0115_Stitch_XHC_o_preview_2.jpg" tile0url="images/360_0115_Stitch_XHC_o_0.jpg" prev0url="images/360_0115_Stitch_XHC_o_preview_0.jpg" tile5url="images/360_0115_Stitch_XHC_o_5.jpg" prev5url="images/360_0115_Stitch_XHC_o_preview_5.jpg">
+      <preview color="0x808080"/>
+    </input>
+    <view pannorth="0" fovmode="0">
+      <start tilt="0" fov="70" pan="0"/>
+      <min tilt="-90" fov="5" pan="0"/>
+      <max tilt="90" fov="120" pan="360"/>
+    </view>
+    <userdata longitude="" datetime="" info="" description="" copyright="" comment="" title="" author="" source="" tags="pano" latitude=""/>
+    <hotspots wordwrap="1" height="20" width="180">
+      <label borderalpha="1" borderradius="1" backgroundcolor="0xffffff" textalpha="1" background="1" wordwrap="1" bordercolor="0x000000" border="1" height="20" textcolor="0x000000" backgroundalpha="1" enabled="1" width="180"/>
+      <polystyle mode="0" borderalpha="1" backgroundcolor="0x0000ff" bordercolor="0x0000ff" handcursor="1" backgroundalpha="0.2509803921568627"/>
+      <hotspot id="Point01" description="" tilt="-14.84" target="" title="" url="{node12}" skinid="ht_node" pan="164.96"/>
+      <hotspot id="Point02" description="" tilt="11.03" target="" title="" url="{node14}" skinid="ht_node" pan="-24.73"/>
+    </hotspots>
+    <media/>
+    <transition type="crossdissolve" zoomspeed="2" zoomin="2" zoomfov="20" softedge="0" blendtime="1" zoomout="3" enabled="1" zoomoutpause="1" blendcolor="0x000000"/>
+    <autorotate noderandom="1" useanimation="0" returntohorizon="0.000" delay="30.00" nodedelay="0.00" startloaded="1" speed="0.050"/>
+    <control simulatemass="1" sensitivity="8" hideabout="1" lockedkeyboardzoom="0" speedwheel="1" invertcontrol="1" dblclickfullscreen="0" lockedmouse="0" invertwheel="0" lockedkeyboard="0" lockedwheel="0" contextfullscreen="1"/>
+  </panorama>
+  <panorama id="node14" hideabout="1">
+    <input tile3url="images/360_0116_Stitch_XHC_o_3.jpg" prev3url="images/360_0116_Stitch_XHC_o_preview_3.jpg" tilesize="1500" tile1url="images/360_0116_Stitch_XHC_o_1.jpg" prev1url="images/360_0116_Stitch_XHC_o_preview_1.jpg" tile4url="images/360_0116_Stitch_XHC_o_4.jpg" prev4url="images/360_0116_Stitch_XHC_o_preview_4.jpg" levelingroll="0" levelingpitch="0" tilescale="1.006667" tile2url="images/360_0116_Stitch_XHC_o_2.jpg" prev2url="images/360_0116_Stitch_XHC_o_preview_2.jpg" tile0url="images/360_0116_Stitch_XHC_o_0.jpg" prev0url="images/360_0116_Stitch_XHC_o_preview_0.jpg" tile5url="images/360_0116_Stitch_XHC_o_5.jpg" prev5url="images/360_0116_Stitch_XHC_o_preview_5.jpg">
+      <preview color="0x808080"/>
+    </input>
+    <view pannorth="0" fovmode="0">
+      <start tilt="0" fov="70" pan="0"/>
+      <min tilt="-90" fov="5" pan="0"/>
+      <max tilt="90" fov="120" pan="360"/>
+    </view>
+    <userdata longitude="" datetime="" info="" description="" copyright="" comment="" title="" author="" source="" tags="pano" latitude=""/>
+    <hotspots wordwrap="1" height="20" width="180">
+      <label borderalpha="1" borderradius="1" backgroundcolor="0xffffff" textalpha="1" background="1" wordwrap="1" bordercolor="0x000000" border="1" height="20" textcolor="0x000000" backgroundalpha="1" enabled="1" width="180"/>
+      <polystyle mode="0" borderalpha="1" backgroundcolor="0x0000ff" bordercolor="0x0000ff" handcursor="1" backgroundalpha="0.2509803921568627"/>
+      <hotspot id="Point01" description="" tilt="34.62" target="" title="" url="{node13}" skinid="ht_node" pan="-10.24"/>
+      <hotspot id="Point02" description="" tilt="-35.72" target="" title="" url="{node15}" skinid="ht_node" pan="171.63"/>
+    </hotspots>
+    <media/>
+    <transition type="crossdissolve" zoomspeed="2" zoomin="2" zoomfov="20" softedge="0" blendtime="1" zoomout="3" enabled="1" zoomoutpause="1" blendcolor="0x000000"/>
+    <autorotate noderandom="1" useanimation="0" returntohorizon="0.000" delay="30.00" nodedelay="0.00" startloaded="1" speed="0.050"/>
+    <control simulatemass="1" sensitivity="8" hideabout="1" lockedkeyboardzoom="0" speedwheel="1" invertcontrol="1" dblclickfullscreen="0" lockedmouse="0" invertwheel="0" lockedkeyboard="0" lockedwheel="0" contextfullscreen="1"/>
+  </panorama>
+  <panorama id="node15" hideabout="1">
+    <input tile3url="images/360_0117_Stitch_XHC_o_3.jpg" prev3url="images/360_0117_Stitch_XHC_o_preview_3.jpg" tilesize="1500" tile1url="images/360_0117_Stitch_XHC_o_1.jpg" prev1url="images/360_0117_Stitch_XHC_o_preview_1.jpg" tile4url="images/360_0117_Stitch_XHC_o_4.jpg" prev4url="images/360_0117_Stitch_XHC_o_preview_4.jpg" levelingroll="0" levelingpitch="0" tilescale="1.006667" tile2url="images/360_0117_Stitch_XHC_o_2.jpg" prev2url="images/360_0117_Stitch_XHC_o_preview_2.jpg" tile0url="images/360_0117_Stitch_XHC_o_0.jpg" prev0url="images/360_0117_Stitch_XHC_o_preview_0.jpg" tile5url="images/360_0117_Stitch_XHC_o_5.jpg" prev5url="images/360_0117_Stitch_XHC_o_preview_5.jpg">
+      <preview color="0x808080"/>
+    </input>
+    <view pannorth="0" fovmode="0">
+      <start tilt="0" fov="70" pan="0"/>
+      <min tilt="-90" fov="5" pan="0"/>
+      <max tilt="90" fov="120" pan="360"/>
+    </view>
+    <userdata longitude="" datetime="" info="" description="" copyright="" comment="" title="" author="" source="" tags="pano" latitude=""/>
+    <hotspots wordwrap="1" height="20" width="180">
+      <label borderalpha="1" borderradius="1" backgroundcolor="0xffffff" textalpha="1" background="1" wordwrap="1" bordercolor="0x000000" border="1" height="20" textcolor="0x000000" backgroundalpha="1" enabled="1" width="180"/>
+      <polystyle mode="0" borderalpha="1" backgroundcolor="0x0000ff" bordercolor="0x0000ff" handcursor="1" backgroundalpha="0.2509803921568627"/>
+      <hotspot id="Point01" description="" tilt="-30.04" target="" title="" url="{node16}" skinid="ht_node" pan="-119.46"/>
+      <hotspot id="Point02" description="" tilt="28.14" target="" title="" url="{node14}" skinid="ht_node" pan="80.62"/>
+    </hotspots>
+    <media/>
+    <transition type="crossdissolve" zoomspeed="2" zoomin="2" zoomfov="20" softedge="0" blendtime="1" zoomout="3" enabled="1" zoomoutpause="1" blendcolor="0x000000"/>
+    <autorotate noderandom="1" useanimation="0" returntohorizon="0.000" delay="30.00" nodedelay="0.00" startloaded="1" speed="0.050"/>
+    <control simulatemass="1" sensitivity="8" hideabout="1" lockedkeyboardzoom="0" speedwheel="1" invertcontrol="1" dblclickfullscreen="0" lockedmouse="0" invertwheel="0" lockedkeyboard="0" lockedwheel="0" contextfullscreen="1"/>
+  </panorama>
+  <panorama id="node16" hideabout="1">
+    <input tile3url="images/360_0118_Stitch_XHC_o_3.jpg" prev3url="images/360_0118_Stitch_XHC_o_preview_3.jpg" tilesize="1500" tile1url="images/360_0118_Stitch_XHC_o_1.jpg" prev1url="images/360_0118_Stitch_XHC_o_preview_1.jpg" tile4url="images/360_0118_Stitch_XHC_o_4.jpg" prev4url="images/360_0118_Stitch_XHC_o_preview_4.jpg" levelingroll="0" levelingpitch="0" tilescale="1.006667" tile2url="images/360_0118_Stitch_XHC_o_2.jpg" prev2url="images/360_0118_Stitch_XHC_o_preview_2.jpg" tile0url="images/360_0118_Stitch_XHC_o_0.jpg" prev0url="images/360_0118_Stitch_XHC_o_preview_0.jpg" tile5url="images/360_0118_Stitch_XHC_o_5.jpg" prev5url="images/360_0118_Stitch_XHC_o_preview_5.jpg">
+      <preview color="0x808080"/>
+    </input>
+    <view pannorth="0" fovmode="0">
+      <start tilt="0" fov="70" pan="0"/>
+      <min tilt="-90" fov="5" pan="0"/>
+      <max tilt="90" fov="120" pan="360"/>
+    </view>
+    <userdata longitude="" datetime="" info="" description="" copyright="" comment="" title="" author="" source="" tags="pano" latitude=""/>
+    <hotspots wordwrap="1" height="20" width="180">
+      <label borderalpha="1" borderradius="1" backgroundcolor="0xffffff" textalpha="1" background="1" wordwrap="1" bordercolor="0x000000" border="1" height="20" textcolor="0x000000" backgroundalpha="1" enabled="1" width="180"/>
+      <polystyle mode="0" borderalpha="1" backgroundcolor="0x0000ff" bordercolor="0x0000ff" handcursor="1" backgroundalpha="0.2509803921568627"/>
+      <hotspot id="Point01" description="" tilt="-40.05" target="" title="" url="{node17}" skinid="ht_node" pan="177.69"/>
+      <hotspot id="Point02" description="" tilt="36.59" target="" title="" url="{node15}" skinid="ht_node" pan="-45.35"/>
+    </hotspots>
+    <media/>
+    <transition type="crossdissolve" zoomspeed="2" zoomin="2" zoomfov="20" softedge="0" blendtime="1" zoomout="3" enabled="1" zoomoutpause="1" blendcolor="0x000000"/>
+    <autorotate noderandom="1" useanimation="0" returntohorizon="0.000" delay="30.00" nodedelay="0.00" startloaded="1" speed="0.050"/>
+    <control simulatemass="1" sensitivity="8" hideabout="1" lockedkeyboardzoom="0" speedwheel="1" invertcontrol="1" dblclickfullscreen="0" lockedmouse="0" invertwheel="0" lockedkeyboard="0" lockedwheel="0" contextfullscreen="1"/>
+  </panorama>
+  <panorama id="node17" hideabout="1">
+    <input tile3url="images/360_0119_Stitch_XHC_o_3.jpg" prev3url="images/360_0119_Stitch_XHC_o_preview_3.jpg" tilesize="1500" tile1url="images/360_0119_Stitch_XHC_o_1.jpg" prev1url="images/360_0119_Stitch_XHC_o_preview_1.jpg" tile4url="images/360_0119_Stitch_XHC_o_4.jpg" prev4url="images/360_0119_Stitch_XHC_o_preview_4.jpg" levelingroll="0" levelingpitch="0" tilescale="1.006667" tile2url="images/360_0119_Stitch_XHC_o_2.jpg" prev2url="images/360_0119_Stitch_XHC_o_preview_2.jpg" tile0url="images/360_0119_Stitch_XHC_o_0.jpg" prev0url="images/360_0119_Stitch_XHC_o_preview_0.jpg" tile5url="images/360_0119_Stitch_XHC_o_5.jpg" prev5url="images/360_0119_Stitch_XHC_o_preview_5.jpg">
+      <preview color="0x808080"/>
+    </input>
+    <view pannorth="0" fovmode="0">
+      <start tilt="0" fov="70" pan="0"/>
+      <min tilt="-90" fov="5" pan="0"/>
+      <max tilt="90" fov="120" pan="360"/>
+    </view>
+    <userdata longitude="" datetime="" info="" description="" copyright="" comment="" title="" author="" source="" tags="pano" latitude=""/>
+    <hotspots wordwrap="1" height="20" width="180">
+      <label borderalpha="1" borderradius="1" backgroundcolor="0xffffff" textalpha="1" background="1" wordwrap="1" bordercolor="0x000000" border="1" height="20" textcolor="0x000000" backgroundalpha="1" enabled="1" width="180"/>
+      <polystyle mode="0" borderalpha="1" backgroundcolor="0x0000ff" bordercolor="0x0000ff" handcursor="1" backgroundalpha="0.2509803921568627"/>
+      <hotspot id="Point01" description="" tilt="30.23" target="" title="" url="{node16}" skinid="ht_node" pan="14.88"/>
+      <hotspot id="Point02" description="" tilt="-33.97" target="" title="" url="{node18}" skinid="ht_node" pan="-154.85"/>
+    </hotspots>
+    <media/>
+    <transition type="crossdissolve" zoomspeed="2" zoomin="2" zoomfov="20" softedge="0" blendtime="1" zoomout="3" enabled="1" zoomoutpause="1" blendcolor="0x000000"/>
+    <autorotate noderandom="1" useanimation="0" returntohorizon="0.000" delay="30.00" nodedelay="0.00" startloaded="1" speed="0.050"/>
+    <control simulatemass="1" sensitivity="8" hideabout="1" lockedkeyboardzoom="0" speedwheel="1" invertcontrol="1" dblclickfullscreen="0" lockedmouse="0" invertwheel="0" lockedkeyboard="0" lockedwheel="0" contextfullscreen="1"/>
+  </panorama>
+  <panorama id="node18" hideabout="1">
+    <input tile3url="images/360_0120_Stitch_XHC_o_3.jpg" prev3url="images/360_0120_Stitch_XHC_o_preview_3.jpg" tilesize="1500" tile1url="images/360_0120_Stitch_XHC_o_1.jpg" prev1url="images/360_0120_Stitch_XHC_o_preview_1.jpg" tile4url="images/360_0120_Stitch_XHC_o_4.jpg" prev4url="images/360_0120_Stitch_XHC_o_preview_4.jpg" levelingroll="0" levelingpitch="0" tilescale="1.006667" tile2url="images/360_0120_Stitch_XHC_o_2.jpg" prev2url="images/360_0120_Stitch_XHC_o_preview_2.jpg" tile0url="images/360_0120_Stitch_XHC_o_0.jpg" prev0url="images/360_0120_Stitch_XHC_o_preview_0.jpg" tile5url="images/360_0120_Stitch_XHC_o_5.jpg" prev5url="images/360_0120_Stitch_XHC_o_preview_5.jpg">
+      <preview color="0x808080"/>
+    </input>
+    <view pannorth="0" fovmode="0">
+      <start tilt="0" fov="70" pan="0"/>
+      <min tilt="-90" fov="5" pan="0"/>
+      <max tilt="90" fov="120" pan="360"/>
+    </view>
+    <userdata longitude="" datetime="" info="" description="" copyright="" comment="" title="" author="" source="" tags="pano" latitude=""/>
+    <hotspots wordwrap="1" height="20" width="180">
+      <label borderalpha="1" borderradius="1" backgroundcolor="0xffffff" textalpha="1" background="1" wordwrap="1" bordercolor="0x000000" border="1" height="20" textcolor="0x000000" backgroundalpha="1" enabled="1" width="180"/>
+      <polystyle mode="0" borderalpha="1" backgroundcolor="0x0000ff" bordercolor="0x0000ff" handcursor="1" backgroundalpha="0.2509803921568627"/>
+      <hotspot id="Point01" description="" tilt="-9.62" target="" title="" url="{node19}" skinid="ht_node" pan="-176.5"/>
+      <hotspot id="Point02" description="" tilt="5.58" target="" title="" url="{node17}" skinid="ht_node" pan="-24.31"/>
+    </hotspots>
+    <media/>
+    <transition type="crossdissolve" zoomspeed="2" zoomin="2" zoomfov="20" softedge="0" blendtime="1" zoomout="3" enabled="1" zoomoutpause="1" blendcolor="0x000000"/>
+    <autorotate noderandom="1" useanimation="0" returntohorizon="0.000" delay="30.00" nodedelay="0.00" startloaded="1" speed="0.050"/>
+    <control simulatemass="1" sensitivity="8" hideabout="1" lockedkeyboardzoom="0" speedwheel="1" invertcontrol="1" dblclickfullscreen="0" lockedmouse="0" invertwheel="0" lockedkeyboard="0" lockedwheel="0" contextfullscreen="1"/>
+  </panorama>
+  <panorama id="node19" hideabout="1">
+    <input tile3url="images/360_0121_Stitch_XHC_o_3.jpg" prev3url="images/360_0121_Stitch_XHC_o_preview_3.jpg" tilesize="1500" tile1url="images/360_0121_Stitch_XHC_o_1.jpg" prev1url="images/360_0121_Stitch_XHC_o_preview_1.jpg" tile4url="images/360_0121_Stitch_XHC_o_4.jpg" prev4url="images/360_0121_Stitch_XHC_o_preview_4.jpg" levelingroll="0" levelingpitch="0" tilescale="1.006667" tile2url="images/360_0121_Stitch_XHC_o_2.jpg" prev2url="images/360_0121_Stitch_XHC_o_preview_2.jpg" tile0url="images/360_0121_Stitch_XHC_o_0.jpg" prev0url="images/360_0121_Stitch_XHC_o_preview_0.jpg" tile5url="images/360_0121_Stitch_XHC_o_5.jpg" prev5url="images/360_0121_Stitch_XHC_o_preview_5.jpg">
+      <preview color="0x808080"/>
+    </input>
+    <view pannorth="0" fovmode="0">
+      <start tilt="0" fov="70" pan="0"/>
+      <min tilt="-90" fov="5" pan="0"/>
+      <max tilt="90" fov="120" pan="360"/>
+    </view>
+    <userdata longitude="" datetime="" info="" description="" copyright="" comment="" title="" author="" source="" tags="pano" latitude=""/>
+    <hotspots wordwrap="1" height="20" width="180">
+      <label borderalpha="1" borderradius="1" backgroundcolor="0xffffff" textalpha="1" background="1" wordwrap="1" bordercolor="0x000000" border="1" height="20" textcolor="0x000000" backgroundalpha="1" enabled="1" width="180"/>
+      <polystyle mode="0" borderalpha="1" backgroundcolor="0x0000ff" bordercolor="0x0000ff" handcursor="1" backgroundalpha="0.2509803921568627"/>
+      <hotspot id="Point01" description="" tilt="47.28" target="" title="" url="{node18}" skinid="ht_node" pan="5.86"/>
+      <hotspot id="Point02" description="" tilt="-44.6" target="" title="" url="{node20}" skinid="ht_node" pan="167.58"/>
+    </hotspots>
+    <media/>
+    <transition type="crossdissolve" zoomspeed="2" zoomin="2" zoomfov="20" softedge="0" blendtime="1" zoomout="3" enabled="1" zoomoutpause="1" blendcolor="0x000000"/>
+    <autorotate noderandom="1" useanimation="0" returntohorizon="0.000" delay="30.00" nodedelay="0.00" startloaded="1" speed="0.050"/>
+    <control simulatemass="1" sensitivity="8" hideabout="1" lockedkeyboardzoom="0" speedwheel="1" invertcontrol="1" dblclickfullscreen="0" lockedmouse="0" invertwheel="0" lockedkeyboard="0" lockedwheel="0" contextfullscreen="1"/>
+  </panorama>
+  <panorama id="node20" hideabout="1">
+    <input tile3url="images/360_0122_Stitch_XHC_o_3.jpg" prev3url="images/360_0122_Stitch_XHC_o_preview_3.jpg" tilesize="1500" tile1url="images/360_0122_Stitch_XHC_o_1.jpg" prev1url="images/360_0122_Stitch_XHC_o_preview_1.jpg" tile4url="images/360_0122_Stitch_XHC_o_4.jpg" prev4url="images/360_0122_Stitch_XHC_o_preview_4.jpg" levelingroll="0" levelingpitch="0" tilescale="1.006667" tile2url="images/360_0122_Stitch_XHC_o_2.jpg" prev2url="images/360_0122_Stitch_XHC_o_preview_2.jpg" tile0url="images/360_0122_Stitch_XHC_o_0.jpg" prev0url="images/360_0122_Stitch_XHC_o_preview_0.jpg" tile5url="images/360_0122_Stitch_XHC_o_5.jpg" prev5url="images/360_0122_Stitch_XHC_o_preview_5.jpg">
+      <preview color="0x808080"/>
+    </input>
+    <view pannorth="0" fovmode="0">
+      <start tilt="0" fov="70" pan="0"/>
+      <min tilt="-90" fov="5" pan="0"/>
+      <max tilt="90" fov="120" pan="360"/>
+    </view>
+    <userdata longitude="" datetime="" info="" description="" copyright="" comment="" title="" author="" source="" tags="pano" latitude=""/>
+    <hotspots wordwrap="1" height="20" width="180">
+      <label borderalpha="1" borderradius="1" backgroundcolor="0xffffff" textalpha="1" background="1" wordwrap="1" bordercolor="0x000000" border="1" height="20" textcolor="0x000000" backgroundalpha="1" enabled="1" width="180"/>
+      <polystyle mode="0" borderalpha="1" backgroundcolor="0x0000ff" bordercolor="0x0000ff" handcursor="1" backgroundalpha="0.2509803921568627"/>
+      <hotspot id="Point01" description="" tilt="-32.33" target="" title="" url="{node21}" skinid="ht_node" pan="-152.48"/>
+      <hotspot id="Point02" description="" tilt="18.16" target="" title="" url="{node19}" skinid="ht_node" pan="-12.34"/>
+    </hotspots>
+    <media/>
+    <transition type="crossdissolve" zoomspeed="2" zoomin="2" zoomfov="20" softedge="0" blendtime="1" zoomout="3" enabled="1" zoomoutpause="1" blendcolor="0x000000"/>
+    <autorotate noderandom="1" useanimation="0" returntohorizon="0.000" delay="30.00" nodedelay="0.00" startloaded="1" speed="0.050"/>
+    <control simulatemass="1" sensitivity="8" hideabout="1" lockedkeyboardzoom="0" speedwheel="1" invertcontrol="1" dblclickfullscreen="0" lockedmouse="0" invertwheel="0" lockedkeyboard="0" lockedwheel="0" contextfullscreen="1"/>
+  </panorama>
+  <panorama id="node21" hideabout="1">
+    <input tile3url="images/360_0123_Stitch_XHC_o_3.jpg" prev3url="images/360_0123_Stitch_XHC_o_preview_3.jpg" tilesize="1500" tile1url="images/360_0123_Stitch_XHC_o_1.jpg" prev1url="images/360_0123_Stitch_XHC_o_preview_1.jpg" tile4url="images/360_0123_Stitch_XHC_o_4.jpg" prev4url="images/360_0123_Stitch_XHC_o_preview_4.jpg" levelingroll="0" levelingpitch="0" tilescale="1.006667" tile2url="images/360_0123_Stitch_XHC_o_2.jpg" prev2url="images/360_0123_Stitch_XHC_o_preview_2.jpg" tile0url="images/360_0123_Stitch_XHC_o_0.jpg" prev0url="images/360_0123_Stitch_XHC_o_preview_0.jpg" tile5url="images/360_0123_Stitch_XHC_o_5.jpg" prev5url="images/360_0123_Stitch_XHC_o_preview_5.jpg">
+      <preview color="0x808080"/>
+    </input>
+    <view pannorth="0" fovmode="0">
+      <start tilt="0" fov="70" pan="0"/>
+      <min tilt="-90" fov="5" pan="0"/>
+      <max tilt="90" fov="120" pan="360"/>
+    </view>
+    <userdata longitude="" datetime="" info="" description="" copyright="" comment="" title="" author="" source="" tags="pano" latitude=""/>
+    <hotspots wordwrap="1" height="20" width="180">
+      <label borderalpha="1" borderradius="1" backgroundcolor="0xffffff" textalpha="1" background="1" wordwrap="1" bordercolor="0x000000" border="1" height="20" textcolor="0x000000" backgroundalpha="1" enabled="1" width="180"/>
+      <polystyle mode="0" borderalpha="1" backgroundcolor="0x0000ff" bordercolor="0x0000ff" handcursor="1" backgroundalpha="0.2509803921568627"/>
+      <hotspot id="Point01" description="" tilt="10.1" target="" title="" url="{node20}" skinid="ht_node" pan="-59.66"/>
+      <hotspot id="Point02" description="" tilt="-30.75" target="" title="" url="{node22}" skinid="ht_node" pan="-172.17"/>
+    </hotspots>
+    <media/>
+    <transition type="crossdissolve" zoomspeed="2" zoomin="2" zoomfov="20" softedge="0" blendtime="1" zoomout="3" enabled="1" zoomoutpause="1" blendcolor="0x000000"/>
+    <autorotate noderandom="1" useanimation="0" returntohorizon="0.000" delay="30.00" nodedelay="0.00" startloaded="1" speed="0.050"/>
+    <control simulatemass="1" sensitivity="8" hideabout="1" lockedkeyboardzoom="0" speedwheel="1" invertcontrol="1" dblclickfullscreen="0" lockedmouse="0" invertwheel="0" lockedkeyboard="0" lockedwheel="0" contextfullscreen="1"/>
+  </panorama>
+  <panorama id="node22" hideabout="1">
+    <input tile3url="images/360_0124_Stitch_XHC_o_3.jpg" prev3url="images/360_0124_Stitch_XHC_o_preview_3.jpg" tilesize="1500" tile1url="images/360_0124_Stitch_XHC_o_1.jpg" prev1url="images/360_0124_Stitch_XHC_o_preview_1.jpg" tile4url="images/360_0124_Stitch_XHC_o_4.jpg" prev4url="images/360_0124_Stitch_XHC_o_preview_4.jpg" levelingroll="0" levelingpitch="0" tilescale="1.006667" tile2url="images/360_0124_Stitch_XHC_o_2.jpg" prev2url="images/360_0124_Stitch_XHC_o_preview_2.jpg" tile0url="images/360_0124_Stitch_XHC_o_0.jpg" prev0url="images/360_0124_Stitch_XHC_o_preview_0.jpg" tile5url="images/360_0124_Stitch_XHC_o_5.jpg" prev5url="images/360_0124_Stitch_XHC_o_preview_5.jpg">
+      <preview color="0x808080"/>
+    </input>
+    <view pannorth="0" fovmode="0">
+      <start tilt="0" fov="70" pan="0"/>
+      <min tilt="-90" fov="5" pan="0"/>
+      <max tilt="90" fov="120" pan="360"/>
+    </view>
+    <userdata longitude="" datetime="" info="" description="" copyright="" comment="" title="" author="" source="" tags="pano" latitude=""/>
+    <hotspots wordwrap="1" height="20" width="180">
+      <label borderalpha="1" borderradius="1" backgroundcolor="0xffffff" textalpha="1" background="1" wordwrap="1" bordercolor="0x000000" border="1" height="20" textcolor="0x000000" backgroundalpha="1" enabled="1" width="180"/>
+      <polystyle mode="0" borderalpha="1" backgroundcolor="0x0000ff" bordercolor="0x0000ff" handcursor="1" backgroundalpha="0.2509803921568627"/>
+      <hotspot id="Point01" description="" tilt="-28.38" target="" title="" url="{node23}" skinid="ht_node" pan="-175.72"/>
+      <hotspot id="Point02" description="" tilt="27.93" target="" title="" url="{node21}" skinid="ht_node" pan="10.55"/>
+    </hotspots>
+    <media/>
+    <transition type="crossdissolve" zoomspeed="2" zoomin="2" zoomfov="20" softedge="0" blendtime="1" zoomout="3" enabled="1" zoomoutpause="1" blendcolor="0x000000"/>
+    <autorotate noderandom="1" useanimation="0" returntohorizon="0.000" delay="30.00" nodedelay="0.00" startloaded="1" speed="0.050"/>
+    <control simulatemass="1" sensitivity="8" hideabout="1" lockedkeyboardzoom="0" speedwheel="1" invertcontrol="1" dblclickfullscreen="0" lockedmouse="0" invertwheel="0" lockedkeyboard="0" lockedwheel="0" contextfullscreen="1"/>
+  </panorama>
+  <panorama id="node23" hideabout="1">
+    <input tile3url="images/360_0125_Stitch_XHC_o_3.jpg" prev3url="images/360_0125_Stitch_XHC_o_preview_3.jpg" tilesize="1500" tile1url="images/360_0125_Stitch_XHC_o_1.jpg" prev1url="images/360_0125_Stitch_XHC_o_preview_1.jpg" tile4url="images/360_0125_Stitch_XHC_o_4.jpg" prev4url="images/360_0125_Stitch_XHC_o_preview_4.jpg" levelingroll="0" levelingpitch="0" tilescale="1.006667" tile2url="images/360_0125_Stitch_XHC_o_2.jpg" prev2url="images/360_0125_Stitch_XHC_o_preview_2.jpg" tile0url="images/360_0125_Stitch_XHC_o_0.jpg" prev0url="images/360_0125_Stitch_XHC_o_preview_0.jpg" tile5url="images/360_0125_Stitch_XHC_o_5.jpg" prev5url="images/360_0125_Stitch_XHC_o_preview_5.jpg">
+      <preview color="0x808080"/>
+    </input>
+    <view pannorth="0" fovmode="0">
+      <start tilt="0" fov="70" pan="0"/>
+      <min tilt="-90" fov="5" pan="0"/>
+      <max tilt="90" fov="120" pan="360"/>
+    </view>
+    <userdata longitude="" datetime="" info="" description="" copyright="" comment="" title="" author="" source="" tags="pano" latitude=""/>
+    <hotspots wordwrap="1" height="20" width="180">
+      <label borderalpha="1" borderradius="1" backgroundcolor="0xffffff" textalpha="1" background="1" wordwrap="1" bordercolor="0x000000" border="1" height="20" textcolor="0x000000" backgroundalpha="1" enabled="1" width="180"/>
+      <polystyle mode="0" borderalpha="1" backgroundcolor="0x0000ff" bordercolor="0x0000ff" handcursor="1" backgroundalpha="0.2509803921568627"/>
+      <hotspot id="Point01" description="" tilt="34.85" target="" title="" url="{node22}" skinid="ht_node" pan="46.74"/>
+      <hotspot id="Point02" description="" tilt="-36.82" target="" title="" url="{node24}" skinid="ht_node" pan="-139.02"/>
+    </hotspots>
+    <media/>
+    <transition type="crossdissolve" zoomspeed="2" zoomin="2" zoomfov="20" softedge="0" blendtime="1" zoomout="3" enabled="1" zoomoutpause="1" blendcolor="0x000000"/>
+    <autorotate noderandom="1" useanimation="0" returntohorizon="0.000" delay="30.00" nodedelay="0.00" startloaded="1" speed="0.050"/>
+    <control simulatemass="1" sensitivity="8" hideabout="1" lockedkeyboardzoom="0" speedwheel="1" invertcontrol="1" dblclickfullscreen="0" lockedmouse="0" invertwheel="0" lockedkeyboard="0" lockedwheel="0" contextfullscreen="1"/>
+  </panorama>
+  <panorama id="node24" hideabout="1">
+    <input tile3url="images/360_0126_Stitch_XHC_o_3.jpg" prev3url="images/360_0126_Stitch_XHC_o_preview_3.jpg" tilesize="1500" tile1url="images/360_0126_Stitch_XHC_o_1.jpg" prev1url="images/360_0126_Stitch_XHC_o_preview_1.jpg" tile4url="images/360_0126_Stitch_XHC_o_4.jpg" prev4url="images/360_0126_Stitch_XHC_o_preview_4.jpg" levelingroll="0" levelingpitch="0" tilescale="1.006667" tile2url="images/360_0126_Stitch_XHC_o_2.jpg" prev2url="images/360_0126_Stitch_XHC_o_preview_2.jpg" tile0url="images/360_0126_Stitch_XHC_o_0.jpg" prev0url="images/360_0126_Stitch_XHC_o_preview_0.jpg" tile5url="images/360_0126_Stitch_XHC_o_5.jpg" prev5url="images/360_0126_Stitch_XHC_o_preview_5.jpg">
+      <preview color="0x808080"/>
+    </input>
+    <view pannorth="0" fovmode="0">
+      <start tilt="0" fov="70" pan="0"/>
+      <min tilt="-90" fov="5" pan="0"/>
+      <max tilt="90" fov="120" pan="360"/>
+    </view>
+    <userdata longitude="" datetime="" info="" description="" copyright="" comment="" title="" author="" source="" tags="pano" latitude=""/>
+    <hotspots wordwrap="1" height="20" width="180">
+      <label borderalpha="1" borderradius="1" backgroundcolor="0xffffff" textalpha="1" background="1" wordwrap="1" bordercolor="0x000000" border="1" height="20" textcolor="0x000000" backgroundalpha="1" enabled="1" width="180"/>
+      <polystyle mode="0" borderalpha="1" backgroundcolor="0x0000ff" bordercolor="0x0000ff" handcursor="1" backgroundalpha="0.2509803921568627"/>
+      <hotspot id="Point01" description="" tilt="-41.19" target="" title="" url="{node25}" skinid="ht_node" pan="161.21"/>
+      <hotspot id="Point02" description="" tilt="27.05" target="" title="" url="{node23}" skinid="ht_node" pan="-26.54"/>
+    </hotspots>
+    <media/>
+    <transition type="crossdissolve" zoomspeed="2" zoomin="2" zoomfov="20" softedge="0" blendtime="1" zoomout="3" enabled="1" zoomoutpause="1" blendcolor="0x000000"/>
+    <autorotate noderandom="1" useanimation="0" returntohorizon="0.000" delay="30.00" nodedelay="0.00" startloaded="1" speed="0.050"/>
+    <control simulatemass="1" sensitivity="8" hideabout="1" lockedkeyboardzoom="0" speedwheel="1" invertcontrol="1" dblclickfullscreen="0" lockedmouse="0" invertwheel="0" lockedkeyboard="0" lockedwheel="0" contextfullscreen="1"/>
+  </panorama>
+  <panorama id="node25" hideabout="1">
+    <input tile3url="images/360_0127_Stitch_XHC_o_3.jpg" prev3url="images/360_0127_Stitch_XHC_o_preview_3.jpg" tilesize="1500" tile1url="images/360_0127_Stitch_XHC_o_1.jpg" prev1url="images/360_0127_Stitch_XHC_o_preview_1.jpg" tile4url="images/360_0127_Stitch_XHC_o_4.jpg" prev4url="images/360_0127_Stitch_XHC_o_preview_4.jpg" levelingroll="0" levelingpitch="0" tilescale="1.006667" tile2url="images/360_0127_Stitch_XHC_o_2.jpg" prev2url="images/360_0127_Stitch_XHC_o_preview_2.jpg" tile0url="images/360_0127_Stitch_XHC_o_0.jpg" prev0url="images/360_0127_Stitch_XHC_o_preview_0.jpg" tile5url="images/360_0127_Stitch_XHC_o_5.jpg" prev5url="images/360_0127_Stitch_XHC_o_preview_5.jpg">
+      <preview color="0x808080"/>
+    </input>
+    <view pannorth="0" fovmode="0">
+      <start tilt="0" fov="70" pan="0"/>
+      <min tilt="-90" fov="5" pan="0"/>
+      <max tilt="90" fov="120" pan="360"/>
+    </view>
+    <userdata longitude="" datetime="" info="" description="" copyright="" comment="" title="" author="" source="" tags="pano" latitude=""/>
+    <hotspots wordwrap="1" height="20" width="180">
+      <label borderalpha="1" borderradius="1" backgroundcolor="0xffffff" textalpha="1" background="1" wordwrap="1" bordercolor="0x000000" border="1" height="20" textcolor="0x000000" backgroundalpha="1" enabled="1" width="180"/>
+      <polystyle mode="0" borderalpha="1" backgroundcolor="0x0000ff" bordercolor="0x0000ff" handcursor="1" backgroundalpha="0.2509803921568627"/>
+      <hotspot id="Point01" description="" tilt="34.73" target="" title="" url="{node24}" skinid="ht_node" pan="3.72"/>
+      <hotspot id="Point02" description="" tilt="-31.37" target="" title="" url="{node26}" skinid="ht_node" pan="175.69"/>
+    </hotspots>
+    <media/>
+    <transition type="crossdissolve" zoomspeed="2" zoomin="2" zoomfov="20" softedge="0" blendtime="1" zoomout="3" enabled="1" zoomoutpause="1" blendcolor="0x000000"/>
+    <autorotate noderandom="1" useanimation="0" returntohorizon="0.000" delay="30.00" nodedelay="0.00" startloaded="1" speed="0.050"/>
+    <control simulatemass="1" sensitivity="8" hideabout="1" lockedkeyboardzoom="0" speedwheel="1" invertcontrol="1" dblclickfullscreen="0" lockedmouse="0" invertwheel="0" lockedkeyboard="0" lockedwheel="0" contextfullscreen="1"/>
+  </panorama>
+  <panorama id="node26" hideabout="1">
+    <input tile3url="images/360_0132_Stitch_XHC_o_3.jpg" prev3url="images/360_0132_Stitch_XHC_o_preview_3.jpg" tilesize="1500" tile1url="images/360_0132_Stitch_XHC_o_1.jpg" prev1url="images/360_0132_Stitch_XHC_o_preview_1.jpg" tile4url="images/360_0132_Stitch_XHC_o_4.jpg" prev4url="images/360_0132_Stitch_XHC_o_preview_4.jpg" levelingroll="0" levelingpitch="0" tilescale="1.006667" tile2url="images/360_0132_Stitch_XHC_o_2.jpg" prev2url="images/360_0132_Stitch_XHC_o_preview_2.jpg" tile0url="images/360_0132_Stitch_XHC_o_0.jpg" prev0url="images/360_0132_Stitch_XHC_o_preview_0.jpg" tile5url="images/360_0132_Stitch_XHC_o_5.jpg" prev5url="images/360_0132_Stitch_XHC_o_preview_5.jpg">
+      <preview color="0x808080"/>
+    </input>
+    <view pannorth="0" fovmode="0">
+      <start tilt="0" fov="70" pan="0"/>
+      <min tilt="-90" fov="5" pan="0"/>
+      <max tilt="90" fov="120" pan="360"/>
+    </view>
+    <userdata longitude="" datetime="" info="" description="" copyright="" comment="" title="جانپناه سیمرغ" author="" source="" tags="pano" latitude=""/>
+    <hotspots wordwrap="1" height="20" width="180">
+      <label borderalpha="1" borderradius="1" backgroundcolor="0xffffff" textalpha="1" background="1" wordwrap="1" bordercolor="0x000000" border="1" height="20" textcolor="0x000000" backgroundalpha="1" enabled="1" width="180"/>
+      <polystyle mode="0" borderalpha="1" backgroundcolor="0x0000ff" bordercolor="0x0000ff" handcursor="1" backgroundalpha="0.2509803921568627"/>
+      <hotspot id="Point01" description="" tilt="-20.17" target="" title="" url="{node27}" skinid="ht_node" pan="-94.79"/>
+      <hotspot id="Point02" description="" tilt="-13.32" target="" title="" url="{node25}" skinid="ht_node" pan="-97.11"/>
+    </hotspots>
+    <media/>
+    <transition type="crossdissolve" zoomspeed="2" zoomin="2" zoomfov="20" softedge="0" blendtime="1" zoomout="3" enabled="1" zoomoutpause="1" blendcolor="0x000000"/>
+    <autorotate noderandom="1" useanimation="0" returntohorizon="0.000" delay="30.00" nodedelay="0.00" startloaded="1" speed="0.050"/>
+    <control simulatemass="1" sensitivity="8" hideabout="1" lockedkeyboardzoom="0" speedwheel="1" invertcontrol="1" dblclickfullscreen="0" lockedmouse="0" invertwheel="0" lockedkeyboard="0" lockedwheel="0" contextfullscreen="1"/>
+  </panorama>
+  <panorama id="node29" hideabout="1">
+    <input tile3url="images/360_0135_Stitch_XHC_o_3.jpg" prev3url="images/360_0135_Stitch_XHC_o_preview_3.jpg" tilesize="1500" tile1url="images/360_0135_Stitch_XHC_o_1.jpg" prev1url="images/360_0135_Stitch_XHC_o_preview_1.jpg" tile4url="images/360_0135_Stitch_XHC_o_4.jpg" prev4url="images/360_0135_Stitch_XHC_o_preview_4.jpg" levelingroll="-12.5833" levelingpitch="-12.4859" tilescale="1.006667" tile2url="images/360_0135_Stitch_XHC_o_2.jpg" prev2url="images/360_0135_Stitch_XHC_o_preview_2.jpg" tile0url="images/360_0135_Stitch_XHC_o_0.jpg" prev0url="images/360_0135_Stitch_XHC_o_preview_0.jpg" tile5url="images/360_0135_Stitch_XHC_o_5.jpg" prev5url="images/360_0135_Stitch_XHC_o_preview_5.jpg">
+      <preview color="0x808080"/>
+    </input>
+    <view pannorth="0" fovmode="0">
+      <start tilt="0" fov="70" pan="0"/>
+      <min tilt="-90" fov="5" pan="0"/>
+      <max tilt="90" fov="120" pan="360"/>
+    </view>
+    <userdata longitude="" datetime="" info="" description="" copyright="" comment="" title="" author="" source="" tags="pano" latitude=""/>
+    <hotspots wordwrap="1" height="20" width="180">
+      <label borderalpha="1" borderradius="1" backgroundcolor="0xffffff" textalpha="1" background="1" wordwrap="1" bordercolor="0x000000" border="1" height="20" textcolor="0x000000" backgroundalpha="1" enabled="1" width="180"/>
+      <polystyle mode="0" borderalpha="1" backgroundcolor="0x0000ff" bordercolor="0x0000ff" handcursor="1" backgroundalpha="0.2509803921568627"/>
+      <hotspot id="Point01" description="" tilt="6.27" target="" title="" url="{node26}" skinid="ht_node" pan="153.24"/>
+      <hotspot id="Point02" description="" tilt="-5.99" target="" title="" url="{node27}" skinid="ht_node" pan="-100.95"/>
+    </hotspots>
+    <media/>
+    <transition type="crossdissolve" zoomspeed="2" zoomin="2" zoomfov="20" softedge="0" blendtime="1" zoomout="3" enabled="1" zoomoutpause="1" blendcolor="0x000000"/>
+    <autorotate noderandom="1" useanimation="0" returntohorizon="0.000" delay="30.00" nodedelay="0.00" startloaded="1" speed="0.050"/>
+    <control simulatemass="1" sensitivity="8" hideabout="1" lockedkeyboardzoom="0" speedwheel="1" invertcontrol="1" dblclickfullscreen="0" lockedmouse="0" invertwheel="0" lockedkeyboard="0" lockedwheel="0" contextfullscreen="1"/>
+  </panorama>
+  <panorama id="node27" hideabout="1">
+    <input tile3url="images/360_0133_Stitch_XHC_o_3.jpg" prev3url="images/360_0133_Stitch_XHC_o_preview_3.jpg" tilesize="1500" tile1url="images/360_0133_Stitch_XHC_o_1.jpg" prev1url="images/360_0133_Stitch_XHC_o_preview_1.jpg" tile4url="images/360_0133_Stitch_XHC_o_4.jpg" prev4url="images/360_0133_Stitch_XHC_o_preview_4.jpg" levelingroll="-13.0612" levelingpitch="-6.03855" tilescale="1.006667" tile2url="images/360_0133_Stitch_XHC_o_2.jpg" prev2url="images/360_0133_Stitch_XHC_o_preview_2.jpg" tile0url="images/360_0133_Stitch_XHC_o_0.jpg" prev0url="images/360_0133_Stitch_XHC_o_preview_0.jpg" tile5url="images/360_0133_Stitch_XHC_o_5.jpg" prev5url="images/360_0133_Stitch_XHC_o_preview_5.jpg">
+      <preview color="0x808080"/>
+    </input>
+    <view pannorth="0" fovmode="0">
+      <start tilt="0" fov="70" pan="0"/>
+      <min tilt="-90" fov="5" pan="0"/>
+      <max tilt="90" fov="120" pan="360"/>
+    </view>
+    <userdata longitude="" datetime="" info="" description="" copyright="" comment="" title="" author="" source="" tags="pano" latitude=""/>
+    <hotspots wordwrap="1" height="20" width="180">
+      <label borderalpha="1" borderradius="1" backgroundcolor="0xffffff" textalpha="1" background="1" wordwrap="1" bordercolor="0x000000" border="1" height="20" textcolor="0x000000" backgroundalpha="1" enabled="1" width="180"/>
+      <polystyle mode="0" borderalpha="1" backgroundcolor="0x0000ff" bordercolor="0x0000ff" handcursor="1" backgroundalpha="0.2509803921568627"/>
+      <hotspot id="Point01" description="" tilt="-7.11" target="" title="" url="{node29}" skinid="ht_node" pan="164.23"/>
+      <hotspot id="Point02" description="" tilt="6.15" target="" title="" url="{node28}" skinid="ht_node" pan="15.05"/>
+    </hotspots>
+    <media/>
+    <transition type="crossdissolve" zoomspeed="2" zoomin="2" zoomfov="20" softedge="0" blendtime="1" zoomout="3" enabled="1" zoomoutpause="1" blendcolor="0x000000"/>
+    <autorotate noderandom="1" useanimation="0" returntohorizon="0.000" delay="30.00" nodedelay="0.00" startloaded="1" speed="0.050"/>
+    <control simulatemass="1" sensitivity="8" hideabout="1" lockedkeyboardzoom="0" speedwheel="1" invertcontrol="1" dblclickfullscreen="0" lockedmouse="0" invertwheel="0" lockedkeyboard="0" lockedwheel="0" contextfullscreen="1"/>
+  </panorama>
+  <panorama id="node28" hideabout="1">
+    <input tile3url="images/360_0134_Stitch_XHC_o_3.jpg" prev3url="images/360_0134_Stitch_XHC_o_preview_3.jpg" tilesize="1500" tile1url="images/360_0134_Stitch_XHC_o_1.jpg" prev1url="images/360_0134_Stitch_XHC_o_preview_1.jpg" tile4url="images/360_0134_Stitch_XHC_o_4.jpg" prev4url="images/360_0134_Stitch_XHC_o_preview_4.jpg" levelingroll="0" levelingpitch="0" tilescale="1.006667" tile2url="images/360_0134_Stitch_XHC_o_2.jpg" prev2url="images/360_0134_Stitch_XHC_o_preview_2.jpg" tile0url="images/360_0134_Stitch_XHC_o_0.jpg" prev0url="images/360_0134_Stitch_XHC_o_preview_0.jpg" tile5url="images/360_0134_Stitch_XHC_o_5.jpg" prev5url="images/360_0134_Stitch_XHC_o_preview_5.jpg">
+      <preview color="0x808080"/>
+    </input>
+    <view pannorth="0" fovmode="0">
+      <start tilt="0" fov="70" pan="0"/>
+      <min tilt="-90" fov="5" pan="0"/>
+      <max tilt="90" fov="120" pan="360"/>
+    </view>
+    <userdata longitude="" datetime="" info="" description="" copyright="" comment="" title="" author="" source="" tags="pano" latitude=""/>
+    <hotspots wordwrap="1" height="20" width="180">
+      <label borderalpha="1" borderradius="1" backgroundcolor="0xffffff" textalpha="1" background="1" wordwrap="1" bordercolor="0x000000" border="1" height="20" textcolor="0x000000" backgroundalpha="1" enabled="1" width="180"/>
+      <polystyle mode="0" borderalpha="1" backgroundcolor="0x0000ff" bordercolor="0x0000ff" handcursor="1" backgroundalpha="0.2509803921568627"/>
+      <hotspot id="Point01" description="" tilt="-13.94" target="" title="" url="{node27}" skinid="ht_node" pan="-167.79"/>
+      <hotspot id="Point02" description="" tilt="-18.24" target="" title="" url="{node30}" skinid="ht_node" pan="77.94"/>
+    </hotspots>
+    <media/>
+    <transition type="crossdissolve" zoomspeed="2" zoomin="2" zoomfov="20" softedge="0" blendtime="1" zoomout="3" enabled="1" zoomoutpause="1" blendcolor="0x000000"/>
+    <autorotate noderandom="1" useanimation="0" returntohorizon="0.000" delay="30.00" nodedelay="0.00" startloaded="1" speed="0.050"/>
+    <control simulatemass="1" sensitivity="8" hideabout="1" lockedkeyboardzoom="0" speedwheel="1" invertcontrol="1" dblclickfullscreen="0" lockedmouse="0" invertwheel="0" lockedkeyboard="0" lockedwheel="0" contextfullscreen="1"/>
+  </panorama>
+  <panorama id="node30" hideabout="1">
+    <input tile3url="images/360_0136_Stitch_XHC_o_3.jpg" prev3url="images/360_0136_Stitch_XHC_o_preview_3.jpg" tilesize="1500" tile1url="images/360_0136_Stitch_XHC_o_1.jpg" prev1url="images/360_0136_Stitch_XHC_o_preview_1.jpg" tile4url="images/360_0136_Stitch_XHC_o_4.jpg" prev4url="images/360_0136_Stitch_XHC_o_preview_4.jpg" levelingroll="0" levelingpitch="0" tilescale="1.006667" tile2url="images/360_0136_Stitch_XHC_o_2.jpg" prev2url="images/360_0136_Stitch_XHC_o_preview_2.jpg" tile0url="images/360_0136_Stitch_XHC_o_0.jpg" prev0url="images/360_0136_Stitch_XHC_o_preview_0.jpg" tile5url="images/360_0136_Stitch_XHC_o_5.jpg" prev5url="images/360_0136_Stitch_XHC_o_preview_5.jpg">
+      <preview color="0x808080"/>
+    </input>
+    <view pannorth="0" fovmode="0">
+      <start tilt="0" fov="70" pan="0"/>
+      <min tilt="-90" fov="5" pan="0"/>
+      <max tilt="90" fov="120" pan="360"/>
+    </view>
+    <userdata longitude="" datetime="" info="" description="" copyright="" comment="" title="" author="" source="" tags="pano" latitude=""/>
+    <hotspots wordwrap="1" height="20" width="180">
+      <label borderalpha="1" borderradius="1" backgroundcolor="0xffffff" textalpha="1" background="1" wordwrap="1" bordercolor="0x000000" border="1" height="20" textcolor="0x000000" backgroundalpha="1" enabled="1" width="180"/>
+      <polystyle mode="0" borderalpha="1" backgroundcolor="0x0000ff" bordercolor="0x0000ff" handcursor="1" backgroundalpha="0.2509803921568627"/>
+      <hotspot id="Point01" description="" tilt="20.29" target="" title="" url="{node28}" skinid="ht_node" pan="122.46"/>
+      <hotspot id="Point02" description="" tilt="-30.77" target="" title="" url="{node31}" skinid="ht_node" pan="-72.21"/>
+    </hotspots>
+    <media/>
+    <transition type="crossdissolve" zoomspeed="2" zoomin="2" zoomfov="20" softedge="0" blendtime="1" zoomout="3" enabled="1" zoomoutpause="1" blendcolor="0x000000"/>
+    <autorotate noderandom="1" useanimation="0" returntohorizon="0.000" delay="30.00" nodedelay="0.00" startloaded="1" speed="0.050"/>
+    <control simulatemass="1" sensitivity="8" hideabout="1" lockedkeyboardzoom="0" speedwheel="1" invertcontrol="1" dblclickfullscreen="0" lockedmouse="0" invertwheel="0" lockedkeyboard="0" lockedwheel="0" contextfullscreen="1"/>
+  </panorama>
+  <panorama id="node31" hideabout="1">
+    <input tile3url="images/360_0137_Stitch_XHC_o_3.jpg" prev3url="images/360_0137_Stitch_XHC_o_preview_3.jpg" tilesize="1500" tile1url="images/360_0137_Stitch_XHC_o_1.jpg" prev1url="images/360_0137_Stitch_XHC_o_preview_1.jpg" tile4url="images/360_0137_Stitch_XHC_o_4.jpg" prev4url="images/360_0137_Stitch_XHC_o_preview_4.jpg" levelingroll="0" levelingpitch="0" tilescale="1.006667" tile2url="images/360_0137_Stitch_XHC_o_2.jpg" prev2url="images/360_0137_Stitch_XHC_o_preview_2.jpg" tile0url="images/360_0137_Stitch_XHC_o_0.jpg" prev0url="images/360_0137_Stitch_XHC_o_preview_0.jpg" tile5url="images/360_0137_Stitch_XHC_o_5.jpg" prev5url="images/360_0137_Stitch_XHC_o_preview_5.jpg">
+      <preview color="0x808080"/>
+    </input>
+    <view pannorth="0" fovmode="0">
+      <start tilt="0" fov="70" pan="0"/>
+      <min tilt="-90" fov="5" pan="0"/>
+      <max tilt="90" fov="120" pan="360"/>
+    </view>
+    <userdata longitude="" datetime="" info="" description="" copyright="" comment="" title="" author="" source="" tags="pano" latitude=""/>
+    <hotspots wordwrap="1" height="20" width="180">
+      <label borderalpha="1" borderradius="1" backgroundcolor="0xffffff" textalpha="1" background="1" wordwrap="1" bordercolor="0x000000" border="1" height="20" textcolor="0x000000" backgroundalpha="1" enabled="1" width="180"/>
+      <polystyle mode="0" borderalpha="1" backgroundcolor="0x0000ff" bordercolor="0x0000ff" handcursor="1" backgroundalpha="0.2509803921568627"/>
+      <hotspot id="Point01" description="" tilt="4.32" target="" title="" url="{node30}" skinid="ht_node" pan="-51.52"/>
+      <hotspot id="Point02" description="" tilt="-8.73" target="" title="" url="{node32}" skinid="ht_node" pan="151.77"/>
+    </hotspots>
+    <media/>
+    <transition type="crossdissolve" zoomspeed="2" zoomin="2" zoomfov="20" softedge="0" blendtime="1" zoomout="3" enabled="1" zoomoutpause="1" blendcolor="0x000000"/>
+    <autorotate noderandom="1" useanimation="0" returntohorizon="0.000" delay="30.00" nodedelay="0.00" startloaded="1" speed="0.050"/>
+    <control simulatemass="1" sensitivity="8" hideabout="1" lockedkeyboardzoom="0" speedwheel="1" invertcontrol="1" dblclickfullscreen="0" lockedmouse="0" invertwheel="0" lockedkeyboard="0" lockedwheel="0" contextfullscreen="1"/>
+  </panorama>
+  <panorama id="node32" hideabout="1">
+    <input tile3url="images/360_0138_Stitch_XHC_o_3.jpg" prev3url="images/360_0138_Stitch_XHC_o_preview_3.jpg" tilesize="1500" tile1url="images/360_0138_Stitch_XHC_o_1.jpg" prev1url="images/360_0138_Stitch_XHC_o_preview_1.jpg" tile4url="images/360_0138_Stitch_XHC_o_4.jpg" prev4url="images/360_0138_Stitch_XHC_o_preview_4.jpg" levelingroll="0" levelingpitch="0" tilescale="1.006667" tile2url="images/360_0138_Stitch_XHC_o_2.jpg" prev2url="images/360_0138_Stitch_XHC_o_preview_2.jpg" tile0url="images/360_0138_Stitch_XHC_o_0.jpg" prev0url="images/360_0138_Stitch_XHC_o_preview_0.jpg" tile5url="images/360_0138_Stitch_XHC_o_5.jpg" prev5url="images/360_0138_Stitch_XHC_o_preview_5.jpg">
+      <preview color="0x808080"/>
+    </input>
+    <view pannorth="0" fovmode="0">
+      <start tilt="0" fov="70" pan="0"/>
+      <min tilt="-90" fov="5" pan="0"/>
+      <max tilt="90" fov="120" pan="360"/>
+    </view>
+    <userdata longitude="" datetime="" info="" description="" copyright="" comment="" title="" author="" source="" tags="pano" latitude=""/>
+    <hotspots wordwrap="1" height="20" width="180">
+      <label borderalpha="1" borderradius="1" backgroundcolor="0xffffff" textalpha="1" background="1" wordwrap="1" bordercolor="0x000000" border="1" height="20" textcolor="0x000000" backgroundalpha="1" enabled="1" width="180"/>
+      <polystyle mode="0" borderalpha="1" backgroundcolor="0x0000ff" bordercolor="0x0000ff" handcursor="1" backgroundalpha="0.2509803921568627"/>
+      <hotspot id="Point01" description="" tilt="8.02" target="" title="" url="{node33}" skinid="ht_node" pan="67.69"/>
+      <hotspot id="Point02" description="" tilt="-13.38" target="" title="" url="{node31}" skinid="ht_node" pan="-132.18"/>
+    </hotspots>
+    <media/>
+    <transition type="crossdissolve" zoomspeed="2" zoomin="2" zoomfov="20" softedge="0" blendtime="1" zoomout="3" enabled="1" zoomoutpause="1" blendcolor="0x000000"/>
+    <autorotate noderandom="1" useanimation="0" returntohorizon="0.000" delay="30.00" nodedelay="0.00" startloaded="1" speed="0.050"/>
+    <control simulatemass="1" sensitivity="8" hideabout="1" lockedkeyboardzoom="0" speedwheel="1" invertcontrol="1" dblclickfullscreen="0" lockedmouse="0" invertwheel="0" lockedkeyboard="0" lockedwheel="0" contextfullscreen="1"/>
+  </panorama>
+  <panorama id="node33" hideabout="1">
+    <input tile3url="images/360_0139_Stitch_XHC_o_3.jpg" prev3url="images/360_0139_Stitch_XHC_o_preview_3.jpg" tilesize="1500" tile1url="images/360_0139_Stitch_XHC_o_1.jpg" prev1url="images/360_0139_Stitch_XHC_o_preview_1.jpg" tile4url="images/360_0139_Stitch_XHC_o_4.jpg" prev4url="images/360_0139_Stitch_XHC_o_preview_4.jpg" levelingroll="0" levelingpitch="0" tilescale="1.006667" tile2url="images/360_0139_Stitch_XHC_o_2.jpg" prev2url="images/360_0139_Stitch_XHC_o_preview_2.jpg" tile0url="images/360_0139_Stitch_XHC_o_0.jpg" prev0url="images/360_0139_Stitch_XHC_o_preview_0.jpg" tile5url="images/360_0139_Stitch_XHC_o_5.jpg" prev5url="images/360_0139_Stitch_XHC_o_preview_5.jpg">
+      <preview color="0x808080"/>
+    </input>
+    <view pannorth="0" fovmode="0">
+      <start tilt="0" fov="70" pan="0"/>
+      <min tilt="-90" fov="5" pan="0"/>
+      <max tilt="90" fov="120" pan="360"/>
+    </view>
+    <userdata longitude="" datetime="" info="" description="" copyright="" comment="" title="" author="" source="" tags="pano" latitude=""/>
+    <hotspots wordwrap="1" height="20" width="180">
+      <label borderalpha="1" borderradius="1" backgroundcolor="0xffffff" textalpha="1" background="1" wordwrap="1" bordercolor="0x000000" border="1" height="20" textcolor="0x000000" backgroundalpha="1" enabled="1" width="180"/>
+      <polystyle mode="0" borderalpha="1" backgroundcolor="0x0000ff" bordercolor="0x0000ff" handcursor="1" backgroundalpha="0.2509803921568627"/>
+      <hotspot id="Point01" description="" tilt="2.49" target="" title="" url="{node32}" skinid="ht_node" pan="-17.48"/>
+      <hotspot id="Point02" description="" tilt="-12.39" target="" title="" url="{node34}" skinid="ht_node" pan="169.53"/>
+    </hotspots>
+    <media/>
+    <transition type="crossdissolve" zoomspeed="2" zoomin="2" zoomfov="20" softedge="0" blendtime="1" zoomout="3" enabled="1" zoomoutpause="1" blendcolor="0x000000"/>
+    <autorotate noderandom="1" useanimation="0" returntohorizon="0.000" delay="30.00" nodedelay="0.00" startloaded="1" speed="0.050"/>
+    <control simulatemass="1" sensitivity="8" hideabout="1" lockedkeyboardzoom="0" speedwheel="1" invertcontrol="1" dblclickfullscreen="0" lockedmouse="0" invertwheel="0" lockedkeyboard="0" lockedwheel="0" contextfullscreen="1"/>
+  </panorama>
+  <panorama id="node34" hideabout="1">
+    <input tile3url="images/360_0140_Stitch_XHC_o_3.jpg" prev3url="images/360_0140_Stitch_XHC_o_preview_3.jpg" tilesize="1500" tile1url="images/360_0140_Stitch_XHC_o_1.jpg" prev1url="images/360_0140_Stitch_XHC_o_preview_1.jpg" tile4url="images/360_0140_Stitch_XHC_o_4.jpg" prev4url="images/360_0140_Stitch_XHC_o_preview_4.jpg" levelingroll="0" levelingpitch="0" tilescale="1.006667" tile2url="images/360_0140_Stitch_XHC_o_2.jpg" prev2url="images/360_0140_Stitch_XHC_o_preview_2.jpg" tile0url="images/360_0140_Stitch_XHC_o_0.jpg" prev0url="images/360_0140_Stitch_XHC_o_preview_0.jpg" tile5url="images/360_0140_Stitch_XHC_o_5.jpg" prev5url="images/360_0140_Stitch_XHC_o_preview_5.jpg">
+      <preview color="0x808080"/>
+    </input>
+    <view pannorth="0" fovmode="0">
+      <start tilt="0" fov="70" pan="0"/>
+      <min tilt="-90" fov="5" pan="0"/>
+      <max tilt="90" fov="120" pan="360"/>
+    </view>
+    <userdata longitude="" datetime="" info="" description="" copyright="" comment="" title="" author="" source="" tags="pano" latitude=""/>
+    <hotspots wordwrap="1" height="20" width="180">
+      <label borderalpha="1" borderradius="1" backgroundcolor="0xffffff" textalpha="1" background="1" wordwrap="1" bordercolor="0x000000" border="1" height="20" textcolor="0x000000" backgroundalpha="1" enabled="1" width="180"/>
+      <polystyle mode="0" borderalpha="1" backgroundcolor="0x0000ff" bordercolor="0x0000ff" handcursor="1" backgroundalpha="0.2509803921568627"/>
+      <hotspot id="Point01" description="" tilt="-10.28" target="" title="" url="{node33}" skinid="ht_node" pan="-116.75"/>
+      <hotspot id="Point02" description="" tilt="-18.57" target="" title="" url="{node35}" skinid="ht_node" pan="-25.66"/>
+    </hotspots>
+    <media/>
+    <transition type="crossdissolve" zoomspeed="2" zoomin="2" zoomfov="20" softedge="0" blendtime="1" zoomout="3" enabled="1" zoomoutpause="1" blendcolor="0x000000"/>
+    <autorotate noderandom="1" useanimation="0" returntohorizon="0.000" delay="30.00" nodedelay="0.00" startloaded="1" speed="0.050"/>
+    <control simulatemass="1" sensitivity="8" hideabout="1" lockedkeyboardzoom="0" speedwheel="1" invertcontrol="1" dblclickfullscreen="0" lockedmouse="0" invertwheel="0" lockedkeyboard="0" lockedwheel="0" contextfullscreen="1"/>
+  </panorama>
+  <panorama id="node35" hideabout="1">
+    <input tile3url="images/360_0141_Stitch_XHC_o_3.jpg" prev3url="images/360_0141_Stitch_XHC_o_preview_3.jpg" tilesize="1500" tile1url="images/360_0141_Stitch_XHC_o_1.jpg" prev1url="images/360_0141_Stitch_XHC_o_preview_1.jpg" tile4url="images/360_0141_Stitch_XHC_o_4.jpg" prev4url="images/360_0141_Stitch_XHC_o_preview_4.jpg" levelingroll="0" levelingpitch="0" tilescale="1.006667" tile2url="images/360_0141_Stitch_XHC_o_2.jpg" prev2url="images/360_0141_Stitch_XHC_o_preview_2.jpg" tile0url="images/360_0141_Stitch_XHC_o_0.jpg" prev0url="images/360_0141_Stitch_XHC_o_preview_0.jpg" tile5url="images/360_0141_Stitch_XHC_o_5.jpg" prev5url="images/360_0141_Stitch_XHC_o_preview_5.jpg">
+      <preview color="0x808080"/>
+    </input>
+    <view pannorth="0" fovmode="0">
+      <start tilt="0" fov="70" pan="0"/>
+      <min tilt="-90" fov="5" pan="0"/>
+      <max tilt="90" fov="120" pan="360"/>
+    </view>
+    <userdata longitude="" datetime="" info="" description="" copyright="" comment="" title="" author="" source="" tags="pano" latitude=""/>
+    <hotspots wordwrap="1" height="20" width="180">
+      <label borderalpha="1" borderradius="1" backgroundcolor="0xffffff" textalpha="1" background="1" wordwrap="1" bordercolor="0x000000" border="1" height="20" textcolor="0x000000" backgroundalpha="1" enabled="1" width="180"/>
+      <polystyle mode="0" borderalpha="1" backgroundcolor="0x0000ff" bordercolor="0x0000ff" handcursor="1" backgroundalpha="0.2509803921568627"/>
+      <hotspot id="Point01" description="" tilt="-34.05" target="" title="" url="{node36}" skinid="ht_node" pan="-137.03"/>
+      <hotspot id="Point02" description="" tilt="18.69" target="" title="" url="{node34}" skinid="ht_node" pan="17.26"/>
+    </hotspots>
+    <media/>
+    <transition type="crossdissolve" zoomspeed="2" zoomin="2" zoomfov="20" softedge="0" blendtime="1" zoomout="3" enabled="1" zoomoutpause="1" blendcolor="0x000000"/>
+    <autorotate noderandom="1" useanimation="0" returntohorizon="0.000" delay="30.00" nodedelay="0.00" startloaded="1" speed="0.050"/>
+    <control simulatemass="1" sensitivity="8" hideabout="1" lockedkeyboardzoom="0" speedwheel="1" invertcontrol="1" dblclickfullscreen="0" lockedmouse="0" invertwheel="0" lockedkeyboard="0" lockedwheel="0" contextfullscreen="1"/>
+  </panorama>
+  <panorama id="node36" hideabout="1">
+    <input tile3url="images/360_0142_Stitch_XHC_o_3.jpg" prev3url="images/360_0142_Stitch_XHC_o_preview_3.jpg" tilesize="1500" tile1url="images/360_0142_Stitch_XHC_o_1.jpg" prev1url="images/360_0142_Stitch_XHC_o_preview_1.jpg" tile4url="images/360_0142_Stitch_XHC_o_4.jpg" prev4url="images/360_0142_Stitch_XHC_o_preview_4.jpg" levelingroll="0" levelingpitch="0" tilescale="1.006667" tile2url="images/360_0142_Stitch_XHC_o_2.jpg" prev2url="images/360_0142_Stitch_XHC_o_preview_2.jpg" tile0url="images/360_0142_Stitch_XHC_o_0.jpg" prev0url="images/360_0142_Stitch_XHC_o_preview_0.jpg" tile5url="images/360_0142_Stitch_XHC_o_5.jpg" prev5url="images/360_0142_Stitch_XHC_o_preview_5.jpg">
+      <preview color="0x808080"/>
+    </input>
+    <view pannorth="0" fovmode="0">
+      <start tilt="0" fov="70" pan="0"/>
+      <min tilt="-90" fov="5" pan="0"/>
+      <max tilt="90" fov="120" pan="360"/>
+    </view>
+    <userdata longitude="" datetime="" info="" description="" copyright="" comment="" title="" author="" source="" tags="pano" latitude=""/>
+    <hotspots wordwrap="1" height="20" width="180">
+      <label borderalpha="1" borderradius="1" backgroundcolor="0xffffff" textalpha="1" background="1" wordwrap="1" bordercolor="0x000000" border="1" height="20" textcolor="0x000000" backgroundalpha="1" enabled="1" width="180"/>
+      <polystyle mode="0" borderalpha="1" backgroundcolor="0x0000ff" bordercolor="0x0000ff" handcursor="1" backgroundalpha="0.2509803921568627"/>
+      <hotspot id="Point01" description="" tilt="3.81" target="" title="" url="{node35}" skinid="ht_node" pan="12.91"/>
+      <hotspot id="Point02" description="" tilt="-24.48" target="" title="" url="{node37}" skinid="ht_node" pan="-132.86"/>
+    </hotspots>
+    <media/>
+    <transition type="crossdissolve" zoomspeed="2" zoomin="2" zoomfov="20" softedge="0" blendtime="1" zoomout="3" enabled="1" zoomoutpause="1" blendcolor="0x000000"/>
+    <autorotate noderandom="1" useanimation="0" returntohorizon="0.000" delay="30.00" nodedelay="0.00" startloaded="1" speed="0.050"/>
+    <control simulatemass="1" sensitivity="8" hideabout="1" lockedkeyboardzoom="0" speedwheel="1" invertcontrol="1" dblclickfullscreen="0" lockedmouse="0" invertwheel="0" lockedkeyboard="0" lockedwheel="0" contextfullscreen="1"/>
+  </panorama>
+  <panorama id="node37" hideabout="1">
+    <input tile3url="images/360_0144_Stitch_XHC_o_3.jpg" prev3url="images/360_0144_Stitch_XHC_o_preview_3.jpg" tilesize="1500" tile1url="images/360_0144_Stitch_XHC_o_1.jpg" prev1url="images/360_0144_Stitch_XHC_o_preview_1.jpg" tile4url="images/360_0144_Stitch_XHC_o_4.jpg" prev4url="images/360_0144_Stitch_XHC_o_preview_4.jpg" levelingroll="0" levelingpitch="0" tilescale="1.006667" tile2url="images/360_0144_Stitch_XHC_o_2.jpg" prev2url="images/360_0144_Stitch_XHC_o_preview_2.jpg" tile0url="images/360_0144_Stitch_XHC_o_0.jpg" prev0url="images/360_0144_Stitch_XHC_o_preview_0.jpg" tile5url="images/360_0144_Stitch_XHC_o_5.jpg" prev5url="images/360_0144_Stitch_XHC_o_preview_5.jpg">
+      <preview color="0x808080"/>
+    </input>
+    <view pannorth="0" fovmode="0">
+      <start tilt="0" fov="70" pan="0"/>
+      <min tilt="-90" fov="5" pan="0"/>
+      <max tilt="90" fov="120" pan="360"/>
+    </view>
+    <userdata longitude="" datetime="" info="" description="" copyright="" comment="" title="" author="" source="" tags="pano" latitude=""/>
+    <hotspots wordwrap="1" height="20" width="180">
+      <label borderalpha="1" borderradius="1" backgroundcolor="0xffffff" textalpha="1" background="1" wordwrap="1" bordercolor="0x000000" border="1" height="20" textcolor="0x000000" backgroundalpha="1" enabled="1" width="180"/>
+      <polystyle mode="0" borderalpha="1" backgroundcolor="0x0000ff" bordercolor="0x0000ff" handcursor="1" backgroundalpha="0.2509803921568627"/>
+      <hotspot id="Point01" description="" tilt="-3.17" target="" title="" url="{node36}" skinid="ht_node" pan="-2.45"/>
+      <hotspot id="Point02" description="" tilt="-23.13" target="" title="" url="{node38}" skinid="ht_node" pan="-63.33"/>
+    </hotspots>
+    <media/>
+    <transition type="crossdissolve" zoomspeed="2" zoomin="2" zoomfov="20" softedge="0" blendtime="1" zoomout="3" enabled="1" zoomoutpause="1" blendcolor="0x000000"/>
+    <autorotate noderandom="1" useanimation="0" returntohorizon="0.000" delay="30.00" nodedelay="0.00" startloaded="1" speed="0.050"/>
+    <control simulatemass="1" sensitivity="8" hideabout="1" lockedkeyboardzoom="0" speedwheel="1" invertcontrol="1" dblclickfullscreen="0" lockedmouse="0" invertwheel="0" lockedkeyboard="0" lockedwheel="0" contextfullscreen="1"/>
+  </panorama>
+  <panorama id="node38" hideabout="1">
+    <input tile3url="images/360_0145_Stitch_XHC_o_3.jpg" prev3url="images/360_0145_Stitch_XHC_o_preview_3.jpg" tilesize="1500" tile1url="images/360_0145_Stitch_XHC_o_1.jpg" prev1url="images/360_0145_Stitch_XHC_o_preview_1.jpg" tile4url="images/360_0145_Stitch_XHC_o_4.jpg" prev4url="images/360_0145_Stitch_XHC_o_preview_4.jpg" levelingroll="0" levelingpitch="0" tilescale="1.006667" tile2url="images/360_0145_Stitch_XHC_o_2.jpg" prev2url="images/360_0145_Stitch_XHC_o_preview_2.jpg" tile0url="images/360_0145_Stitch_XHC_o_0.jpg" prev0url="images/360_0145_Stitch_XHC_o_preview_0.jpg" tile5url="images/360_0145_Stitch_XHC_o_5.jpg" prev5url="images/360_0145_Stitch_XHC_o_preview_5.jpg">
+      <preview color="0x808080"/>
+    </input>
+    <view pannorth="0" fovmode="0">
+      <start tilt="0" fov="70" pan="0"/>
+      <min tilt="-90" fov="5" pan="0"/>
+      <max tilt="90" fov="120" pan="360"/>
+    </view>
+    <userdata longitude="" datetime="" info="" description="" copyright="" comment="" title="" author="" source="" tags="pano" latitude=""/>
+    <hotspots wordwrap="1" height="20" width="180">
+      <label borderalpha="1" borderradius="1" backgroundcolor="0xffffff" textalpha="1" background="1" wordwrap="1" bordercolor="0x000000" border="1" height="20" textcolor="0x000000" backgroundalpha="1" enabled="1" width="180"/>
+      <polystyle mode="0" borderalpha="1" backgroundcolor="0x0000ff" bordercolor="0x0000ff" handcursor="1" backgroundalpha="0.2509803921568627"/>
+      <hotspot id="Point01" description="" tilt="19.91" target="" title="" url="{node37}" skinid="ht_node" pan="-26.96"/>
+      <hotspot id="Point02" description="" tilt="-30.65" target="" title="" url="{node39}" skinid="ht_node" pan="144.32"/>
+    </hotspots>
+    <media/>
+    <transition type="crossdissolve" zoomspeed="2" zoomin="2" zoomfov="20" softedge="0" blendtime="1" zoomout="3" enabled="1" zoomoutpause="1" blendcolor="0x000000"/>
+    <autorotate noderandom="1" useanimation="0" returntohorizon="0.000" delay="30.00" nodedelay="0.00" startloaded="1" speed="0.050"/>
+    <control simulatemass="1" sensitivity="8" hideabout="1" lockedkeyboardzoom="0" speedwheel="1" invertcontrol="1" dblclickfullscreen="0" lockedmouse="0" invertwheel="0" lockedkeyboard="0" lockedwheel="0" contextfullscreen="1"/>
+  </panorama>
+  <panorama id="node39" hideabout="1">
+    <input tile3url="images/360_0146_Stitch_XHC_o_3.jpg" prev3url="images/360_0146_Stitch_XHC_o_preview_3.jpg" tilesize="1500" tile1url="images/360_0146_Stitch_XHC_o_1.jpg" prev1url="images/360_0146_Stitch_XHC_o_preview_1.jpg" tile4url="images/360_0146_Stitch_XHC_o_4.jpg" prev4url="images/360_0146_Stitch_XHC_o_preview_4.jpg" levelingroll="0" levelingpitch="0" tilescale="1.006667" tile2url="images/360_0146_Stitch_XHC_o_2.jpg" prev2url="images/360_0146_Stitch_XHC_o_preview_2.jpg" tile0url="images/360_0146_Stitch_XHC_o_0.jpg" prev0url="images/360_0146_Stitch_XHC_o_preview_0.jpg" tile5url="images/360_0146_Stitch_XHC_o_5.jpg" prev5url="images/360_0146_Stitch_XHC_o_preview_5.jpg">
+      <preview color="0x808080"/>
+    </input>
+    <view pannorth="0" fovmode="0">
+      <start tilt="0" fov="70" pan="0"/>
+      <min tilt="-90" fov="5" pan="0"/>
+      <max tilt="90" fov="120" pan="360"/>
+    </view>
+    <userdata longitude="" datetime="" info="" description="" copyright="" comment="" title="" author="" source="" tags="pano" latitude=""/>
+    <hotspots wordwrap="1" height="20" width="180">
+      <label borderalpha="1" borderradius="1" backgroundcolor="0xffffff" textalpha="1" background="1" wordwrap="1" bordercolor="0x000000" border="1" height="20" textcolor="0x000000" backgroundalpha="1" enabled="1" width="180"/>
+      <polystyle mode="0" borderalpha="1" backgroundcolor="0x0000ff" bordercolor="0x0000ff" handcursor="1" backgroundalpha="0.2509803921568627"/>
+      <hotspot id="Point01" description="" tilt="15.69" target="" title="" url="{node38}" skinid="ht_node" pan="60.85"/>
+      <hotspot id="Point02" description="" tilt="-22.7" target="" title="" url="{node40}" skinid="ht_node" pan="-101.86"/>
+    </hotspots>
+    <media/>
+    <transition type="crossdissolve" zoomspeed="2" zoomin="2" zoomfov="20" softedge="0" blendtime="1" zoomout="3" enabled="1" zoomoutpause="1" blendcolor="0x000000"/>
+    <autorotate noderandom="1" useanimation="0" returntohorizon="0.000" delay="30.00" nodedelay="0.00" startloaded="1" speed="0.050"/>
+    <control simulatemass="1" sensitivity="8" hideabout="1" lockedkeyboardzoom="0" speedwheel="1" invertcontrol="1" dblclickfullscreen="0" lockedmouse="0" invertwheel="0" lockedkeyboard="0" lockedwheel="0" contextfullscreen="1"/>
+  </panorama>
+  <panorama id="node40" hideabout="1">
+    <input tile3url="images/360_0147_Stitch_XHC_o_3.jpg" prev3url="images/360_0147_Stitch_XHC_o_preview_3.jpg" tilesize="1500" tile1url="images/360_0147_Stitch_XHC_o_1.jpg" prev1url="images/360_0147_Stitch_XHC_o_preview_1.jpg" tile4url="images/360_0147_Stitch_XHC_o_4.jpg" prev4url="images/360_0147_Stitch_XHC_o_preview_4.jpg" levelingroll="0" levelingpitch="0" tilescale="1.006667" tile2url="images/360_0147_Stitch_XHC_o_2.jpg" prev2url="images/360_0147_Stitch_XHC_o_preview_2.jpg" tile0url="images/360_0147_Stitch_XHC_o_0.jpg" prev0url="images/360_0147_Stitch_XHC_o_preview_0.jpg" tile5url="images/360_0147_Stitch_XHC_o_5.jpg" prev5url="images/360_0147_Stitch_XHC_o_preview_5.jpg">
+      <preview color="0x808080"/>
+    </input>
+    <view pannorth="0" fovmode="0">
+      <start tilt="0" fov="70" pan="0"/>
+      <min tilt="-90" fov="5" pan="0"/>
+      <max tilt="90" fov="120" pan="360"/>
+    </view>
+    <userdata longitude="" datetime="" info="" description="" copyright="" comment="" title="" author="" source="" tags="pano" latitude=""/>
+    <hotspots wordwrap="1" height="20" width="180">
+      <label borderalpha="1" borderradius="1" backgroundcolor="0xffffff" textalpha="1" background="1" wordwrap="1" bordercolor="0x000000" border="1" height="20" textcolor="0x000000" backgroundalpha="1" enabled="1" width="180"/>
+      <polystyle mode="0" borderalpha="1" backgroundcolor="0x0000ff" bordercolor="0x0000ff" handcursor="1" backgroundalpha="0.2509803921568627"/>
+      <hotspot id="Point01" description="" tilt="-33" target="" title="" url="{node41}" skinid="ht_node" pan="-141.32"/>
+      <hotspot id="Point02" description="" tilt="17.46" target="" title="" url="{node39}" skinid="ht_node" pan="-4.89"/>
+    </hotspots>
+    <media/>
+    <transition type="crossdissolve" zoomspeed="2" zoomin="2" zoomfov="20" softedge="0" blendtime="1" zoomout="3" enabled="1" zoomoutpause="1" blendcolor="0x000000"/>
+    <autorotate noderandom="1" useanimation="0" returntohorizon="0.000" delay="30.00" nodedelay="0.00" startloaded="1" speed="0.050"/>
+    <control simulatemass="1" sensitivity="8" hideabout="1" lockedkeyboardzoom="0" speedwheel="1" invertcontrol="1" dblclickfullscreen="0" lockedmouse="0" invertwheel="0" lockedkeyboard="0" lockedwheel="0" contextfullscreen="1"/>
+  </panorama>
+  <panorama id="node41" hideabout="1">
+    <input tile3url="images/360_0148_Stitch_XHC_o_3.jpg" prev3url="images/360_0148_Stitch_XHC_o_preview_3.jpg" tilesize="1500" tile1url="images/360_0148_Stitch_XHC_o_1.jpg" prev1url="images/360_0148_Stitch_XHC_o_preview_1.jpg" tile4url="images/360_0148_Stitch_XHC_o_4.jpg" prev4url="images/360_0148_Stitch_XHC_o_preview_4.jpg" levelingroll="0" levelingpitch="0" tilescale="1.006667" tile2url="images/360_0148_Stitch_XHC_o_2.jpg" prev2url="images/360_0148_Stitch_XHC_o_preview_2.jpg" tile0url="images/360_0148_Stitch_XHC_o_0.jpg" prev0url="images/360_0148_Stitch_XHC_o_preview_0.jpg" tile5url="images/360_0148_Stitch_XHC_o_5.jpg" prev5url="images/360_0148_Stitch_XHC_o_preview_5.jpg">
+      <preview color="0x808080"/>
+    </input>
+    <view pannorth="0" fovmode="0">
+      <start tilt="0" fov="70" pan="0"/>
+      <min tilt="-90" fov="5" pan="0"/>
+      <max tilt="90" fov="120" pan="360"/>
+    </view>
+    <userdata longitude="" datetime="" info="" description="" copyright="" comment="" title="" author="" source="" tags="pano" latitude=""/>
+    <hotspots wordwrap="1" height="20" width="180">
+      <label borderalpha="1" borderradius="1" backgroundcolor="0xffffff" textalpha="1" background="1" wordwrap="1" bordercolor="0x000000" border="1" height="20" textcolor="0x000000" backgroundalpha="1" enabled="1" width="180"/>
+      <polystyle mode="0" borderalpha="1" backgroundcolor="0x0000ff" bordercolor="0x0000ff" handcursor="1" backgroundalpha="0.2509803921568627"/>
+      <hotspot id="Point01" description="" tilt="17.03" target="" title="" url="{node40}" skinid="ht_node" pan="70.1"/>
+      <hotspot id="Point02" description="" tilt="-25.75" target="" title="" url="{node42}" skinid="ht_node" pan="175.93"/>
+    </hotspots>
+    <media/>
+    <transition type="crossdissolve" zoomspeed="2" zoomin="2" zoomfov="20" softedge="0" blendtime="1" zoomout="3" enabled="1" zoomoutpause="1" blendcolor="0x000000"/>
+    <autorotate noderandom="1" useanimation="0" returntohorizon="0.000" delay="30.00" nodedelay="0.00" startloaded="1" speed="0.050"/>
+    <control simulatemass="1" sensitivity="8" hideabout="1" lockedkeyboardzoom="0" speedwheel="1" invertcontrol="1" dblclickfullscreen="0" lockedmouse="0" invertwheel="0" lockedkeyboard="0" lockedwheel="0" contextfullscreen="1"/>
+  </panorama>
+  <panorama id="node42" hideabout="1">
+    <input tile3url="images/360_0149_Stitch_XHC_o_3.jpg" prev3url="images/360_0149_Stitch_XHC_o_preview_3.jpg" tilesize="1500" tile1url="images/360_0149_Stitch_XHC_o_1.jpg" prev1url="images/360_0149_Stitch_XHC_o_preview_1.jpg" tile4url="images/360_0149_Stitch_XHC_o_4.jpg" prev4url="images/360_0149_Stitch_XHC_o_preview_4.jpg" levelingroll="0" levelingpitch="0" tilescale="1.006667" tile2url="images/360_0149_Stitch_XHC_o_2.jpg" prev2url="images/360_0149_Stitch_XHC_o_preview_2.jpg" tile0url="images/360_0149_Stitch_XHC_o_0.jpg" prev0url="images/360_0149_Stitch_XHC_o_preview_0.jpg" tile5url="images/360_0149_Stitch_XHC_o_5.jpg" prev5url="images/360_0149_Stitch_XHC_o_preview_5.jpg">
+      <preview color="0x808080"/>
+    </input>
+    <view pannorth="0" fovmode="0">
+      <start tilt="0" fov="70" pan="0"/>
+      <min tilt="-90" fov="5" pan="0"/>
+      <max tilt="90" fov="120" pan="360"/>
+    </view>
+    <userdata longitude="" datetime="" info="" description="" copyright="" comment="" title="" author="" source="" tags="pano" latitude=""/>
+    <hotspots wordwrap="1" height="20" width="180">
+      <label borderalpha="1" borderradius="1" backgroundcolor="0xffffff" textalpha="1" background="1" wordwrap="1" bordercolor="0x000000" border="1" height="20" textcolor="0x000000" backgroundalpha="1" enabled="1" width="180"/>
+      <polystyle mode="0" borderalpha="1" backgroundcolor="0x0000ff" bordercolor="0x0000ff" handcursor="1" backgroundalpha="0.2509803921568627"/>
+      <hotspot id="Point01" description="" tilt="-24.35" target="" title="" url="{node43}" skinid="ht_node" pan="-165.78"/>
+      <hotspot id="Point02" description="" tilt="21.56" target="" title="" url="{node41}" skinid="ht_node" pan="6.66"/>
+    </hotspots>
+    <media/>
+    <transition type="crossdissolve" zoomspeed="2" zoomin="2" zoomfov="20" softedge="0" blendtime="1" zoomout="3" enabled="1" zoomoutpause="1" blendcolor="0x000000"/>
+    <autorotate noderandom="1" useanimation="0" returntohorizon="0.000" delay="30.00" nodedelay="0.00" startloaded="1" speed="0.050"/>
+    <control simulatemass="1" sensitivity="8" hideabout="1" lockedkeyboardzoom="0" speedwheel="1" invertcontrol="1" dblclickfullscreen="0" lockedmouse="0" invertwheel="0" lockedkeyboard="0" lockedwheel="0" contextfullscreen="1"/>
+  </panorama>
+  <panorama id="node43" hideabout="1">
+    <input tile3url="images/360_0150_Stitch_XHC_o_3.jpg" prev3url="images/360_0150_Stitch_XHC_o_preview_3.jpg" tilesize="1500" tile1url="images/360_0150_Stitch_XHC_o_1.jpg" prev1url="images/360_0150_Stitch_XHC_o_preview_1.jpg" tile4url="images/360_0150_Stitch_XHC_o_4.jpg" prev4url="images/360_0150_Stitch_XHC_o_preview_4.jpg" levelingroll="0" levelingpitch="0" tilescale="1.006667" tile2url="images/360_0150_Stitch_XHC_o_2.jpg" prev2url="images/360_0150_Stitch_XHC_o_preview_2.jpg" tile0url="images/360_0150_Stitch_XHC_o_0.jpg" prev0url="images/360_0150_Stitch_XHC_o_preview_0.jpg" tile5url="images/360_0150_Stitch_XHC_o_5.jpg" prev5url="images/360_0150_Stitch_XHC_o_preview_5.jpg">
+      <preview color="0x808080"/>
+    </input>
+    <view pannorth="0" fovmode="0">
+      <start tilt="0" fov="70" pan="0"/>
+      <min tilt="-90" fov="5" pan="0"/>
+      <max tilt="90" fov="120" pan="360"/>
+    </view>
+    <userdata longitude="" datetime="" info="" description="" copyright="" comment="" title="" author="" source="" tags="pano" latitude=""/>
+    <hotspots wordwrap="1" height="20" width="180">
+      <label borderalpha="1" borderradius="1" backgroundcolor="0xffffff" textalpha="1" background="1" wordwrap="1" bordercolor="0x000000" border="1" height="20" textcolor="0x000000" backgroundalpha="1" enabled="1" width="180"/>
+      <polystyle mode="0" borderalpha="1" backgroundcolor="0x0000ff" bordercolor="0x0000ff" handcursor="1" backgroundalpha="0.2509803921568627"/>
+      <hotspot id="Point01" description="" tilt="17.91" target="" title="" url="{node42}" skinid="ht_node" pan="17.24"/>
+      <hotspot id="Point02" description="" tilt="-20.8" target="" title="" url="{node44}" skinid="ht_node" pan="-167.01"/>
+    </hotspots>
+    <media/>
+    <transition type="crossdissolve" zoomspeed="2" zoomin="2" zoomfov="20" softedge="0" blendtime="1" zoomout="3" enabled="1" zoomoutpause="1" blendcolor="0x000000"/>
+    <autorotate noderandom="1" useanimation="0" returntohorizon="0.000" delay="30.00" nodedelay="0.00" startloaded="1" speed="0.050"/>
+    <control simulatemass="1" sensitivity="8" hideabout="1" lockedkeyboardzoom="0" speedwheel="1" invertcontrol="1" dblclickfullscreen="0" lockedmouse="0" invertwheel="0" lockedkeyboard="0" lockedwheel="0" contextfullscreen="1"/>
+  </panorama>
+  <panorama id="node44" hideabout="1">
+    <input tile3url="images/360_0151_Stitch_XHC_o_3.jpg" prev3url="images/360_0151_Stitch_XHC_o_preview_3.jpg" tilesize="1500" tile1url="images/360_0151_Stitch_XHC_o_1.jpg" prev1url="images/360_0151_Stitch_XHC_o_preview_1.jpg" tile4url="images/360_0151_Stitch_XHC_o_4.jpg" prev4url="images/360_0151_Stitch_XHC_o_preview_4.jpg" levelingroll="0" levelingpitch="0" tilescale="1.006667" tile2url="images/360_0151_Stitch_XHC_o_2.jpg" prev2url="images/360_0151_Stitch_XHC_o_preview_2.jpg" tile0url="images/360_0151_Stitch_XHC_o_0.jpg" prev0url="images/360_0151_Stitch_XHC_o_preview_0.jpg" tile5url="images/360_0151_Stitch_XHC_o_5.jpg" prev5url="images/360_0151_Stitch_XHC_o_preview_5.jpg">
+      <preview color="0x808080"/>
+    </input>
+    <view pannorth="0" fovmode="0">
+      <start tilt="0" fov="70" pan="0"/>
+      <min tilt="-90" fov="5" pan="0"/>
+      <max tilt="90" fov="120" pan="360"/>
+    </view>
+    <userdata longitude="" datetime="" info="" description="" copyright="" comment="" title="" author="" source="" tags="pano" latitude=""/>
+    <hotspots wordwrap="1" height="20" width="180">
+      <label borderalpha="1" borderradius="1" backgroundcolor="0xffffff" textalpha="1" background="1" wordwrap="1" bordercolor="0x000000" border="1" height="20" textcolor="0x000000" backgroundalpha="1" enabled="1" width="180"/>
+      <polystyle mode="0" borderalpha="1" backgroundcolor="0x0000ff" bordercolor="0x0000ff" handcursor="1" backgroundalpha="0.2509803921568627"/>
+      <hotspot id="Point01" description="" tilt="-24.68" target="" title="" url="{node45}" skinid="ht_node" pan="-106.94"/>
+      <hotspot id="Point02" description="" tilt="17.99" target="" title="" url="{node43}" skinid="ht_node" pan="39.95"/>
+    </hotspots>
+    <media/>
+    <transition type="crossdissolve" zoomspeed="2" zoomin="2" zoomfov="20" softedge="0" blendtime="1" zoomout="3" enabled="1" zoomoutpause="1" blendcolor="0x000000"/>
+    <autorotate noderandom="1" useanimation="0" returntohorizon="0.000" delay="30.00" nodedelay="0.00" startloaded="1" speed="0.050"/>
+    <control simulatemass="1" sensitivity="8" hideabout="1" lockedkeyboardzoom="0" speedwheel="1" invertcontrol="1" dblclickfullscreen="0" lockedmouse="0" invertwheel="0" lockedkeyboard="0" lockedwheel="0" contextfullscreen="1"/>
+  </panorama>
+  <panorama id="node45" hideabout="1">
+    <input tile3url="images/360_0152_Stitch_XHC_o_3.jpg" prev3url="images/360_0152_Stitch_XHC_o_preview_3.jpg" tilesize="1500" tile1url="images/360_0152_Stitch_XHC_o_1.jpg" prev1url="images/360_0152_Stitch_XHC_o_preview_1.jpg" tile4url="images/360_0152_Stitch_XHC_o_4.jpg" prev4url="images/360_0152_Stitch_XHC_o_preview_4.jpg" levelingroll="0" levelingpitch="0" tilescale="1.006667" tile2url="images/360_0152_Stitch_XHC_o_2.jpg" prev2url="images/360_0152_Stitch_XHC_o_preview_2.jpg" tile0url="images/360_0152_Stitch_XHC_o_0.jpg" prev0url="images/360_0152_Stitch_XHC_o_preview_0.jpg" tile5url="images/360_0152_Stitch_XHC_o_5.jpg" prev5url="images/360_0152_Stitch_XHC_o_preview_5.jpg">
+      <preview color="0x808080"/>
+    </input>
+    <view pannorth="0" fovmode="0">
+      <start tilt="0" fov="70" pan="0"/>
+      <min tilt="-90" fov="5" pan="0"/>
+      <max tilt="90" fov="120" pan="360"/>
+    </view>
+    <userdata longitude="" datetime="" info="" description="" copyright="" comment="" title="" author="" source="" tags="pano" latitude=""/>
+    <hotspots wordwrap="1" height="20" width="180">
+      <label borderalpha="1" borderradius="1" backgroundcolor="0xffffff" textalpha="1" background="1" wordwrap="1" bordercolor="0x000000" border="1" height="20" textcolor="0x000000" backgroundalpha="1" enabled="1" width="180"/>
+      <polystyle mode="0" borderalpha="1" backgroundcolor="0x0000ff" bordercolor="0x0000ff" handcursor="1" backgroundalpha="0.2509803921568627"/>
+      <hotspot id="Point01" description="" tilt="22.91" target="" title="" url="{node44}" skinid="ht_node" pan="31.53"/>
+      <hotspot id="Point02" description="" tilt="-25.59" target="" title="" url="{node46}" skinid="ht_node" pan="-171.44"/>
+    </hotspots>
+    <media/>
+    <transition type="crossdissolve" zoomspeed="2" zoomin="2" zoomfov="20" softedge="0" blendtime="1" zoomout="3" enabled="1" zoomoutpause="1" blendcolor="0x000000"/>
+    <autorotate noderandom="1" useanimation="0" returntohorizon="0.000" delay="30.00" nodedelay="0.00" startloaded="1" speed="0.050"/>
+    <control simulatemass="1" sensitivity="8" hideabout="1" lockedkeyboardzoom="0" speedwheel="1" invertcontrol="1" dblclickfullscreen="0" lockedmouse="0" invertwheel="0" lockedkeyboard="0" lockedwheel="0" contextfullscreen="1"/>
+  </panorama>
+  <panorama id="node46" hideabout="1">
+    <input tile3url="images/360_0153_Stitch_XHC_o_3.jpg" prev3url="images/360_0153_Stitch_XHC_o_preview_3.jpg" tilesize="1500" tile1url="images/360_0153_Stitch_XHC_o_1.jpg" prev1url="images/360_0153_Stitch_XHC_o_preview_1.jpg" tile4url="images/360_0153_Stitch_XHC_o_4.jpg" prev4url="images/360_0153_Stitch_XHC_o_preview_4.jpg" levelingroll="0" levelingpitch="0" tilescale="1.006667" tile2url="images/360_0153_Stitch_XHC_o_2.jpg" prev2url="images/360_0153_Stitch_XHC_o_preview_2.jpg" tile0url="images/360_0153_Stitch_XHC_o_0.jpg" prev0url="images/360_0153_Stitch_XHC_o_preview_0.jpg" tile5url="images/360_0153_Stitch_XHC_o_5.jpg" prev5url="images/360_0153_Stitch_XHC_o_preview_5.jpg">
+      <preview color="0x808080"/>
+    </input>
+    <view pannorth="0" fovmode="0">
+      <start tilt="0" fov="70" pan="0"/>
+      <min tilt="-90" fov="5" pan="0"/>
+      <max tilt="90" fov="120" pan="360"/>
+    </view>
+    <userdata longitude="" datetime="" info="" description="" copyright="" comment="" title="" author="" source="" tags="pano" latitude=""/>
+    <hotspots wordwrap="1" height="20" width="180">
+      <label borderalpha="1" borderradius="1" backgroundcolor="0xffffff" textalpha="1" background="1" wordwrap="1" bordercolor="0x000000" border="1" height="20" textcolor="0x000000" backgroundalpha="1" enabled="1" width="180"/>
+      <polystyle mode="0" borderalpha="1" backgroundcolor="0x0000ff" bordercolor="0x0000ff" handcursor="1" backgroundalpha="0.2509803921568627"/>
+      <hotspot id="Point01" description="" tilt="-32.06" target="" title="" url="{node47}" skinid="ht_node" pan="170.47"/>
+      <hotspot id="Point02" description="" tilt="21.32" target="" title="" url="{node45}" skinid="ht_node" pan="10.51"/>
+    </hotspots>
+    <media/>
+    <transition type="crossdissolve" zoomspeed="2" zoomin="2" zoomfov="20" softedge="0" blendtime="1" zoomout="3" enabled="1" zoomoutpause="1" blendcolor="0x000000"/>
+    <autorotate noderandom="1" useanimation="0" returntohorizon="0.000" delay="30.00" nodedelay="0.00" startloaded="1" speed="0.050"/>
+    <control simulatemass="1" sensitivity="8" hideabout="1" lockedkeyboardzoom="0" speedwheel="1" invertcontrol="1" dblclickfullscreen="0" lockedmouse="0" invertwheel="0" lockedkeyboard="0" lockedwheel="0" contextfullscreen="1"/>
+  </panorama>
+  <panorama id="node47" hideabout="1">
+    <input tile3url="images/360_0154_Stitch_XHC_o_3.jpg" prev3url="images/360_0154_Stitch_XHC_o_preview_3.jpg" tilesize="1500" tile1url="images/360_0154_Stitch_XHC_o_1.jpg" prev1url="images/360_0154_Stitch_XHC_o_preview_1.jpg" tile4url="images/360_0154_Stitch_XHC_o_4.jpg" prev4url="images/360_0154_Stitch_XHC_o_preview_4.jpg" levelingroll="0" levelingpitch="0" tilescale="1.006667" tile2url="images/360_0154_Stitch_XHC_o_2.jpg" prev2url="images/360_0154_Stitch_XHC_o_preview_2.jpg" tile0url="images/360_0154_Stitch_XHC_o_0.jpg" prev0url="images/360_0154_Stitch_XHC_o_preview_0.jpg" tile5url="images/360_0154_Stitch_XHC_o_5.jpg" prev5url="images/360_0154_Stitch_XHC_o_preview_5.jpg">
+      <preview color="0x808080"/>
+    </input>
+    <view pannorth="0" fovmode="0">
+      <start tilt="0" fov="70" pan="0"/>
+      <min tilt="-90" fov="5" pan="0"/>
+      <max tilt="90" fov="120" pan="360"/>
+    </view>
+    <userdata longitude="" datetime="" info="" description="" copyright="" comment="" title="" author="" source="" tags="pano" latitude=""/>
+    <hotspots wordwrap="1" height="20" width="180">
+      <label borderalpha="1" borderradius="1" backgroundcolor="0xffffff" textalpha="1" background="1" wordwrap="1" bordercolor="0x000000" border="1" height="20" textcolor="0x000000" backgroundalpha="1" enabled="1" width="180"/>
+      <polystyle mode="0" borderalpha="1" backgroundcolor="0x0000ff" bordercolor="0x0000ff" handcursor="1" backgroundalpha="0.2509803921568627"/>
+      <hotspot id="Point01" description="" tilt="-11.63" target="" title="" url="{node46}" skinid="ht_node" pan="-166.24"/>
+      <hotspot id="Point02" description="" tilt="11.95" target="" title="" url="{node48}" skinid="ht_node" pan="4.77"/>
+    </hotspots>
+    <media/>
+    <transition type="crossdissolve" zoomspeed="2" zoomin="2" zoomfov="20" softedge="0" blendtime="1" zoomout="3" enabled="1" zoomoutpause="1" blendcolor="0x000000"/>
+    <autorotate noderandom="1" useanimation="0" returntohorizon="0.000" delay="30.00" nodedelay="0.00" startloaded="1" speed="0.050"/>
+    <control simulatemass="1" sensitivity="8" hideabout="1" lockedkeyboardzoom="0" speedwheel="1" invertcontrol="1" dblclickfullscreen="0" lockedmouse="0" invertwheel="0" lockedkeyboard="0" lockedwheel="0" contextfullscreen="1"/>
+  </panorama>
+  <panorama id="node48" hideabout="1">
+    <input tile3url="images/360_0155_Stitch_XHC_o_3.jpg" prev3url="images/360_0155_Stitch_XHC_o_preview_3.jpg" tilesize="1500" tile1url="images/360_0155_Stitch_XHC_o_1.jpg" prev1url="images/360_0155_Stitch_XHC_o_preview_1.jpg" tile4url="images/360_0155_Stitch_XHC_o_4.jpg" prev4url="images/360_0155_Stitch_XHC_o_preview_4.jpg" levelingroll="0" levelingpitch="0" tilescale="1.006667" tile2url="images/360_0155_Stitch_XHC_o_2.jpg" prev2url="images/360_0155_Stitch_XHC_o_preview_2.jpg" tile0url="images/360_0155_Stitch_XHC_o_0.jpg" prev0url="images/360_0155_Stitch_XHC_o_preview_0.jpg" tile5url="images/360_0155_Stitch_XHC_o_5.jpg" prev5url="images/360_0155_Stitch_XHC_o_preview_5.jpg">
+      <preview color="0x808080"/>
+    </input>
+    <view pannorth="0" fovmode="0">
+      <start tilt="0" fov="70" pan="0"/>
+      <min tilt="-90" fov="5" pan="0"/>
+      <max tilt="90" fov="120" pan="360"/>
+    </view>
+    <userdata longitude="" datetime="" info="" description="" copyright="" comment="" title="" author="" source="" tags="pano" latitude=""/>
+    <hotspots wordwrap="1" height="20" width="180">
+      <label borderalpha="1" borderradius="1" backgroundcolor="0xffffff" textalpha="1" background="1" wordwrap="1" bordercolor="0x000000" border="1" height="20" textcolor="0x000000" backgroundalpha="1" enabled="1" width="180"/>
+      <polystyle mode="0" borderalpha="1" backgroundcolor="0x0000ff" bordercolor="0x0000ff" handcursor="1" backgroundalpha="0.2509803921568627"/>
+      <hotspot id="Point01" description="" tilt="3.4" target="" title="" url="{node47}" skinid="ht_node" pan="13.38"/>
+      <hotspot id="Point02" description="" tilt="-11.11" target="" title="" url="{node49}" skinid="ht_node" pan="-166.76"/>
+    </hotspots>
+    <media/>
+    <transition type="crossdissolve" zoomspeed="2" zoomin="2" zoomfov="20" softedge="0" blendtime="1" zoomout="3" enabled="1" zoomoutpause="1" blendcolor="0x000000"/>
+    <autorotate noderandom="1" useanimation="0" returntohorizon="0.000" delay="30.00" nodedelay="0.00" startloaded="1" speed="0.050"/>
+    <control simulatemass="1" sensitivity="8" hideabout="1" lockedkeyboardzoom="0" speedwheel="1" invertcontrol="1" dblclickfullscreen="0" lockedmouse="0" invertwheel="0" lockedkeyboard="0" lockedwheel="0" contextfullscreen="1"/>
+  </panorama>
+  <panorama id="node49" hideabout="1">
+    <input tile3url="images/360_0156_Stitch_XHC_o_3.jpg" prev3url="images/360_0156_Stitch_XHC_o_preview_3.jpg" tilesize="1500" tile1url="images/360_0156_Stitch_XHC_o_1.jpg" prev1url="images/360_0156_Stitch_XHC_o_preview_1.jpg" tile4url="images/360_0156_Stitch_XHC_o_4.jpg" prev4url="images/360_0156_Stitch_XHC_o_preview_4.jpg" levelingroll="0" levelingpitch="0" tilescale="1.006667" tile2url="images/360_0156_Stitch_XHC_o_2.jpg" prev2url="images/360_0156_Stitch_XHC_o_preview_2.jpg" tile0url="images/360_0156_Stitch_XHC_o_0.jpg" prev0url="images/360_0156_Stitch_XHC_o_preview_0.jpg" tile5url="images/360_0156_Stitch_XHC_o_5.jpg" prev5url="images/360_0156_Stitch_XHC_o_preview_5.jpg">
+      <preview color="0x808080"/>
+    </input>
+    <view pannorth="0" fovmode="0">
+      <start tilt="0" fov="70" pan="0"/>
+      <min tilt="-90" fov="5" pan="0"/>
+      <max tilt="90" fov="120" pan="360"/>
+    </view>
+    <userdata longitude="" datetime="" info="" description="" copyright="" comment="" title="" author="" source="" tags="pano" latitude=""/>
+    <hotspots wordwrap="1" height="20" width="180">
+      <label borderalpha="1" borderradius="1" backgroundcolor="0xffffff" textalpha="1" background="1" wordwrap="1" bordercolor="0x000000" border="1" height="20" textcolor="0x000000" backgroundalpha="1" enabled="1" width="180"/>
+      <polystyle mode="0" borderalpha="1" backgroundcolor="0x0000ff" bordercolor="0x0000ff" handcursor="1" backgroundalpha="0.2509803921568627"/>
+      <hotspot id="Point01" description="" tilt="-19.86" target="" title="" url="{node50}" skinid="ht_node" pan="172.48"/>
+      <hotspot id="Point02" description="" tilt="12.29" target="" title="" url="{node48}" skinid="ht_node" pan="38.39"/>
+    </hotspots>
+    <media/>
+    <transition type="crossdissolve" zoomspeed="2" zoomin="2" zoomfov="20" softedge="0" blendtime="1" zoomout="3" enabled="1" zoomoutpause="1" blendcolor="0x000000"/>
+    <autorotate noderandom="1" useanimation="0" returntohorizon="0.000" delay="30.00" nodedelay="0.00" startloaded="1" speed="0.050"/>
+    <control simulatemass="1" sensitivity="8" hideabout="1" lockedkeyboardzoom="0" speedwheel="1" invertcontrol="1" dblclickfullscreen="0" lockedmouse="0" invertwheel="0" lockedkeyboard="0" lockedwheel="0" contextfullscreen="1"/>
+  </panorama>
+  <panorama id="node50" hideabout="1">
+    <input tile3url="images/360_0157_Stitch_XHC_o_3.jpg" prev3url="images/360_0157_Stitch_XHC_o_preview_3.jpg" tilesize="1500" tile1url="images/360_0157_Stitch_XHC_o_1.jpg" prev1url="images/360_0157_Stitch_XHC_o_preview_1.jpg" tile4url="images/360_0157_Stitch_XHC_o_4.jpg" prev4url="images/360_0157_Stitch_XHC_o_preview_4.jpg" levelingroll="0" levelingpitch="0" tilescale="1.006667" tile2url="images/360_0157_Stitch_XHC_o_2.jpg" prev2url="images/360_0157_Stitch_XHC_o_preview_2.jpg" tile0url="images/360_0157_Stitch_XHC_o_0.jpg" prev0url="images/360_0157_Stitch_XHC_o_preview_0.jpg" tile5url="images/360_0157_Stitch_XHC_o_5.jpg" prev5url="images/360_0157_Stitch_XHC_o_preview_5.jpg">
+      <preview color="0x808080"/>
+    </input>
+    <view pannorth="0" fovmode="0">
+      <start tilt="0" fov="70" pan="0"/>
+      <min tilt="-90" fov="5" pan="0"/>
+      <max tilt="90" fov="120" pan="360"/>
+    </view>
+    <userdata longitude="" datetime="" info="" description="" copyright="" comment="" title="" author="" source="" tags="pano" latitude=""/>
+    <hotspots wordwrap="1" height="20" width="180">
+      <label borderalpha="1" borderradius="1" backgroundcolor="0xffffff" textalpha="1" background="1" wordwrap="1" bordercolor="0x000000" border="1" height="20" textcolor="0x000000" backgroundalpha="1" enabled="1" width="180"/>
+      <polystyle mode="0" borderalpha="1" backgroundcolor="0x0000ff" bordercolor="0x0000ff" handcursor="1" backgroundalpha="0.2509803921568627"/>
+      <hotspot id="Point01" description="" tilt="22.74" target="" title="" url="{node49}" skinid="ht_node" pan="-6.18"/>
+      <hotspot id="Point02" description="" tilt="-25.21" target="" title="" url="{node51}" skinid="ht_node" pan="-163.16"/>
+    </hotspots>
+    <media/>
+    <transition type="crossdissolve" zoomspeed="2" zoomin="2" zoomfov="20" softedge="0" blendtime="1" zoomout="3" enabled="1" zoomoutpause="1" blendcolor="0x000000"/>
+    <autorotate noderandom="1" useanimation="0" returntohorizon="0.000" delay="30.00" nodedelay="0.00" startloaded="1" speed="0.050"/>
+    <control simulatemass="1" sensitivity="8" hideabout="1" lockedkeyboardzoom="0" speedwheel="1" invertcontrol="1" dblclickfullscreen="0" lockedmouse="0" invertwheel="0" lockedkeyboard="0" lockedwheel="0" contextfullscreen="1"/>
+  </panorama>
+  <panorama id="node51" hideabout="1">
+    <input tile3url="images/360_0158_Stitch_XHC_o_3.jpg" prev3url="images/360_0158_Stitch_XHC_o_preview_3.jpg" tilesize="1500" tile1url="images/360_0158_Stitch_XHC_o_1.jpg" prev1url="images/360_0158_Stitch_XHC_o_preview_1.jpg" tile4url="images/360_0158_Stitch_XHC_o_4.jpg" prev4url="images/360_0158_Stitch_XHC_o_preview_4.jpg" levelingroll="0" levelingpitch="0" tilescale="1.006667" tile2url="images/360_0158_Stitch_XHC_o_2.jpg" prev2url="images/360_0158_Stitch_XHC_o_preview_2.jpg" tile0url="images/360_0158_Stitch_XHC_o_0.jpg" prev0url="images/360_0158_Stitch_XHC_o_preview_0.jpg" tile5url="images/360_0158_Stitch_XHC_o_5.jpg" prev5url="images/360_0158_Stitch_XHC_o_preview_5.jpg">
+      <preview color="0x808080"/>
+    </input>
+    <view pannorth="0" fovmode="0">
+      <start tilt="0" fov="70" pan="0"/>
+      <min tilt="-90" fov="5" pan="0"/>
+      <max tilt="90" fov="120" pan="360"/>
+    </view>
+    <userdata longitude="" datetime="" info="" description="" copyright="" comment="" title="" author="" source="" tags="pano" latitude=""/>
+    <hotspots wordwrap="1" height="20" width="180">
+      <label borderalpha="1" borderradius="1" backgroundcolor="0xffffff" textalpha="1" background="1" wordwrap="1" bordercolor="0x000000" border="1" height="20" textcolor="0x000000" backgroundalpha="1" enabled="1" width="180"/>
+      <polystyle mode="0" borderalpha="1" backgroundcolor="0x0000ff" bordercolor="0x0000ff" handcursor="1" backgroundalpha="0.2509803921568627"/>
+      <hotspot id="Point01" description="" tilt="-30.7" target="" title="" url="{node52}" skinid="ht_node" pan="-169.41"/>
+      <hotspot id="Point02" description="" tilt="27.35" target="" title="" url="{node50}" skinid="ht_node" pan="11.11"/>
+    </hotspots>
+    <media/>
+    <transition type="crossdissolve" zoomspeed="2" zoomin="2" zoomfov="20" softedge="0" blendtime="1" zoomout="3" enabled="1" zoomoutpause="1" blendcolor="0x000000"/>
+    <autorotate noderandom="1" useanimation="0" returntohorizon="0.000" delay="30.00" nodedelay="0.00" startloaded="1" speed="0.050"/>
+    <control simulatemass="1" sensitivity="8" hideabout="1" lockedkeyboardzoom="0" speedwheel="1" invertcontrol="1" dblclickfullscreen="0" lockedmouse="0" invertwheel="0" lockedkeyboard="0" lockedwheel="0" contextfullscreen="1"/>
+  </panorama>
+  <panorama id="node52" hideabout="1">
+    <input tile3url="images/360_0159_Stitch_XHC_o_3.jpg" prev3url="images/360_0159_Stitch_XHC_o_preview_3.jpg" tilesize="1500" tile1url="images/360_0159_Stitch_XHC_o_1.jpg" prev1url="images/360_0159_Stitch_XHC_o_preview_1.jpg" tile4url="images/360_0159_Stitch_XHC_o_4.jpg" prev4url="images/360_0159_Stitch_XHC_o_preview_4.jpg" levelingroll="0" levelingpitch="0" tilescale="1.006667" tile2url="images/360_0159_Stitch_XHC_o_2.jpg" prev2url="images/360_0159_Stitch_XHC_o_preview_2.jpg" tile0url="images/360_0159_Stitch_XHC_o_0.jpg" prev0url="images/360_0159_Stitch_XHC_o_preview_0.jpg" tile5url="images/360_0159_Stitch_XHC_o_5.jpg" prev5url="images/360_0159_Stitch_XHC_o_preview_5.jpg">
+      <preview color="0x808080"/>
+    </input>
+    <view pannorth="0" fovmode="0">
+      <start tilt="0" fov="70" pan="0"/>
+      <min tilt="-90" fov="5" pan="0"/>
+      <max tilt="90" fov="120" pan="360"/>
+    </view>
+    <userdata longitude="" datetime="" info="" description="" copyright="" comment="" title="" author="" source="" tags="pano" latitude=""/>
+    <hotspots wordwrap="1" height="20" width="180">
+      <label borderalpha="1" borderradius="1" backgroundcolor="0xffffff" textalpha="1" background="1" wordwrap="1" bordercolor="0x000000" border="1" height="20" textcolor="0x000000" backgroundalpha="1" enabled="1" width="180"/>
+      <polystyle mode="0" borderalpha="1" backgroundcolor="0x0000ff" bordercolor="0x0000ff" handcursor="1" backgroundalpha="0.2509803921568627"/>
+      <hotspot id="Point01" description="" tilt="10.99" target="" title="" url="{node51}" skinid="ht_node" pan="12.74"/>
+      <hotspot id="Point02" description="" tilt="-5.82" target="" title="" url="{node53}" skinid="ht_node" pan="-158.85"/>
+    </hotspots>
+    <media/>
+    <transition type="crossdissolve" zoomspeed="2" zoomin="2" zoomfov="20" softedge="0" blendtime="1" zoomout="3" enabled="1" zoomoutpause="1" blendcolor="0x000000"/>
+    <autorotate noderandom="1" useanimation="0" returntohorizon="0.000" delay="30.00" nodedelay="0.00" startloaded="1" speed="0.050"/>
+    <control simulatemass="1" sensitivity="8" hideabout="1" lockedkeyboardzoom="0" speedwheel="1" invertcontrol="1" dblclickfullscreen="0" lockedmouse="0" invertwheel="0" lockedkeyboard="0" lockedwheel="0" contextfullscreen="1"/>
+  </panorama>
+  <panorama id="node53" hideabout="1">
+    <input tile3url="images/360_0160_Stitch_XHC_o_3.jpg" prev3url="images/360_0160_Stitch_XHC_o_preview_3.jpg" tilesize="1500" tile1url="images/360_0160_Stitch_XHC_o_1.jpg" prev1url="images/360_0160_Stitch_XHC_o_preview_1.jpg" tile4url="images/360_0160_Stitch_XHC_o_4.jpg" prev4url="images/360_0160_Stitch_XHC_o_preview_4.jpg" levelingroll="0" levelingpitch="0" tilescale="1.006667" tile2url="images/360_0160_Stitch_XHC_o_2.jpg" prev2url="images/360_0160_Stitch_XHC_o_preview_2.jpg" tile0url="images/360_0160_Stitch_XHC_o_0.jpg" prev0url="images/360_0160_Stitch_XHC_o_preview_0.jpg" tile5url="images/360_0160_Stitch_XHC_o_5.jpg" prev5url="images/360_0160_Stitch_XHC_o_preview_5.jpg">
+      <preview color="0x808080"/>
+    </input>
+    <view pannorth="0" fovmode="0">
+      <start tilt="0" fov="70" pan="0"/>
+      <min tilt="-90" fov="5" pan="0"/>
+      <max tilt="90" fov="120" pan="360"/>
+    </view>
+    <userdata longitude="" datetime="" info="" description="" copyright="" comment="" title="" author="" source="" tags="pano" latitude=""/>
+    <hotspots wordwrap="1" height="20" width="180">
+      <label borderalpha="1" borderradius="1" backgroundcolor="0xffffff" textalpha="1" background="1" wordwrap="1" bordercolor="0x000000" border="1" height="20" textcolor="0x000000" backgroundalpha="1" enabled="1" width="180"/>
+      <polystyle mode="0" borderalpha="1" backgroundcolor="0x0000ff" bordercolor="0x0000ff" handcursor="1" backgroundalpha="0.2509803921568627"/>
+      <hotspot id="Point01" description="" tilt="-21.97" target="" title="" url="{node54}" skinid="ht_node" pan="178.01"/>
+      <hotspot id="Point02" description="" tilt="16.33" target="" title="" url="{node51}" skinid="ht_node" pan="-8.32"/>
+    </hotspots>
+    <media/>
+    <transition type="crossdissolve" zoomspeed="2" zoomin="2" zoomfov="20" softedge="0" blendtime="1" zoomout="3" enabled="1" zoomoutpause="1" blendcolor="0x000000"/>
+    <autorotate noderandom="1" useanimation="0" returntohorizon="0.000" delay="30.00" nodedelay="0.00" startloaded="1" speed="0.050"/>
+    <control simulatemass="1" sensitivity="8" hideabout="1" lockedkeyboardzoom="0" speedwheel="1" invertcontrol="1" dblclickfullscreen="0" lockedmouse="0" invertwheel="0" lockedkeyboard="0" lockedwheel="0" contextfullscreen="1"/>
+  </panorama>
+  <panorama id="node54" hideabout="1">
+    <input tile3url="images/360_0161_Stitch_XHC_o_3.jpg" prev3url="images/360_0161_Stitch_XHC_o_preview_3.jpg" tilesize="1500" tile1url="images/360_0161_Stitch_XHC_o_1.jpg" prev1url="images/360_0161_Stitch_XHC_o_preview_1.jpg" tile4url="images/360_0161_Stitch_XHC_o_4.jpg" prev4url="images/360_0161_Stitch_XHC_o_preview_4.jpg" levelingroll="0" levelingpitch="0" tilescale="1.006667" tile2url="images/360_0161_Stitch_XHC_o_2.jpg" prev2url="images/360_0161_Stitch_XHC_o_preview_2.jpg" tile0url="images/360_0161_Stitch_XHC_o_0.jpg" prev0url="images/360_0161_Stitch_XHC_o_preview_0.jpg" tile5url="images/360_0161_Stitch_XHC_o_5.jpg" prev5url="images/360_0161_Stitch_XHC_o_preview_5.jpg">
+      <preview color="0x808080"/>
+    </input>
+    <view pannorth="0" fovmode="0">
+      <start tilt="0" fov="70" pan="0"/>
+      <min tilt="-90" fov="5" pan="0"/>
+      <max tilt="90" fov="120" pan="360"/>
+    </view>
+    <userdata longitude="" datetime="" info="" description="" copyright="" comment="" title="" author="" source="" tags="pano" latitude=""/>
+    <hotspots wordwrap="1" height="20" width="180">
+      <label borderalpha="1" borderradius="1" backgroundcolor="0xffffff" textalpha="1" background="1" wordwrap="1" bordercolor="0x000000" border="1" height="20" textcolor="0x000000" backgroundalpha="1" enabled="1" width="180"/>
+      <polystyle mode="0" borderalpha="1" backgroundcolor="0x0000ff" bordercolor="0x0000ff" handcursor="1" backgroundalpha="0.2509803921568627"/>
+      <hotspot id="Point01" description="" tilt="13.22" target="" title="" url="{node53}" skinid="ht_node" pan="23.24"/>
+      <hotspot id="Point02" description="" tilt="-17.48" target="" title="" url="{node55}" skinid="ht_node" pan="-151.43"/>
+    </hotspots>
+    <media/>
+    <transition type="crossdissolve" zoomspeed="2" zoomin="2" zoomfov="20" softedge="0" blendtime="1" zoomout="3" enabled="1" zoomoutpause="1" blendcolor="0x000000"/>
+    <autorotate noderandom="1" useanimation="0" returntohorizon="0.000" delay="30.00" nodedelay="0.00" startloaded="1" speed="0.050"/>
+    <control simulatemass="1" sensitivity="8" hideabout="1" lockedkeyboardzoom="0" speedwheel="1" invertcontrol="1" dblclickfullscreen="0" lockedmouse="0" invertwheel="0" lockedkeyboard="0" lockedwheel="0" contextfullscreen="1"/>
+  </panorama>
+  <panorama id="node55" hideabout="1">
+    <input tile3url="images/360_0163_Stitch_XHC_o_3.jpg" prev3url="images/360_0163_Stitch_XHC_o_preview_3.jpg" tilesize="1500" tile1url="images/360_0163_Stitch_XHC_o_1.jpg" prev1url="images/360_0163_Stitch_XHC_o_preview_1.jpg" tile4url="images/360_0163_Stitch_XHC_o_4.jpg" prev4url="images/360_0163_Stitch_XHC_o_preview_4.jpg" levelingroll="0" levelingpitch="0" tilescale="1.006667" tile2url="images/360_0163_Stitch_XHC_o_2.jpg" prev2url="images/360_0163_Stitch_XHC_o_preview_2.jpg" tile0url="images/360_0163_Stitch_XHC_o_0.jpg" prev0url="images/360_0163_Stitch_XHC_o_preview_0.jpg" tile5url="images/360_0163_Stitch_XHC_o_5.jpg" prev5url="images/360_0163_Stitch_XHC_o_preview_5.jpg">
+      <preview color="0x808080"/>
+    </input>
+    <view pannorth="0" fovmode="0">
+      <start tilt="0" fov="70" pan="0"/>
+      <min tilt="-90" fov="5" pan="0"/>
+      <max tilt="90" fov="120" pan="360"/>
+    </view>
+    <userdata longitude="" datetime="" info="" description="" copyright="" comment="" title="" author="" source="" tags="pano" latitude=""/>
+    <hotspots wordwrap="1" height="20" width="180">
+      <label borderalpha="1" borderradius="1" backgroundcolor="0xffffff" textalpha="1" background="1" wordwrap="1" bordercolor="0x000000" border="1" height="20" textcolor="0x000000" backgroundalpha="1" enabled="1" width="180"/>
+      <polystyle mode="0" borderalpha="1" backgroundcolor="0x0000ff" bordercolor="0x0000ff" handcursor="1" backgroundalpha="0.2509803921568627"/>
+      <hotspot id="Point01" description="" tilt="-22.59" target="" title="" url="{node56}" skinid="ht_node" pan="-146.39"/>
+      <hotspot id="Point02" description="" tilt="11.78" target="" title="" url="{node54}" skinid="ht_node" pan="37.08"/>
+    </hotspots>
+    <media/>
+    <transition type="crossdissolve" zoomspeed="2" zoomin="2" zoomfov="20" softedge="0" blendtime="1" zoomout="3" enabled="1" zoomoutpause="1" blendcolor="0x000000"/>
+    <autorotate noderandom="1" useanimation="0" returntohorizon="0.000" delay="30.00" nodedelay="0.00" startloaded="1" speed="0.050"/>
+    <control simulatemass="1" sensitivity="8" hideabout="1" lockedkeyboardzoom="0" speedwheel="1" invertcontrol="1" dblclickfullscreen="0" lockedmouse="0" invertwheel="0" lockedkeyboard="0" lockedwheel="0" contextfullscreen="1"/>
+  </panorama>
+  <panorama id="node56" hideabout="1">
+    <input tile3url="images/360_0164_Stitch_XHC_o_3.jpg" prev3url="images/360_0164_Stitch_XHC_o_preview_3.jpg" tilesize="1500" tile1url="images/360_0164_Stitch_XHC_o_1.jpg" prev1url="images/360_0164_Stitch_XHC_o_preview_1.jpg" tile4url="images/360_0164_Stitch_XHC_o_4.jpg" prev4url="images/360_0164_Stitch_XHC_o_preview_4.jpg" levelingroll="0" levelingpitch="0" tilescale="1.006667" tile2url="images/360_0164_Stitch_XHC_o_2.jpg" prev2url="images/360_0164_Stitch_XHC_o_preview_2.jpg" tile0url="images/360_0164_Stitch_XHC_o_0.jpg" prev0url="images/360_0164_Stitch_XHC_o_preview_0.jpg" tile5url="images/360_0164_Stitch_XHC_o_5.jpg" prev5url="images/360_0164_Stitch_XHC_o_preview_5.jpg">
+      <preview color="0x808080"/>
+    </input>
+    <view pannorth="0" fovmode="0">
+      <start tilt="0" fov="70" pan="0"/>
+      <min tilt="-90" fov="5" pan="0"/>
+      <max tilt="90" fov="120" pan="360"/>
+    </view>
+    <userdata longitude="" datetime="" info="" description="" copyright="" comment="" title="" author="" source="" tags="pano" latitude=""/>
+    <hotspots wordwrap="1" height="20" width="180">
+      <label borderalpha="1" borderradius="1" backgroundcolor="0xffffff" textalpha="1" background="1" wordwrap="1" bordercolor="0x000000" border="1" height="20" textcolor="0x000000" backgroundalpha="1" enabled="1" width="180"/>
+      <polystyle mode="0" borderalpha="1" backgroundcolor="0x0000ff" bordercolor="0x0000ff" handcursor="1" backgroundalpha="0.2509803921568627"/>
+      <hotspot id="Point01" description="" tilt="-6.23" target="" title="" url="{node57}" skinid="ht_node" pan="113.35"/>
+      <hotspot id="Point02" description="" tilt="6.57" target="" title="" url="{node55}" skinid="ht_node" pan="-51.77"/>
+    </hotspots>
+    <media/>
+    <transition type="crossdissolve" zoomspeed="2" zoomin="2" zoomfov="20" softedge="0" blendtime="1" zoomout="3" enabled="1" zoomoutpause="1" blendcolor="0x000000"/>
+    <autorotate noderandom="1" useanimation="0" returntohorizon="0.000" delay="30.00" nodedelay="0.00" startloaded="1" speed="0.050"/>
+    <control simulatemass="1" sensitivity="8" hideabout="1" lockedkeyboardzoom="0" speedwheel="1" invertcontrol="1" dblclickfullscreen="0" lockedmouse="0" invertwheel="0" lockedkeyboard="0" lockedwheel="0" contextfullscreen="1"/>
+  </panorama>
+  <panorama id="node57" hideabout="1">
+    <input tile3url="images/360_0165_Stitch_XHC_o_3.jpg" prev3url="images/360_0165_Stitch_XHC_o_preview_3.jpg" tilesize="1500" tile1url="images/360_0165_Stitch_XHC_o_1.jpg" prev1url="images/360_0165_Stitch_XHC_o_preview_1.jpg" tile4url="images/360_0165_Stitch_XHC_o_4.jpg" prev4url="images/360_0165_Stitch_XHC_o_preview_4.jpg" levelingroll="0" levelingpitch="0" tilescale="1.006667" tile2url="images/360_0165_Stitch_XHC_o_2.jpg" prev2url="images/360_0165_Stitch_XHC_o_preview_2.jpg" tile0url="images/360_0165_Stitch_XHC_o_0.jpg" prev0url="images/360_0165_Stitch_XHC_o_preview_0.jpg" tile5url="images/360_0165_Stitch_XHC_o_5.jpg" prev5url="images/360_0165_Stitch_XHC_o_preview_5.jpg">
+      <preview color="0x808080"/>
+    </input>
+    <view pannorth="0" fovmode="0">
+      <start tilt="0" fov="70" pan="0"/>
+      <min tilt="-90" fov="5" pan="0"/>
+      <max tilt="90" fov="120" pan="360"/>
+    </view>
+    <userdata longitude="" datetime="" info="" description="" copyright="" comment="" title="" author="" source="" tags="pano" latitude=""/>
+    <hotspots wordwrap="1" height="20" width="180">
+      <label borderalpha="1" borderradius="1" backgroundcolor="0xffffff" textalpha="1" background="1" wordwrap="1" bordercolor="0x000000" border="1" height="20" textcolor="0x000000" backgroundalpha="1" enabled="1" width="180"/>
+      <polystyle mode="0" borderalpha="1" backgroundcolor="0x0000ff" bordercolor="0x0000ff" handcursor="1" backgroundalpha="0.2509803921568627"/>
+      <hotspot id="Point01" description="" tilt="18.61" target="" title="" url="{node56}" skinid="ht_node" pan="82.81"/>
+      <hotspot id="Point02" description="" tilt="2.82" target="" title="" url="{node58}" skinid="ht_node" pan="-162.77"/>
+    </hotspots>
+    <media/>
+    <transition type="crossdissolve" zoomspeed="2" zoomin="2" zoomfov="20" softedge="0" blendtime="1" zoomout="3" enabled="1" zoomoutpause="1" blendcolor="0x000000"/>
+    <autorotate noderandom="1" useanimation="0" returntohorizon="0.000" delay="30.00" nodedelay="0.00" startloaded="1" speed="0.050"/>
+    <control simulatemass="1" sensitivity="8" hideabout="1" lockedkeyboardzoom="0" speedwheel="1" invertcontrol="1" dblclickfullscreen="0" lockedmouse="0" invertwheel="0" lockedkeyboard="0" lockedwheel="0" contextfullscreen="1"/>
+  </panorama>
+  <panorama id="node58" hideabout="1">
+    <input tile3url="images/360_0166_Stitch_XHC_o_3.jpg" prev3url="images/360_0166_Stitch_XHC_o_preview_3.jpg" tilesize="1500" tile1url="images/360_0166_Stitch_XHC_o_1.jpg" prev1url="images/360_0166_Stitch_XHC_o_preview_1.jpg" tile4url="images/360_0166_Stitch_XHC_o_4.jpg" prev4url="images/360_0166_Stitch_XHC_o_preview_4.jpg" levelingroll="0" levelingpitch="0" tilescale="1.006667" tile2url="images/360_0166_Stitch_XHC_o_2.jpg" prev2url="images/360_0166_Stitch_XHC_o_preview_2.jpg" tile0url="images/360_0166_Stitch_XHC_o_0.jpg" prev0url="images/360_0166_Stitch_XHC_o_preview_0.jpg" tile5url="images/360_0166_Stitch_XHC_o_5.jpg" prev5url="images/360_0166_Stitch_XHC_o_preview_5.jpg">
+      <preview color="0x808080"/>
+    </input>
+    <view pannorth="0" fovmode="0">
+      <start tilt="0" fov="70" pan="0"/>
+      <min tilt="-90" fov="5" pan="0"/>
+      <max tilt="90" fov="120" pan="360"/>
+    </view>
+    <userdata longitude="" datetime="" info="" description="" copyright="" comment="" title="" author="" source="" tags="pano" latitude=""/>
+    <hotspots wordwrap="1" height="20" width="180">
+      <label borderalpha="1" borderradius="1" backgroundcolor="0xffffff" textalpha="1" background="1" wordwrap="1" bordercolor="0x000000" border="1" height="20" textcolor="0x000000" backgroundalpha="1" enabled="1" width="180"/>
+      <polystyle mode="0" borderalpha="1" backgroundcolor="0x0000ff" bordercolor="0x0000ff" handcursor="1" backgroundalpha="0.2509803921568627"/>
+      <hotspot id="Point01" description="" tilt="10" target="" title="" url="{node57}" skinid="ht_node" pan="9.65"/>
+      <hotspot id="Point02" description="" tilt="-8.97" target="" title="" url="{node59}" skinid="ht_node" pan="-177.14"/>
+    </hotspots>
+    <media/>
+    <transition type="crossdissolve" zoomspeed="2" zoomin="2" zoomfov="20" softedge="0" blendtime="1" zoomout="3" enabled="1" zoomoutpause="1" blendcolor="0x000000"/>
+    <autorotate noderandom="1" useanimation="0" returntohorizon="0.000" delay="30.00" nodedelay="0.00" startloaded="1" speed="0.050"/>
+    <control simulatemass="1" sensitivity="8" hideabout="1" lockedkeyboardzoom="0" speedwheel="1" invertcontrol="1" dblclickfullscreen="0" lockedmouse="0" invertwheel="0" lockedkeyboard="0" lockedwheel="0" contextfullscreen="1"/>
+  </panorama>
+  <panorama id="node59" hideabout="1">
+    <input tile3url="images/360_0167_Stitch_XHC_o_3.jpg" prev3url="images/360_0167_Stitch_XHC_o_preview_3.jpg" tilesize="1500" tile1url="images/360_0167_Stitch_XHC_o_1.jpg" prev1url="images/360_0167_Stitch_XHC_o_preview_1.jpg" tile4url="images/360_0167_Stitch_XHC_o_4.jpg" prev4url="images/360_0167_Stitch_XHC_o_preview_4.jpg" levelingroll="0" levelingpitch="0" tilescale="1.006667" tile2url="images/360_0167_Stitch_XHC_o_2.jpg" prev2url="images/360_0167_Stitch_XHC_o_preview_2.jpg" tile0url="images/360_0167_Stitch_XHC_o_0.jpg" prev0url="images/360_0167_Stitch_XHC_o_preview_0.jpg" tile5url="images/360_0167_Stitch_XHC_o_5.jpg" prev5url="images/360_0167_Stitch_XHC_o_preview_5.jpg">
+      <preview color="0x808080"/>
+    </input>
+    <view pannorth="0" fovmode="0">
+      <start tilt="0" fov="70" pan="0"/>
+      <min tilt="-90" fov="5" pan="0"/>
+      <max tilt="90" fov="120" pan="360"/>
+    </view>
+    <userdata longitude="" datetime="" info="" description="" copyright="" comment="" title="" author="" source="" tags="pano" latitude=""/>
+    <hotspots wordwrap="1" height="20" width="180">
+      <label borderalpha="1" borderradius="1" backgroundcolor="0xffffff" textalpha="1" background="1" wordwrap="1" bordercolor="0x000000" border="1" height="20" textcolor="0x000000" backgroundalpha="1" enabled="1" width="180"/>
+      <polystyle mode="0" borderalpha="1" backgroundcolor="0x0000ff" bordercolor="0x0000ff" handcursor="1" backgroundalpha="0.2509803921568627"/>
+      <hotspot id="Point01" description="" tilt="5.97" target="" title="" url="{node58}" skinid="ht_node" pan="29.15"/>
+    </hotspots>
+    <media/>
+    <transition type="crossdissolve" zoomspeed="2" zoomin="2" zoomfov="20" softedge="0" blendtime="1" zoomout="3" enabled="1" zoomoutpause="1" blendcolor="0x000000"/>
+    <autorotate noderandom="1" useanimation="0" returntohorizon="0.000" delay="30.00" nodedelay="0.00" startloaded="1" speed="0.050"/>
+    <control simulatemass="1" sensitivity="8" hideabout="1" lockedkeyboardzoom="0" speedwheel="1" invertcontrol="1" dblclickfullscreen="0" lockedmouse="0" invertwheel="0" lockedkeyboard="0" lockedwheel="0" contextfullscreen="1"/>
+  </panorama>
+</tour>

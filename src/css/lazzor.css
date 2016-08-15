@@ -21,8 +21,8 @@ body {
 	direction: rtl;
 }
 
-.content-container {
-	width: 800px;
+.content-wrap {
+	width: 100%;
 	margin: 0 auto;
 }
 
@@ -35,7 +35,7 @@ html, body {
 	min-height: 100%;
 }
 
-.content-container {
+.content-wrap {
 	overflow: auto;
 	padding-bottom: 150px;
 }
@@ -55,7 +55,7 @@ body:before {
 	float: left;
 	width: 0;
 	margin-top: -32767px;
-	/;
+
 }
 
 /*--------------Header Style-------------------------*/
@@ -167,7 +167,7 @@ body:before {
 	border: none;
 	border-radius: 4px;
 	font-size: 16px;
-	background-color: #fba859;
+	background-color: #f05c14;
 	color: #fff;
 	width: 80px;
 	text-align: center;
@@ -194,10 +194,12 @@ hr {
 /*-------------------------------------------*/
 
 footer {
-	background-color: lightgray;
+	background-color: #01170a;
+	color: #fff;
 }
 
 	footer .footer-wrap {
+		width: 800px;
 		margin: 0 auto;
 		text-align: center;
 		/*width:60%;*/
@@ -215,6 +217,37 @@ footer {
 	}
 	footer .title h3 {
 		margin-top: 0;
+		margin-left: 5px;
+		display: inline-block;
+	}
+
+	footer .social-media i {
+		font-size: 30px;
+		margin-left: 35px;
+	}
+
+	footer .newsletter {
+		text-align: left;
+	}
+	footer .newsletter input {
+		margin-bottom: 15px;
+		width: 215px;
+		color: #000;
+		font-size: 11px;
+		direction: ltr;
+		border-radius: 3px;
+		border: none;
+		padding: 6px 5px 4px;
+	}
+	footer .newsletter button {
+		background: #f05c14;
+		border-radius: 3px;
+		border: none;
+		padding: 4px 9px;
+	}
+	footer .newsletter button:hover {
+		background-color: #a3db8c;
+		color: #01170a;
 	}
 
 	footer .copyright {
@@ -236,6 +269,8 @@ footer {
 }
 
 .trail-features {
+	width: 800px;
+	margin: 0 auto;
 }
 
 	.trail-features ul {
@@ -335,6 +370,11 @@ footer {
 	margin-bottom: 20px;
 }
 
+.search-result-wrap {
+	width: 800px;
+	margin: 0 auto;
+}
+
 .search-result li {
 	margin-left: 10px;
 	display: inline-block;
@@ -359,7 +399,7 @@ footer {
 	width: 40px;
 }
 
-	.search-result .duration i {
+.search-result .duration i {
 		margin-left: 2px;
 	}
 
@@ -372,8 +412,35 @@ footer {
 }
 
 .home-list {
+	text-align: right;
+	margin-bottom: 15px;
+}
+
+.home-list.last-item {
+	margin-bottom : 30px;
+}
+
+.home-list-wrap {
+	width: 800px;
+	margin: auto;
+}
+
+.home-list a {
+	text-decoration: none;
+	color: #333;
+}
+
+.home-list li {
+	vertical-align: top;
+}
+
+.home-list .title {
 	text-align: center;
-	margin-bottom: 10px;
+	font-size: 14px;
+	font-weight: 600;
+    border-bottom: 1px dashed #000;
+    margin: 0 0 5px;
+	height: 21px;
 }
 
 .home-list ul {
@@ -384,7 +451,7 @@ footer {
 
 .home-list ul li {
 	display: inline-block;
-	width: 150px;
+	/*width: 190px;*/
 	margin-right: 10px;
 }
 
@@ -392,16 +459,16 @@ footer {
 	margin-right: 0;
 }
 
-.home-list ul li figcaption{
-	text-align: center;
-	width: 150px;
+.home-list ul li figcaption {
+	margin-top : 1px;
 }
 
 .home-list h2 {
 	text-align: right;
-	font-size: 1em;
-	border-bottom: 1px solid;
-	padding-bottom: 5px;
+	color: #f05c14;
+	font-size: 1.1em;
+	border-top: 1px solid;
+	padding-top: 15px;
 }
 
 
@@ -410,9 +477,55 @@ footer {
 }
 
 .home-list ul li figure img {
-	width: 150px;
+	width: 185px;
+	height : 122px;
 }
 
-div.end-item{
-	margin-bottom : 30px;
+.home-list ul li figcaption div.home-icon {
+	width : 16px;
+	float : right;
+	margin-left: 5px;
+	/*margin-right : 10px;*/
+}
+
+.home-list ul li figcaption div.home-description {
+	display : block;
+	overflow : hidden;
+	text-align: right;
+
+}
+
+.home-list ul li figcaption p {
+	margin-bottom: 0;
+	font-weight: 600;
+	border-bottom : 1px dashed;
+	margin-bottom: 5px;
+	text-align: center;
+}
+
+.newly-added-maps {
+	background-color: #a3db8c;
+	margin-top: 40px;
+	padding: 0 0 20px;
+}
+.newly-added-maps h2 {
+	border: none;
+	color: #01170a;
+}
+.home-list.newly-added-maps figcaption p {
+	border: none;
+}
+
+.newly-added-tours {
+	background-color: white;
+}
+
+.home-list.newly-added-tours figcaption p  {
+	border: none
+}
+
+.newly-added-tours h2 {
+	border: none;
+	margin-top: 15px;
+	padding-top: 0px;
 }

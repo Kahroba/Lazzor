@@ -35,12 +35,12 @@
             $scope.slides = [
                 {
                     id: 1,
-                    image: '/src/img/slide-1.jpg',
+                    image: '/src/img/first.jpg',
                     text: 'first'
                 },
                 {
                     id: 2,
-                    image: '/src/img/slide-2.jpg',
+                    image: '/src/img/second.jpg',
                     text: 'second'
                 }
             ];

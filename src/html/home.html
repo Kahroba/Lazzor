@@ -1,86 +1,286 @@
 ﻿<div data-ng-controller="homeController">
 
-    <uib-carousel class="home-slider" active="active" interval="3000" no-wrap="false">
-        <uib-slide data-ng-repeat="slide in slides track by slide.id" index="$index">
-            <a href="#/trail/{{slide.id}}" class="image-popup">
-                <img data-ng-src="{{slide.image}}" style="margin: auto;">
-                <!-- <div class="carousel-caption"> -->
-                    <!-- <h4>Slide {{slide.id}}</h4> -->
-                    <!-- <p>{{slide.text}}</p> -->
-                <!-- </div> -->
-            </a>
-        </uib-slide>
-    </uib-carousel>
+	<uib-carousel class="home-slider" active="active" interval="3000" no-wrap="false">
+		<uib-slide data-ng-repeat="slide in slides track by slide.id" index="$index">
+			<a href="#/trail/{{slide.id}}" class="image-popup">
+				<img data-ng-src="{{slide.image}}" style="margin: auto;">
+				<!-- <div class="carousel-caption"> -->
+				<!-- <h4>Slide {{slide.id}}</h4> -->
+				<!-- <p>{{slide.text}}</p> -->
+				<!-- </div> -->
+			</a>
+		</uib-slide>
+	</uib-carousel>
 
-    <div class="form-group search-wrap">
-        <form role="search" data-ng-submit="search()">
-            <div>
-                <input type="text" class="form-control" placeholder="Search" data-ng-model="q">
-            </div>
-            <div>
-                <input type="submit" class="form-control" value="جستجو">
-            </div>
-        </form>
-    </div>
+	<div class="form-group search-wrap">
+		<form role="search" data-ng-submit="search()">
+			<div>
+				<input type="text" class="form-control" placeholder="Search" data-ng-model="q">
+			</div>
+			<div>
+				<input type="submit" class="form-control" value="جستجو">
+			</div>
+		</form>
+	</div>
 
 	<div class="home-list">
-		<h2>پربازدیدترین ها</h2>
-		<ul>
-			<li class="first-item">
-				<figure>
-					<img src="../../damavand.png" />
-					<figcaption>دماوند</figcaption>
-				</figure>
-			</li>
-			<li>
-				<figure>
-					<img src="../../damavand.png" />
-					<figcaption>هندورابی</figcaption>
-				</figure>
-			</li>
-			<li>
-				<figure>
-					<img src="../../damavand.png" />
-					<figcaption>ماسوله</figcaption>
-				</figure>
-			</li>
-			<li>
-				<figure>
-					<img src="../../damavand.png" />
-					<figcaption>ماسوله</figcaption>
-				</figure>
-			</li>
-		</ul>
-	</div>
+		<!--the most visited start-->
+		<div class="home-list-wrap">
+			<h2>پربازدیدترین&zwnj;ها</h2>
+			<ul>
+				<li class="first-item">
+					<a data-ng-href="#/trail/13">
+						<figure>
+							<img src="../../assets/images/damavand.png" />
+							<figcaption>
+								<h4 class="title">دماوند</h4>
+								<div>
+									<i class="fa fa-bus" title="شهر مبداء"></i>
+									<span>دماوند</span>
+								</div>
+								<div>
+									<i class="fa fa-coffee" title="درجه سختی"></i>
+									<span>سخت</span>
+								</div>
+								<div>
+									<i class="fa fa-hourglass-half" title="مدت زمان پیمایش"></i>
+									<span>3 روز</span>
+								</div>
+								<div>
+									<i class="fa fa-calendar-o" title="بهترین فصل"></i>
+									<span> بهار</span>
+								</div>
+							</figcaption>
+						</figure>
+					</a>
+				</li>
+				<li>
+					<a data-ng-href="#/trail/8">
+						<figure>
+							<img src="../../assets/images/haniz.png" />
+							<figcaption>
+								<p>هنیز به عسل</p>
+								<div class="home-icon"> <i class="fa fa-bus" title="شهر مبداء"></i></div>
+								<div class="home-description">قزوین</div>
+								<div class="home-icon"> <i class="fa fa-coffee" title="درجه سختی"></i> </div>
+								<div class="home-description">سخت</div>
+								<div class="home-icon"> <i class="fa fa-hourglass-half" title="مدت زمان پیمایش"></i> </div>
+								<div class="home-description">3 روز</div>
+								<div class="home-icon"> <i class="fa fa-calendar-o" title="بهترین فصل"></i> </div>
+								<div class="home-description">اوایل بهار تا اواسط پاییز</div>
+							</figcaption>
+						</figure>
+					</a>
+				</li>
+				<li>
+					<a data-ng-href="#/trail/5">
+						<figure>
+							<img src="../../assets/images/soubatan.png" />
+							<figcaption>
+								<p>نئور به سوباتان</p>
+								<div class="home-icon"> <i class="fa fa-bus" title="شهر مبداء"></i> </div>
+								<div class="home-description">اردبیل</div>
+								<div class="home-icon"> <i class="fa fa-coffee" title="درجه سختی"></i> </div>
+								<div class="home-description">متوسط</div>
+								<div class="home-icon"> <i class="fa fa-hourglass-half" title="مدت زمان پیمایش"></i> </div>
+								<div class="home-description">3 روز</div>
+								<div class="home-icon"> <i class="fa fa-calendar-o" title="بهترین فصل"></i> </div>
+								<div class="home-description">اوایل بهار تا اواخر پاییز</div>
+							</figcaption>
+						</figure>
+					</a>
+				</li>
+				<li>
+					<a data-ng-href="#/trail/53">
+						<figure>
+							<img src="../../assets/images/chort.png" />
+							<figcaption>
+								<p>چورت به میانشه</p>
+								<div class="home-icon"> <i class="fa fa-bus" title="شهر مبداء"></i> </div>
+								<div class="home-description">ساری</div>
+								<div class="home-icon"> <i class="fa fa-coffee" title="درجه سختی"></i> </div>
+								<div class="home-description">ساده</div>
+								<div class="home-icon"> <i class="fa fa-hourglass-half" title="مدت زمان پیمایش"></i> </div>
+								<div class="home-description">2 روز</div>
+								<div class="home-icon"> <i class="fa fa-calendar-o" title="بهترین فصل"></i> </div>
+								<div class="home-description">اوایل بهار تا اواخر پاییز</div>
+							</figcaption>
+						</figure>
+					</a>
+				</li>
+			</ul>
+		</div>
+	</div>	<!--The most visited end-->
 
 	<div class="home-list end-item">
-		<h2>تازه ترین ها</h2>
-		<ul>
-			<li class="first-item">
-				<figure>
-					<img src="../../damavand.png" />
-					<figcaption>دماوند</figcaption>
-				</figure>
-			</li>
-			<li>
-				<figure>
-					<img src="../../damavand.png" />
-					<figcaption>هندورابی</figcaption>
-				</figure>
-			</li>
-			<li>
-				<figure>
-					<img src="../../damavand.png" />
-					<figcaption>ماسوله</figcaption>
-				</figure>
-			</li>
-			<li>
-				<figure>
-					<img src="../../damavand.png" />
-					<figcaption>ماسوله</figcaption>
-				</figure>
-			</li>
-		</ul>
-	</div>
+		<!--newly added start-->
+		<div class="home-list-wrap">
+			<h2>تازه&zwnj;ترین&zwnj;ها</h2>
+			<ul>
+				<li class="first-item">
+					<a data-ng-href="#/trail/43">
+						<figure>
+							<img src="../../assets/images/olesblengah.png" />
+							<figcaption>
+								<p>اولسبلنگاه</p>
+								<div class="home-icon"> <i class="fa fa-bus" title="شهر مبداء"></i> </div>
+								<div class="home-description">گیلانغرب</div>
+								<div class="home-icon"> <i class="fa fa-coffee" title="درجه سختی"></i> </div>
+								<div class="home-description">متوسط</div>
+								<div class="home-icon"> <i class="fa fa-hourglass-half" title="مدت زمان پیمایش"></i> </div>
+								<div class="home-description">2 روز</div>
+								<div class="home-icon"> <i class="fa fa-calendar-o" title="بهترین فصل"></i> </div>
+								<div class="home-description">اوایل بهار تا اواخر پاییز</div>
+							</figcaption>
+						</figure>
+					</a>
+				</li>
+				<li>
+					<a data-ng-href="#/trail/54">
+						<figure>
+							<img src="../../assets/images/dorfak.png" />
+							<figcaption>
+								<p>درفک</p>
+								<div class="home-icon"> <i class="fa fa-bus" title="شهر مبداء"></i> </div>
+								<div class="home-description">مازندران</div>
+								<div class="home-icon"> <i class="fa fa-coffee" title="درجه سختی"></i> </div>
+								<div class="home-description">متوسط</div>
+								<div class="home-icon"> <i class="fa fa-hourglass-half" title="مدت زمان پیمایش"></i> </div>
+								<div class="home-description">2 روز</div>
+								<div class="home-icon"> <i class="fa fa-calendar-o" title="بهترین فصل"></i> </div>
+								<div class="home-description">اوایل بهار تا اواخر پاییز</div>
+							</figcaption>
+						</figure>
+					</a>
+				</li>
+				<li>
+					<a data-ng-href="#/trail/29">
+						<figure>
+							<img src="../../assets/images/samamous.png" />
+							<figcaption>
+								<p>سماموس</p>
+								<div class="home-icon"> <i class="fa fa-bus" title="شهر مبداء"></i> </div>
+								<div class="home-description">مازندران</div>
+								<div class="home-icon"> <i class="fa fa-coffee" title="درجه سختی"></i> </div>
+								<div class="home-description">متوسط</div>
+								<div class="home-icon"> <i class="fa fa-hourglass-half" title="مدت زمان پیمایش"></i> </div>
+								<div class="home-description">2 روز</div>
+								<div class="home-icon"> <i class="fa fa-calendar-o" title="بهترین فصل"></i> </div>
+								<div class="home-description">اوایل بهار تا اواخر پاییز</div>
+							</figcaption>
+						</figure>
+					</a>
+				</li>
+				<li>
+					<a data-ng-href="#/trail/52">
+						<figure>
+							<img src="../../assets/images/fandogh.png" />
+							<figcaption>
+								<p>فندوقلو</p>
+								<div class="home-icon"> <i class="fa fa-bus" title="شهر مبداء"></i> </div>
+								<div class="home-description">اردبیل</div>
+								<div class="home-icon"> <i class="fa fa-coffee" title="درجه سختی"></i> </div>
+								<div class="home-description">ساده</div>
+								<div class="home-icon"> <i class="fa fa-hourglass-half" title="مدت زمان پیمایش"></i> </div>
+								<div class="home-description">2 روز</div>
+								<div class="home-icon"> <i class="fa fa-calendar-o" title="بهترین فصل"></i> </div>
+								<div class="home-description">اواسط بهار تا اواخر پاییز</div>
+							</figcaption>
+						</figure>
+						</a>
+				</li>
+			</ul>
+		</div>
+	</div> <!--newly added end-->
+
+	<div class="newly-added-maps home-list">
+		<!--newly added maps start-->
+		<div class="home-list-wrap">
+			<h2>تازه&zwnj;ترین نقشه&zwnj;ها</h2>
+			<ul>
+				<li class="first-item">
+					<figure>
+						<img src="../../assets/images/damavand.jpg" />
+						<figcaption>
+							<p>دماوند</p>
+						</figcaption>
+					</figure>
+				</li>
+				<li>
+					<figure>
+						<img src="../../assets/images/sialan.jpg" />
+						<figcaption>
+							<p>سیالان</p>
+						</figcaption>
+					</figure>
+				</li>
+				<li>
+					<figure>
+						<img src="../../assets/images/neorBeSoubatan.jpg" />
+						<figcaption>
+							<p>نئور به سوباتان</p>
+						</figcaption>
+					</figure>
+				</li>
+				<li>
+					<figure>
+						<img src="../../assets/images/azadKooh.jpg" />
+						<figcaption>
+							<p>آزادکوه</p>
+						</figcaption>
+					</figure>
+				</li>
+			</ul>
+		</div>
+	</div>	<!--newly added maps end-->
+
+	<div class="newly-added-tours home-list">
+		<!--newly added maps start-->
+		<div class="home-list-wrap">
+			<h2>تازه&zwnj;ترین تورهای&zwnj;مجازی</h2>
+			<ul>
+				<a href="/src/html/virtualTours/damavand/index.html">
+					<li class="first-item">
+						<figure>
+							<img src="../../assets/images/3ddamavand.gif" />
+							<figcaption>
+								<p>دماوند</p>
+							</figcaption>
+						</figure>
+					</li>
+				</a>
+					<li>
+						<a href="/src/html/virtualTours/sialan/index.html">
+							<figure>
+								<img src="../../assets/images/3dsialan.gif" />
+								<figcaption>
+									<p>سیالان</p>
+								</figcaption>
+							</figure>
+						</a>
+					</li>
+					<li>
+						<a href="/src/html/virtualTours/katalehKhor/index.html">
+							<figure>
+								<img src="../../assets/images/3dkatalehKhor.gif" />
+								<figcaption>
+									<p>کتل خور</p>
+								</figcaption>
+							</figure>
+						</a>
+					</li>
+					<li>
+						<a href="/src/html/virtualTours/dareSetaregan/index.html">
+							<figure>
+								<img src="../../assets/images/3ddareSetaregan.gif" />
+								<figcaption>
+									<p>دره ستارگان</p>
+								</figcaption>
+							</figure>
+						</a>
+					</li>
+</ul>
+		</div>
+	</div>	<!--newly added maps end-->
 
 </div>
