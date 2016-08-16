@@ -25,7 +25,8 @@
     "angular-route": "^1.5.7",
     "angular-bootstrap": "^1.3.3",
     "angularjs-nvd3-directives": "^0.0.7",
-    "font-awesome": "^4.6.3"
+    "font-awesome": "^4.6.3",
+    "ngGallery": "*"
   },
   "resolutions": {
     "d3": "~3.4.1"
