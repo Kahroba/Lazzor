@@ -453,6 +453,7 @@ footer {
 	display: inline-block;
 	/*width: 190px;*/
 	margin-right: 10px;
+	margin-bottom: 15px;
 }
 
 .home-list ul li.first-item {
@@ -528,4 +529,9 @@ footer {
 	border: none;
 	margin-top: 15px;
 	padding-top: 0px;
+}
+
+.gallery img{
+	width: 185px;
+	height: 103px;
 }
