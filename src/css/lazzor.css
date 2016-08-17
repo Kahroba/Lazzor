@@ -452,12 +452,8 @@ footer {
 .home-list ul li {
 	display: inline-block;
 	/*width: 190px;*/
-	margin-right: 10px;
+	margin-left: 10px;
 	margin-bottom: 15px;
-}
-
-.home-list ul li.first-item {
-	margin-right: 0;
 }
 
 .home-list ul li figcaption {
@@ -534,4 +530,11 @@ footer {
 .gallery img{
 	width: 185px;
 	height: 103px;
+	
+}
+
+.gallery .ng-thumb {
+	float:right;
+	margin-left: 13px;
+	margin-bottom: 13px;
 }

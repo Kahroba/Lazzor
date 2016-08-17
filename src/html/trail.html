@@ -76,39 +76,37 @@
 		</div>
 
 		<div class="trail-features home-list gallery">
-			<h2>گالری تصاویر</h2>
-			<ul>
-				<li class="first-item"><img src="../../assets/images/013_DamavandNandal/_MG_3960.png" /></li>
-				<li><img src="../../assets/images/013_DamavandNandal/IMG_5679.png" /></li>
-				<li><img src="../../assets/images/013_DamavandNandal/IMG_5694.png" /></li>
-				<li><img src="../../assets/images/013_DamavandNandal/IMG_5704.png" /></li>
-				<li class="first-item"><img src="../../assets/images/013_DamavandNandal/IMG_5712.png" /></li>
-				<li><img src="../../assets/images/013_DamavandNandal/IMG_5793.png" /></li>
-				<li><img src="../../assets/images/013_DamavandNandal/IMG_5802.png" /></li>
-				<li><img src="../../assets/images/013_DamavandNandal/IMG_5892.png" /></li>
-				<li class="first-item"><img src="../../assets/images/013_DamavandNandal/IMG_5898.png" /></li>
-				<li><img src="../../assets/images/013_DamavandNandal/IMG_5912.png" /></li>
-				<li><img src="../../assets/images/013_DamavandNandal/IMG_5948.png" /></li>
-				<li><img src="../../assets/images/013_DamavandNandal/IMG_5953.png" /></li>
-				<li class="first-item"><img src="../../assets/images/013_DamavandNandal/IMG_6422.png" /></li>
-				<li><img src="../../assets/images/013_DamavandNandal/IMG_6509.png" /></li>
-				<li><img src="../../assets/images/013_DamavandNandal/P6060562.png" /></li>
-			</ul>
+			<div data-ng-if="trail.images">
+				<h2>گالری تصاویر</h2>
+				<!--<ul>
+					<li data-ng-repeat="img in trail.images">
+						<img data-ng-src="{{'/assets/images/' + img}}" />
+					</li>
+				</ul>-->
+				<ng-gallery images="trail.images"></ng-gallery>
+			</div>
 
-			<h2>نقشه&zwnj;ها</h2>
-			<ul>
-				<li class="first-item"><img src="../../assets/images/damavand.jpg" /></li>
-			</ul>
+			<div data-ng-if="trail.maps">
+				<h2>نقشه&zwnj;ها</h2>
+				<ul>
+					<li data-ng-repeat="img in trail.maps">
+						<img data-ng-src="{{'/assets/images/' + img}}" />
+					</li>
+				</ul>
+			</div>
 
-			<h2>تور مجازی</h2>
-			<ul>
-				<li class="first-item">
-					<figure>
-						<img src="../../assets/images/3ddamavand.gif" />
-						<a href="virtualTours/damavand/index.html"></a>
-					</figure>
-				</li>
-			</ul>
+			<div data-ng-if="trail.tours">
+				<h2>تور مجازی</h2>
+				<ul>
+					<li data-ng-repeat="tour in trail.tours">
+						<figure>
+							<a data-ng-href="{{ '/virtualTours/' + tour.url }}">
+								<img data-ng-src="{{'/assets/images/' + tour.img}}"/>
+							</a>
+						</figure>
+					</li>
+				</ul>
+			</div>
 
 		</div>
 
