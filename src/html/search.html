@@ -1,53 +1,54 @@
 ﻿<div data-ng-controller="searchController">
 
-	<div class="form-group search-wrap">
-		<form role="search" data-ng-submit="search()">
-			<div>
-				<input type="text" class="form-control" placeholder="Search" data-ng-model="q">
-			</div>
-			<div>
-				<input type="submit" class="form-control" value="جستجو">
-			</div>
-		</form>
-	</div>
+    <div class="search-wrap container">
+        <form class="form-horizontal" role="search" data-ng-submit="search()">
+            <div class="form-group">
+                <div class="search-input-wrap col-sm-6 col-sm-offset-3">
+                    <div class="input-group">
+                        <input type="text" class="form-control" placeholder="" data-ng-model="q">
+                        <span class="input-group-btn">
+                            <input type="submit" class="btn btn-default" value="جستجو">
+                        </span>
+                    </div>
+                </div>
+            </div>
+        </form>
+    </div>
 
-	<div class="search-wait" data-ng-if="!!searching">
-		<i class="fa fa-spin fa-2x fa-circle-o-notch"></i>
-		<span>در حال جستجو. لطفاً منتظر بمانید.</span>
-	</div>
+    <div class="search-wait" data-ng-if="!!searching">
+        <i class="fa fa-spin fa-2x fa-circle-o-notch"></i>
+        <span>در حال جستجو. لطفاً منتظر بمانید.</span>
+    </div>
 
-	<div class="search-result-wrap">
+    <div class="search-result-wrap container">
 
-		<div class="search-item" data-ng-repeat="result in searchResults">
-			<img data-ng-src="{{'/assets/images/' + result.ThumbnailPath}}" class="search-thumbnail" />
-			<ul class="search-result">
-				<li class="search-link">
-					<a data-ng-href="#/trail/{{result.Id}}" class="search-title">
-						<span data-ng-bind="result.Name"></span>
-					</a>
-				</li>
-				<li class="departue-city">
-					<i class="fa fa-bus" title="شهر مبداء"></i>
-					<span data-ng-bind="result.DepartureCity"></span>
-				</li>
-				<li class="difficulty-level">
-					<i class="fa fa-coffee" title="درجه سختی"></i>
-					<span data-ng-bind="result.DifficultyTitle"></span>
-				</li>
-				<li class="duration">
-					<i class="fa fa-hourglass-half" title="مدت زمان پیمایش"></i>
-					<span data-ng-bind="result.Duration"></span>
-				</li>
-				<li class="season">
-					<i class="fa fa-calendar-o" title="بهترین فصل"></i>
-					<span data-ng-bind="result.Season"></span>
-				</li>
-				<li class="length">
-					<i class="fa fa-blind" title="طول مسیر (متر)"></i>
-					<span data-ng-bind="result.Length | number"></span>
-				</li>
-			</ul>
-		</div>
+        <div class="search-result" data-ng-repeat="result in searchResults">
+            <img data-ng-src="{{'/assets/images/' + result.ThumbnailPath}}" class="search-thumbnail" />
+            <ul>
+                <li class="search-link">
+                    <i title="{{result.DifficultyTitle}}" class="difficulty-level icon-{{['easy', 'intermediate', 'advanced', 'expert'][result.DifficultyLevel - 1]}}"></i>
+                    <a data-ng-href="#/trail/{{result.Id}}" class="search-title">
+                        <span data-ng-bind="result.Name"></span>
+                    </a>
+                </li>
+                <li class="departue-city">
+                    <i class="fa fa-bus" title="شهر مبداء"></i>
+                    <span data-ng-bind="result.DepartureCity"></span>
+                </li>
+                <li class="duration">
+                    <i class="fa fa-hourglass-half" title="مدت زمان پیمایش"></i>
+                    <span>{{result.Duration}} روز</span>
+                </li>
+                <li class="season">
+                    <i class="fa fa-calendar-o" title="بهترین فصل"></i>
+                    <span data-ng-bind="result.Season"></span>
+                </li>
+                <li class="length">
+                    <i class="fa fa-blind" title="طول مسیر (متر)"></i>
+                    <span data-ng-bind="result.Length | number"></span>
+                </li>
+            </ul>
+        </div>
 
-	</div>
+    </div>
 </div>

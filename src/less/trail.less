@@ -1,0 +1,70 @@
+
+@import (reference) "_variables.less";
+
+.trail-wait {
+    text-align: center;
+
+    i {
+        font-size: 12px;
+        line-height: 12px;
+    }
+}
+
+.trail-features {
+
+    ul {
+        text-decoration: none;
+        text-align: right;
+        list-style: none;
+    }
+
+    li {
+        padding: 15px 0;
+        border-bottom: 1px solid #ddd;
+
+        .feature-title {
+            font-weight: 600;
+
+            @media screen and (min-width: @width-xs) {
+                display: inline-block;
+                width: 130px;
+                text-align: left;
+                padding-left: 10px;
+            }
+        }
+
+        .feature {
+            display: block;
+            padding-top: 15px;
+            overflow: hidden;
+
+            @media screen and (min-width: @width-xs) {
+                display: inline-block;
+                padding-top: 0;
+                vertical-align: middle;
+            }
+        }
+    }
+}
+
+.trail-description {
+    text-align: justify;
+    margin-bottom: 30px;
+}
+
+.trail-elevation-chart {
+    display: inline-block;
+    width: 100%;
+    height: 150px;
+
+    .nv-valueWrap,
+    .nv-hoverValue {
+        display: none;
+    }
+}
+
+.kml-map {
+    width: 100%;
+    height: 400px;
+    margin-top: 10px;
+}

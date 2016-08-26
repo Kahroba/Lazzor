@@ -1,0 +1,173 @@
+
+@import (reference) "_variables.less";
+
+.search-wrap {
+    margin-top: 25px;
+    margin-bottom: 25px;
+
+    .search-input-wrap {
+        @media screen and (max-width: (@width-sm - 1)) {
+            max-width: 375px;
+            margin: 0 auto;
+        }
+    }
+
+    input[type=text] {
+        border-radius: @border-radius;
+        font-size: 16px;
+        box-shadow: none;
+    }
+
+    input[type=submit] {
+        border: none;
+        border-radius: @border-radius;
+        font-size: 16px;
+        font-weight: 200;
+        background-color: @orange;
+        color: @white;
+        text-align: center;
+    }
+}
+
+.search-wait {
+    text-align: center;
+
+    i {
+        font-size: 12px;
+        line-height: 12px;
+    }
+}
+
+.search-result {
+    border-top: 1px solid #999;
+
+    @two-line-media-width: 620px;
+
+    @media screen and (min-width: @width-sm) {
+        padding: 10px 0;
+    }
+
+    &-wrap {
+        // width: 800px;
+        margin: 0 auto 20px;
+        padding: 0;
+    }
+
+    .search-thumbnail {
+        vertical-align: top;
+        width: 125px;
+        height: 125px;
+        padding: 5px;
+
+        @media screen and (min-width: @two-line-media-width) {
+            width: 70px;
+            height: 70px;
+        }
+
+        @media screen and (min-width: @width-sm) {
+            width: 100px;
+            height: 100px;
+        }
+    }
+
+    ul {
+        list-style: none;
+        //text-align: right;
+        margin-bottom: 0;
+        padding-right: 10px;
+        overflow: hidden;
+        display: inline-block;
+
+        li {
+            margin-top: 10px;
+            display: block;
+
+            @media screen and (min-width: @two-line-media-width) {
+                display: inline-block;
+            }
+
+            @media screen and (min-width: @width-sm) {
+                margin-top: 20px;
+            }
+        }
+
+        .search-link {
+            display: block;
+            font-weight: 700;
+        }
+
+        .difficulty-level {
+            display: inline-block;
+            margin-left: 5px;
+            position: relative;
+            top: 2px;
+
+            &.icon-{
+
+                &easy {
+                    color: #393;
+                }
+
+                &intermediate {
+                    color: #069;
+                }
+
+                &advanced {
+                    color: #f00;
+                }
+
+                &expert {
+                    color: #000;
+                }
+            }
+        }
+
+        .departue-city {
+            //width: ~"calc(100% - 100px)";
+
+            @media screen and (min-width: @two-line-media-width) {
+                width: 180px;
+            }
+        }
+
+        .duration {
+
+            @media screen and (min-width: @two-line-media-width) {
+                width: 100px;
+            }
+
+            i {
+                margin-left: 2px;
+            }
+        }
+
+        .season {
+
+            @media screen and (min-width: @two-line-media-width) {
+                width: 240px;
+            }
+        }
+
+        .length {
+            display: none;
+
+            @media screen and (min-width: (@two-line-media-width + 100px)) {
+                display: inline-block;
+                width: 100px;
+            }
+
+            i {
+                font-size: 16px;
+            }
+        }
+    }
+}
+
+.search-title a {
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.search-item {
+    margin-bottom: 20px;
+}
