@@ -142,7 +142,7 @@
                 newMaps: {
                     title: 'تازه\u200cترین نقشه\u200cها',
                     extendedProperties: false,
-                    cls: 'newly-added-maps',
+                    cls: 'newly-added-maps extra-margin',
                     items: [
                         {
                             Name: 'دماوند',
@@ -194,7 +194,6 @@
     });
 
     app.controller("searchController", function ($scope, $location, $routeParams, $http) {
-        /// todo: load search results from server
 
         $scope.search = search;
         $scope.perform = perform;

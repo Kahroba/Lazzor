@@ -22,6 +22,11 @@
 
     <div class="search-result-wrap container">
 
+        <div class="search-result-empty" data-ng-if="searchResults.length === 0">
+            <span class="frown">:-(</span>
+            <span>جستجوی شما نتیجه&zwnj;ای در بر نداشت.</span>
+        </div>
+
         <div class="search-result" data-ng-repeat="result in searchResults">
             <img data-ng-src="{{'/assets/images/' + result.ThumbnailPath}}" class="search-thumbnail" />
             <ul>

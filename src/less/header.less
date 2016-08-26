@@ -2,7 +2,6 @@
 @import (reference) "_variables.less";
 
 header {
-    // position: fixed;
     top: 0;
     width: 100%;
     z-index: 9999;
@@ -12,12 +11,12 @@ header {
         padding: 0;
 
         @media screen and (min-width: @max-container-width) {
-            width: @max-container-width;
-            margin: 0 auto;
+           width: @max-container-width;
+           margin: 0 auto;
         }
 
         @media screen and (min-width: @width-lg) {
-            width: @width-lg;
+           width: @width-lg;
         }
     }
 
@@ -27,7 +26,7 @@ header {
         float: left;
         padding-left: 15px;
 
-        @media screen and (min-width: @width-xs) {
+        @media screen and (min-width: @width-sm) {
             padding-left: 0;
         }
 
@@ -50,18 +49,10 @@ header {
             position: relative;
             top: 6px;
 
-            @media screen and (min-width: @width-xs) {
-                font-size: 36px;
+            @media screen and (min-width: @width-sm) {
+                font-size: 40px;
                 margin-left: 0;
                 top: 0;
-            }
-
-            @media screen and (min-width: 700px) {
-                font-size: 40px;
-            }
-
-            @media screen and (min-width: @width-sm) {
-                font-size: 48px;
             }
         }
     }
@@ -76,21 +67,21 @@ header {
             display: inline-block;
             margin: 8px 0;
 
-            @media screen and (min-width: 700px) {
+            @media screen and (min-width: @width-xs) {
                 color: @orange;
             }
 
             @media screen and (min-width: @width-sm) {
-                margin: 15px 0;
+                margin: 8px 0 20px;
             }
         }
 
         span {
             color: @dark-green;
-            font-size: 24px;
+            font-size: 20px;
             display: none;
 
-            @media screen and (min-width: 700px) {
+            @media screen and (min-width: @width-xs) {
                 display: inline;
             }
         }

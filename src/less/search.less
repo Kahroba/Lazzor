@@ -1,6 +1,8 @@
 
 @import (reference) "_variables.less";
 
+@two-line-media-width: 620px;
+
 .search-wrap {
     margin-top: 25px;
     margin-bottom: 25px;
@@ -41,16 +43,16 @@
 .search-result {
     border-top: 1px solid #999;
 
-    @two-line-media-width: 620px;
-
     @media screen and (min-width: @width-sm) {
         padding: 10px 0;
     }
 
     &-wrap {
-        // width: 800px;
-        margin: 0 auto 20px;
         padding: 0;
+    }
+
+    &-empty {
+        text-align: center;
     }
 
     .search-thumbnail {
@@ -72,7 +74,6 @@
 
     ul {
         list-style: none;
-        //text-align: right;
         margin-bottom: 0;
         padding-right: 10px;
         overflow: hidden;
@@ -123,8 +124,6 @@
         }
 
         .departue-city {
-            //width: ~"calc(100% - 100px)";
-
             @media screen and (min-width: @two-line-media-width) {
                 width: 180px;
             }
@@ -161,13 +160,4 @@
             }
         }
     }
-}
-
-.search-title a {
-    text-decoration: none;
-    font-weight: 600;
-}
-
-.search-item {
-    margin-bottom: 20px;
 }

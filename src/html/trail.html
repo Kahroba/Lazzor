@@ -6,7 +6,7 @@
         <div class="search-wrap container">
             <form class="form-horizontal" role="search" data-ng-submit="search()">
                 <div class="form-group">
-                    <div class="col-sm-6 col-sm-offset-3">
+                    <div class="search-input-wrap col-sm-6 col-sm-offset-3">
                         <div class="input-group">
                             <input type="text" class="form-control" placeholder="" data-ng-model="q">
                             <span class="input-group-btn">
@@ -36,7 +36,7 @@
             </ul>
         </div>
 
-        <div class="kml-map" kml-drawer-1 kml-path="trail.KmlPath"></div>
+        <div class="kml-map" kml-drawer kml-path="trail.KmlPath"></div>
 
         <div nvd3-sparkline-chart
              class="trail-elevation-chart"
@@ -65,7 +65,7 @@
             </div>
         </div>
 
-        <div class="featured-list extra-margin container">
+        <div class="featured-list container">
             <div data-ng-if="trail.tours">
                 <h4>تور مجازی</h4>
                 <div class="row">

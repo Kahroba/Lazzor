@@ -4,10 +4,6 @@
         <uib-slide data-ng-repeat="slide in slides track by slide.id" index="$index">
             <a href="#/trail/{{slide.id}}" class="image-popup">
                 <img data-ng-src="{{slide.image}}" style="margin: auto;">
-                <!-- <div class="carousel-caption"> -->
-                <!-- <h4>Slide {{slide.id}}</h4> -->
-                <!-- <p>{{slide.text}}</p> -->
-                <!-- </div> -->
             </a>
         </uib-slide>
     </uib-carousel>
@@ -15,7 +11,7 @@
     <div class="search-wrap container">
         <form class="form-horizontal" role="search" data-ng-submit="search()">
             <div class="form-group">
-                <div class="col-sm-6 col-sm-offset-3">
+                <div class="search-input-wrap col-sm-6 col-sm-offset-3">
                     <div class="input-group">
                         <input type="text" class="form-control" placeholder="" data-ng-model="q">
                         <span class="input-group-btn">
@@ -27,37 +23,39 @@
         </form>
     </div>
 
-    <div class="featured-list container {{list.cls}}" data-ng-repeat="list in featuredLists">
-        <h4>{{list.title}}</h4>
-        <div class="row">
-            <div class="item col-xs-6 col-sm-3" data-ng-repeat="item in list.items">
-                <a data-ng-href="{{item.Url}}">
-                    <figure>
-                        <img data-ng-src="{{'../../assets/images/' + item.ThumbnailPath}}" />
-                        <figcaption>
-                            <h6 data-ng-if="!list.extendedProperties">{{item.Name}}</h6>
-                            <dl data-ng-if="list.extendedProperties">
-                                <dt>{{item.Name}}</dt>
-                                <dd>
-                                    <i class="fa fa-bus" title="شهر مبداء"></i>
-                                    <span>{{item.DepartureCity}}</span>
-                                </dd>
-                                <dd>
-                                    <i class="fa fa-coffee" title="درجه سختی"></i>
-                                    <span>{{item.DifficultyTitle}}</span>
-                                </dd>
-                                <dd>
-                                    <i class="fa fa-hourglass-half" title="مدت زمان پیمایش"></i>
-                                    <span>{{item.Duration}} روز</span>
-                                </dd>
-                                <dd>
-                                    <i class="fa fa-calendar-o" title="بهترین فصل"></i>
-                                    <span>{{item.Season}}</span>
-                                </dd>
-                            </dl>
-                        </figcaption>
-                    </figure>
-                </a>
+    <div class="featured-list {{list.cls}}" data-ng-repeat="list in featuredLists">
+        <div class="container">
+            <h4>{{list.title}}</h4>
+            <div class="row">
+                <div class="item col-xs-6 col-sm-3" data-ng-repeat="item in list.items">
+                    <a data-ng-href="{{item.Url}}">
+                        <figure>
+                            <img data-ng-src="{{'../../assets/images/' + item.ThumbnailPath}}" />
+                            <figcaption>
+                                <h6 data-ng-if="!list.extendedProperties">{{item.Name}}</h6>
+                                <dl data-ng-if="list.extendedProperties">
+                                    <dt>{{item.Name}}</dt>
+                                    <dd>
+                                        <i class="fa fa-bus" title="شهر مبداء"></i>
+                                        <span>{{item.DepartureCity}}</span>
+                                    </dd>
+                                    <dd>
+                                        <i class="fa fa-coffee" title="درجه سختی"></i>
+                                        <span>{{item.DifficultyTitle}}</span>
+                                    </dd>
+                                    <dd>
+                                        <i class="fa fa-hourglass-half" title="مدت زمان پیمایش"></i>
+                                        <span>{{item.Duration}} روز</span>
+                                    </dd>
+                                    <dd>
+                                        <i class="fa fa-calendar-o" title="بهترین فصل"></i>
+                                        <span>{{item.Season}}</span>
+                                    </dd>
+                                </dl>
+                            </figcaption>
+                        </figure>
+                    </a>
+                </div>
             </div>
         </div>
     </div>
