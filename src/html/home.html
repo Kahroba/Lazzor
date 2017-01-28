@@ -8,6 +8,18 @@
         </uib-slide>
     </uib-carousel>
 
+    <div class="category-list">
+        <div class="container">
+            <ul class="list-inline">
+                <li data-ng-repeat="category in categories">
+                    <a data-ng-href="{{'/#/search/category:' + category.criteria}}">
+                        <img alt="{{category.title}}" data-ng-src="{{'../../assets/images/categories/' + category.icon}}" />
+                        <span>{{category.title}}</span>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
     <div class="search-wrap container">
         <form class="form-horizontal" role="search" data-ng-submit="search()">
             <div class="form-group">

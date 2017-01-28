@@ -23,6 +23,7 @@
         $scope.search = search;
 
         carousel();
+        categories();
         mostVisited();
 
         function search() {
@@ -40,6 +41,23 @@
                     id: 8,
                     image: '/src/img/featured-2.jpg'
                 }
+            ];
+        };
+
+        function categories() {
+            $scope.categories = [
+                { title: 'غار', icon: 'cave.svg', criteria: 'cave' },
+                { title: 'قله', icon: 'peak.svg', criteria: 'peak' },
+                { title: 'کویر', icon: 'desert.svg', criteria: 'desert' },
+                { title: 'جنگل', icon: 'forest.svg', criteria: 'forest' },
+                { title: 'جزیره', icon: 'island.svg', criteria: 'island' },
+                { title: 'پیمایش', icon: 'hiking.svg', criteria: 'hiking' },
+                { title: 'دریاچه', icon: 'lake.svg', criteria: 'lake' },
+                { title: 'آبشار', icon: 'waterfall.svg', criteria: 'waterfall' },
+                { title: 'صخره نوردی', icon: 'rock.svg', criteria: 'rock' },
+                { title: 'روستا', icon: 'village.svg', criteria: 'village' },
+                { title: 'چشمه', icon: 'spring.svg', criteria: 'spring' },
+                { title: 'آفرود', icon: 'offroad.svg', criteria: 'off-road' }
             ];
         };
 
