@@ -2,11 +2,12 @@ library(RODBC)
 
 rm(list = ls())
 
-
-dbc <-
-  odbcDriverConnect(
-    "driver=SQL Server;server=172.16.183.214;database=Paakoob;uid=RUser;pwd=x2mf3Oi7COZ8"
-  )
+#
+# dbc <-
+#   odbcDriverConnect(
+#     "driver=SQL Server;server=172.16.183.214;database=Paakoob;uid=RUser;pwd=x2mf3Oi7COZ8"
+#   )
+dbc <- odbcConnect('Local2012')
 
 
 folders <- dir(pattern = '^\\d{3}\\_')
@@ -50,6 +51,7 @@ for (i in 1:length(folders)) {
     
     files = files[files != 'Thumbnail']
     
+    files = substr(files, 1, nchar(files) - 4)
     
     for (file in files) {
       id = id + 1

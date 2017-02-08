@@ -15,10 +15,10 @@ library(RODBC)
 
 
 #"driver=SQL Server;server=172.16.183.214;database=Paakoob;uid=RUser;pwd=x2mf3Oi7COZ8"
+dbc <- odbcConnect('Local2012')
 
 
-
-files = dir(path = './KML')
+files = dir(path = './kml')
 
 
 
@@ -26,7 +26,7 @@ for (ii in 1:length(files)) {
   # ii = 6;
   
   
-  xmlFile <- xmlParse(file = paste('./KML/', files[ii], sep = ''))
+  xmlFile <- xmlParse(file = paste('./kml/', files[ii], sep = ''))
   
   
   
@@ -141,7 +141,7 @@ for (ii in 1:length(files)) {
   
   # kmlStr <- readChar(files[ii], file.info(files[ii])$size);
   # kmlStr <- gsub("\\'", "\\'\\'", kmlStr);
-  # if(substr(kmlStr, 1, 3) == '﻿'){
+  # if(substr(kmlStr, 1, 3) == ''){
   #   kmlStr <- substr(kmlStr, 4, nchar(kmlStr));
   # }
   
@@ -153,21 +153,22 @@ for (ii in 1:length(files)) {
   
   queryStr <- paste(
     sep = '',
-    'update dbo.Trail set KmlPath = \'',
+    'update dbo.Trail 
+    set KmlPath = isnull(KmlPath,\'',
     kmlPath,
-    '\'\n, ElevationProfile = \'',
+    '\')\n, ElevationProfile = isnull(ElevationProfile, \'',
     str,
-    '\'\n, Length = \'',
+    '\')\n, Length = isnull(Length, ',
     length,
-    '\'\n, Ascend = \'',
+    ')\n, Ascend = isnull(Ascend, ',
     ascend,
-    '\'\n, Descend = \'',
+    ')\n, Descend = isnull(Descend, ',
     descend,
-    '\'\n, MinElevation = \'',
+    ')\n, MinElevation = isnull(MinElevation, ',
     minElv,
-    '\'\n, MaxElevation = \'',
+    ')\n, MaxElevation = isnull(MaxElevation, ',
     maxElv,
-    '\'\n where ID = ',
+    ')\n where ID = ',
     id
   )
   
@@ -182,4 +183,4 @@ for (ii in 1:length(files)) {
   
 }
 
-# odbcClose(dbc)
+odbcClose(dbc)
