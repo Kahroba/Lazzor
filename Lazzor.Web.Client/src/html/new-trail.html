@@ -1,0 +1,65 @@
+﻿
+<div>
+
+    <div class="container">
+
+        <h4 class="extra-margin">ثبت مسیر جدید</h4>
+
+        <form class="form-horizontal">
+            <div class="form-group">
+                <label class="control-label col-sm-2" for="trailName">نام</label>
+                <input type="text" class="form-control col-sm-10" name="trailName">
+            </div>
+            <div class="form-group">
+                <label class="control-label col-sm-2" for="description">توضیحات</label>
+                <textarea rows="5" class="form-control col-sm-10" name="description"></textarea>
+            </div>
+            <div class="form-group">
+                <label class="control-label col-sm-2" for="season">بهترین فصل</label>
+                <input type="text" class="form-control col-sm-10" name="season">
+            </div>
+            <div class="form-group">
+                <label class="control-label col-sm-2" for="length">طول مسیر (متر)</label>
+                <input type="text" class="form-control col-sm-10" name="length">
+            </div>
+            <div class="form-group">
+                <label class="control-label col-sm-2" for="departure">شهر مبدأ</label>
+                <select class="form-control col-sm-10" name="departure"></select>
+            </div>
+            <div class="form-group">
+                <label class="control-label col-sm-2" for="difficulty">دشواری مسیر</label>
+                <select class="form-control col-sm-10" name="difficulty">
+                    <option value="1">ساده</option>
+                    <option value="2">متوسط</option>
+                    <option value="3">سخت</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label class="control-label col-sm-2" for="difficulty">مدت زمان پیمایش</label>
+                <select class="form-control col-sm-10" name="difficulty">
+                    <option value="1">&#x06f1; روز</option>
+                    <option value="2">&#x06f2; روز</option>
+                    <option value="3">&#x06f3; روز</option>
+                    <option value="4">&#x06f4; روز</option>
+                    <option value="5">&#x06f5; روز</option>
+                    <option value="6">&#x06f6; روز</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label class="control-label col-sm-2" for="kmlfile">فایل GPS مسیر</label>
+                <input type="file" id="kmlfile">
+            </div>
+            <div class="form-group">
+                <label class="control-label col-sm-2" for="mapfile">فایل نقشه</label>
+                <input type="file" id="mapfile">
+            </div>
+            <div class="form-group">
+                <div class="col-sm-offset-2 col-sm-10">
+                    <button type="submit" class="btn btn-primary">ثبت</button>
+                </div>
+            </div>
+        </form>
+
+    </div>
+
+</div>

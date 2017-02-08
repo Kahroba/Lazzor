@@ -1,0 +1,26 @@
+
+@import (reference) "_variables.less";
+
+.ng-gallery {
+    margin-right: -15px;
+    margin-left: -15px;
+    display: block;
+    width: auto;
+
+    > div {
+        min-height: 1px;
+        padding: 0 15px;
+        display: block;
+        float: right;
+        position: relative;
+        width: 50%;
+
+        @media screen and (min-width: @width-sm) {
+            width: 25%;
+        }
+
+        img {
+            margin-bottom: 15px;
+        }
+    }
+}

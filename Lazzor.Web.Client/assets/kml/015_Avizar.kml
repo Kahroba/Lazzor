@@ -1,0 +1,159 @@
+<?xml version="1.0" standalone="yes"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name><![CDATA[015_Avizar]]></name>
+    <visibility>1</visibility>
+    <open>1</open>
+    <Snippet><![CDATA[created using <A href="http://www.gpsvisualizer.com/?ref=ge&time=20160727110540">GPS Visualizer</A>]]></Snippet>
+    <Style id="gv_waypoint_normal">
+      <IconStyle>
+        <color>ffffffff</color>
+        <scale>1</scale>
+        <Icon>
+          <href>http://maps.google.ca/mapfiles/kml/pal4/icon56.png</href>
+        </Icon>
+        <hotSpot x="0.5" xunits="fraction" y="0.5" yunits="fraction" />
+      </IconStyle>
+      <LabelStyle>
+        <color>ffffffff</color>
+        <scale>1</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<div style="font-family:Arial,sans-serif; min-width:200px;"><h3>$[name]</h3> <div style="margin-top:8px;">$[description]</div></div>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="gv_waypoint_highlight">
+      <IconStyle>
+        <color>ffffffff</color>
+        <scale>1.2</scale>
+        <Icon>
+          <href>http://maps.google.ca/mapfiles/kml/pal4/icon56.png</href>
+        </Icon>
+        <hotSpot x="0.5" xunits="fraction" y="0.5" yunits="fraction" />
+      </IconStyle>
+      <LabelStyle>
+        <color>ffffffff</color>
+        <scale>1</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<div style="font-family:Arial,sans-serif; min-width:200px;"><h3>$[name]</h3> <div style="margin-top:8px;">$[description]</div></div>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="gv_track">
+      <LineStyle>
+        <color>ff0000e6</color>
+        <width>4</width>
+      </LineStyle>
+    </Style>
+    <StyleMap id="gv_waypoint">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#gv_waypoint_normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#gv_waypoint_highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Folder id="Waypoints">
+      <name>Waypoints</name>
+      <visibility>1</visibility>
+      <Placemark>
+        <name>avizar</name>
+        <Snippet></Snippet>
+        <description><![CDATA[&nbsp;]]></description>
+        <styleUrl>#gv_waypoint</styleUrl>
+        <Style>
+          <IconStyle>
+            <scale>0.5</scale>
+            <Icon>
+              <href>http://maps.gpsvisualizer.com/google_maps/icons/garmin/gpsmap/Flag%2C_Blue.png</href>
+            </Icon>
+          </IconStyle>
+        </Style>
+        <Point>
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>51.136275642,36.062329123</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>climbing wall</name>
+        <Snippet></Snippet>
+        <description><![CDATA[&nbsp;]]></description>
+        <styleUrl>#gv_waypoint</styleUrl>
+        <Style>
+          <IconStyle>
+            <scale>0.5</scale>
+            <Icon>
+              <href>http://maps.gpsvisualizer.com/google_maps/icons/garmin/gpsmap/Triangle%2C_Green.png</href>
+            </Icon>
+          </IconStyle>
+        </Style>
+        <Point>
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>51.14493398,36.016927119</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>kalvan</name>
+        <Snippet></Snippet>
+        <description><![CDATA[&nbsp;]]></description>
+        <styleUrl>#gv_waypoint</styleUrl>
+        <Style>
+          <IconStyle>
+            <scale>0.5</scale>
+            <Icon>
+              <href>http://maps.gpsvisualizer.com/google_maps/icons/garmin/gpsmap/Flag%2C_Blue.png</href>
+            </Icon>
+          </IconStyle>
+        </Style>
+        <Point>
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>51.120736599,36.073029041</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>leilestan</name>
+        <Snippet></Snippet>
+        <description><![CDATA[&nbsp;]]></description>
+        <styleUrl>#gv_waypoint</styleUrl>
+        <Style>
+          <IconStyle>
+            <scale>0.5</scale>
+            <Icon>
+              <href>http://maps.gpsvisualizer.com/google_maps/icons/garmin/gpsmap/Flag%2C_Blue.png</href>
+            </Icon>
+          </IconStyle>
+        </Style>
+        <Point>
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>51.129924757,36.068039294</coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+    <Folder id="Tracks">
+      <name>Tracks</name>
+      <visibility>1</visibility>
+      <open>0</open>
+      <Placemark>
+        <name><![CDATA[Track 002]]></name>
+        <Snippet></Snippet>
+        <description><![CDATA[&nbsp;]]></description>
+        <styleUrl>#gv_track</styleUrl>
+        <Style>
+          <LineStyle>
+            <color>ffa9a9a9</color>
+            <width>4</width>
+          </LineStyle>
+        </Style>
+        <MultiGeometry>
+          <LineString>
+            <tessellate>1</tessellate>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>51.151774367,36.022053324 51.151825329,36.022707615 51.15228055,36.023070971 51.152917156,36.023801705 51.154215932,36.024236055 51.154631423,36.024392964 51.154743992,36.02446002,1860.7 51.155294012,36.025417987,1849.2 51.155012967,36.026330022,1848.4 51.155261993,36.027895007,1840.8 51.154793026,36.028667986,1840.9 51.154353982,36.030058963,1839 51.154912971,36.031668959,1837.8 51.154990001,36.032916019,1841.8 51.155506996,36.033786982,1842 51.156400004,36.034263996,1853.5 51.157753011,36.03611296,1856.3 51.158399004,36.037205961,1858.5 51.158492966,36.037953962,1858 51.158795971,36.038507,1868 51.158927986,36.039229017,1868.6 51.160439998,36.040927023,1869.6 51.160515016,36.041215025,1870.3 51.160007995,36.042599967,1874 51.16047604,36.043268004,1872.6 51.158988001,36.04613998,1863.2 51.158692036,36.046600984,1867.8 51.158109996,36.047067018,1876.1 51.157889972,36.047886014,1879.1 51.157252025,36.048558997,1884.6 51.156944996,36.049247989,1883.4 51.156832008,36.050150972,1889.1 51.155810002,36.052104961,1910.3 51.153707989,36.054074038,1926.1 51.150906002,36.05506503,1931.9 51.148837013,36.056131963,1928.1 51.148200994,36.05663999,1925.1 51.147894971,36.057337029,1927.2 51.14775097,36.057241978,1957.1 51.147890026,36.057266034,1957.6 51.147542009,36.058020992,1952.4 51.146963993,36.058579981,1951.4 51.145579973,36.058933027,1954.1 51.141752042,36.058773017,1948.9 51.139662014,36.059636017,1956.9 51.138068028,36.059985962,1960.5 51.137104025,36.060833037,1966.8 51.136488961,36.062035002,1987.6 51.136042038,36.062547974,1989.3 51.135383975,36.062986013,1994.9 51.135198986,36.063518012,2006.7 51.135093961,36.063485993,2008.5 51.134635974,36.064126035,2005.8 51.133803986,36.064755013,2005.8 51.133299982,36.065735025,2012.7 51.132108998,36.066943025,2027.6 51.128414003,36.068839012,2036.5 51.127745965,36.069395989,2051 51.125887027,36.069597993,2071.9 51.125635989,36.069483999,2083.4 51.12492797,36.069530016,2081.7 51.124135042,36.069795974,2075.7 51.123023015,36.070509022,2080.7 51.123333983,36.070641959,2082.1 51.124368981,36.070684036,2088.5 51.122959983,36.071006991,2119.5 51.122943973,36.071105981,2118.4 51.122782286,36.071156859 51.122225225,36.071516192 51.12172382,36.07194786 51.121103056,36.07257273 51.1208086,36.073021833 </coordinates>
+          </LineString>
+        </MultiGeometry>
+      </Placemark>
+    </Folder>
+  </Document>
+</kml>

@@ -1,0 +1,61 @@
+﻿
+<div>
+
+    <div class="search-wrap container">
+        <form class="form-horizontal" role="search" data-ng-submit="search()">
+            <div class="form-group">
+                <div class="search-input-wrap col-sm-6 col-sm-offset-3">
+                    <div class="input-group">
+                        <input type="text" class="form-control" placeholder="" data-ng-model="q">
+                        <span class="input-group-btn">
+                            <input type="submit" class="btn btn-default" value="جستجو">
+                        </span>
+                    </div>
+                </div>
+            </div>
+        </form>
+    </div>
+
+    <div class="search-wait" data-ng-if="!!searching">
+        <i class="fa fa-spin fa-2x fa-circle-o-notch"></i>
+        <span>در حال جستجو. لطفاً منتظر بمانید.</span>
+    </div>
+
+    <div class="search-result-wrap container">
+
+        <div class="search-result-empty" data-ng-if="searchResults.length === 0">
+            <span class="frown">:-(</span>
+            <span>جستجوی شما نتیجه&zwnj;ای در بر نداشت.</span>
+        </div>
+
+        <div class="search-result" data-ng-repeat="result in searchResults">
+            <img data-ng-src="{{'/assets/images/' + result.ThumbnailPath}}" class="search-thumbnail" />
+            <ul>
+                <li class="search-link">
+                    <i title="{{result.DifficultyTitle}}" class="difficulty-level icon-{{['easy', 'intermediate', 'advanced', 'expert'][result.DifficultyLevel - 1]}}"></i>
+                    <a data-ng-href="#!/trail/{{result.Id}}" class="search-title">
+                        <span data-ng-bind="result.Name"></span>
+                    </a>
+                </li>
+                <li class="departue-city">
+                    <i class="fa fa-bus" title="شهر مبداء"></i>
+                    <span data-ng-bind="result.DepartureCity"></span>
+                </li>
+                <li class="duration">
+                    <i class="fa fa-hourglass-half" title="مدت زمان پیمایش"></i>
+                    <span>{{result.Duration}} روز</span>
+                </li>
+                <li class="season">
+                    <i class="fa fa-calendar-o" title="بهترین فصل"></i>
+                    <span data-ng-bind="result.Season"></span>
+                </li>
+                <li class="length">
+                    <i class="fa fa-blind" title="طول مسیر (متر)"></i>
+                    <span data-ng-bind="result.Length | number"></span>
+                </li>
+            </ul>
+        </div>
+
+    </div>
+
+</div>

@@ -1,0 +1,153 @@
+﻿
+<div>
+
+    <div class="track-content">
+
+        <div class="search-wrap">
+            <div class="container">
+                <form class="form-horizontal" role="search" data-ng-submit="search()">
+                    <div class="form-group">
+                        <div class="search-input-wrap col-sm-6 col-sm-offset-3">
+                            <div class="input-group">
+                                <input type="text" class="form-control" placeholder="" data-ng-model="q">
+                                <span class="input-group-btn">
+                                    <input type="submit" class="btn btn-default" value="جستجو">
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+
+        <div class="trail-wait" data-ng-if="!!fetching">
+            <i class="fa fa-spin fa-2x fa-circle-o-notch"></i>
+            <span>در حال دریافت اطلاعات. لطفاً منتظر بمانید.</span>
+        </div>
+
+        <div class="trail-features" data-ng-if="!fetching">
+            <div class="container">
+                <h4 class="trail-title trail-heading" data-ng-bind="trail.Name"></h4>
+                <p class="trail-description" data-ng-bind="trail.Description"></p>
+
+                <h4 class="trail-heading">خصوصیات</h4>
+                <ul class="trail-info">
+                    <li data-ng-repeat="info in features" data-ng-class="info.cls">
+                        <span class="feature-title">{{info.label}}</span>
+                        <span class="feature">{{trail[info.prop] | useFilter:info.filter}}</span>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="download-wrap">
+            <div class="container">
+                <h4 class="trail-heading">دریافت فایل</h4>
+                <a class="btn btn-default" download data-ng-href="{{trail.KmlPath}}">
+                    دریافت فایل GPS مسیر
+                    <i class="fa fa-download"></i>
+                </a>
+                <a class="btn btn-default" download data-ng-repeat="map in trail.Maps" data-ng-href="{{'/assets/maps/' + map.Url}}">
+                    <span>دریافت {{map.Title}}</span>&nbsp;
+                    <i class="fa fa-download"></i>
+                </a>
+            </div>
+        </div>
+
+        <div class="container">
+            <h4 class="trail-heading">نقشه&zwnj;ی مسیر</h4>
+        </div>
+        <div class="kml-map" kml-drawer kml-path="trail.KmlPath"></div>
+        <div nvd3-sparkline-chart
+             class="trail-elevation-chart"
+             data="chartData"
+             x="xFunction()"
+             y="yFunction()">
+            <svg></svg>
+        </div>
+
+        <div class="featured-list extra-margin" data-ng-if="trail.images.length">
+            <div class="container">
+                <h4>گالری تصاویر</h4>
+                <ng-gallery images="trail.images"></ng-gallery>
+            </div>
+        </div>
+
+        <div class="featured-list extra-margin" data-ng-if="trail.Maps.length">
+            <div class="container">
+                <h4>نقشه&zwnj;ها</h4>
+                <div class="row">
+                    <div class="item col-xs-6 col-sm-3" data-ng-repeat="map in trail.Maps">
+                        <img data-ng-src="{{'/assets/maps/' + map.Url}}" />
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="featured-list extra-margin" data-ng-if="trail.VirtualTourUrl">
+            <div class="container">
+                <h4>تور مجازی</h4>
+                <div class="row">
+                    <div class="item col-xs-6 col-sm-3">
+                        <figure>
+                            <a data-ng-href="{{'/assets/virtualtours/' + trail.VirtualTourUrl + '/index.html'}}">
+                                <img data-ng-src="{{'/assets/virtualtours/' + trail.VirtualTourUrl + '/thumbnail.gif'}}" />
+                            </a>
+                        </figure>
+                    </div>
+                    <!--<div class="item col-xs-6 col-sm-3" data-ng-repeat="tour in trail.tours">
+                        <figure>
+                            <a data-ng-href="{{'/virtualTours/' + tour.url}}">
+                                <img data-ng-src="{{'/assets/images/' + tour.img}}" />
+                            </a>
+                        </figure>
+                    </div>-->
+                </div>
+            </div>
+        </div>
+
+        <div class="view-360" data-ng-if="trail.StreetViewUrl">
+            <div class="container">
+                <h4 class="trail-heading">نمای &#x06f3;&#x06f6;&#x06f0;</h4>
+            </div>
+            <iframe data-ng-src="{{trail.StreetViewUrl}}" frameborder="0" allowfullscreen></iframe>
+        </div>
+
+        <div class="featured-list nearby-trails">
+            <div class="container">
+                <h4>مسیرهای پیشنهادی</h4>
+                <div class="row">
+                    <div class="item col-xs-6 col-sm-3" data-ng-repeat="item in trail.NearbyTrails">
+                        <a data-ng-href="{{'#!/trail/' + item.Id}}">
+                            <figure>
+                                <img data-ng-src="{{'../../assets/images/' + item.ThumbnailPath}}" />
+                                <figcaption>
+                                    <dl>
+                                        <dt>{{item.Name}}</dt>
+                                        <dd>
+                                            <i class="fa fa-bus" title="شهر مبداء"></i>
+                                            <span>{{item.DepartureCity}}</span>
+                                        </dd>
+                                        <dd>
+                                            <i class="fa fa-coffee" title="درجه سختی"></i>
+                                            <span>{{item.DifficultyTitle}}</span>
+                                        </dd>
+                                        <dd>
+                                            <i class="fa fa-hourglass-half" title="مدت زمان پیمایش"></i>
+                                            <span>{{item.Duration}} روز</span>
+                                        </dd>
+                                        <dd>
+                                            <i class="fa fa-calendar-o" title="بهترین فصل"></i>
+                                            <span>{{item.Season}}</span>
+                                        </dd>
+                                    </dl>
+                                </figcaption>
+                            </figure>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</div>

@@ -1,0 +1,202 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+  <!-- EF Runtime content -->
+  <edmx:Runtime>
+    <!-- SSDL content -->
+    <edmx:StorageModels>
+    <Schema Namespace="LazzorModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+        <Function Name="GetMap" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+          <Parameter Name="ID_Trail" Type="bigint" Mode="In" />
+        </Function>
+        <Function Name="GetTrailByID" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+          <Parameter Name="ID" Type="bigint" Mode="In" />
+        </Function>
+        <Function Name="GetTrailImages" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+          <Parameter Name="trailId" Type="bigint" Mode="In" />
+        </Function>
+        <Function Name="SearchNearbyTrail" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+          <Parameter Name="ID_Trail" Type="bigint" Mode="In" />
+        </Function>
+        <Function Name="SearchTrail" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+          <Parameter Name="Phrase" Type="nvarchar" Mode="In" />
+        </Function>
+        <EntityContainer Name="LazzorModelStoreContainer" />
+      </Schema></edmx:StorageModels>
+    <!-- CSDL content -->
+    <edmx:ConceptualModels>
+      <Schema Namespace="Lazzor.Model" Alias="Self" xmlns="http://schemas.microsoft.com/ado/2009/11/edm" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation">
+        <EntityContainer Name="LazzorDbContext" annotation:LazyLoadingEnabled="true" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation">
+          <FunctionImport Name="GetTrailById" ReturnType="Collection(Lazzor.Model.Trail_RawResult)">
+          <Parameter Name="ID" Mode="In" Type="Int64" />
+          </FunctionImport>
+          <FunctionImport Name="SearchTrails" ReturnType="Collection(Lazzor.Model.SearchItem_RawResult)">
+          <Parameter Name="Phrase" Mode="In" Type="String" />
+          </FunctionImport>
+          <FunctionImport Name="GetTrailImages" ReturnType="Collection(Lazzor.Model.TrailImage_RawResult)">
+          <Parameter Name="trailId" Mode="In" Type="Int64" />
+          </FunctionImport>
+          <FunctionImport Name="GetNearbyTrails" ReturnType="Collection(Lazzor.Model.NearbyTrail_RawResult)">
+          <Parameter Name="ID_Trail" Mode="In" Type="Int64" />
+          </FunctionImport>
+          <FunctionImport Name="GetTrailMaps" ReturnType="Collection(Lazzor.Model.TrailMap_RawResult)">
+            <Parameter Name="ID_Trail" Mode="In" Type="Int64" />
+          </FunctionImport>
+        </EntityContainer>
+        <ComplexType Name="Trail_RawResult">
+          <Property Type="String" Name="Name" Nullable="true" MaxLength="1000" />
+          <Property Type="String" Name="Type" Nullable="true" />
+          <Property Type="String" Name="Thumbnail" Nullable="true" MaxLength="1000" />
+          <Property Type="Int32" Name="Difficulty_Level" Nullable="true" />
+          <Property Type="String" Name="Difficulty_Name" Nullable="true" MaxLength="50" />
+          <Property Type="String" Name="City_From" Nullable="true" MaxLength="200" />
+          <Property Type="String" Name="City_From_Path" Nullable="true" MaxLength="4000" />
+          <Property Type="String" Name="Season" Nullable="true" MaxLength="100" />
+          <Property Type="Int64" Name="Length" Nullable="false" />
+          <Property Type="Int64" Name="Duration" Nullable="true" />
+          <Property Type="String" Name="Description" Nullable="true" />
+          <Property Type="String" Name="Guide" Nullable="true" MaxLength="1000" />
+          <Property Type="String" Name="SOSService" Nullable="true" MaxLength="1000" />
+          <Property Type="Int64" Name="ID" Nullable="false" />
+          <Property Type="String" Name="KmlPath" Nullable="true" MaxLength="400" />
+          <Property Type="String" Name="ElevationProfile" Nullable="true" />
+          <Property Type="String" Name="StreetViewURL" Nullable="true" MaxLength="400" />
+          <Property Type="String" Name="VirtualTour" Nullable="true" MaxLength="400" />
+        </ComplexType>
+        <ComplexType Name="SearchItem_RawResult">
+          <Property Type="Int64" Name="ID" Nullable="false" />
+          <Property Type="String" Name="Name" Nullable="true" MaxLength="1000" />
+          <Property Type="String" Name="Thumbnail" Nullable="true" MaxLength="1000" />
+          <Property Type="Int32" Name="Difficulty_Level" Nullable="true" />
+          <Property Type="String" Name="Difficulty_Name" Nullable="true" MaxLength="50" />
+          <Property Type="String" Name="City_From" Nullable="true" MaxLength="200" />
+          <Property Type="String" Name="City_From_Path" Nullable="true" MaxLength="4000" />
+          <Property Type="String" Name="Season" Nullable="true" MaxLength="100" />
+          <Property Type="Int64" Name="Length" Nullable="false" />
+          <Property Type="Int64" Name="Duration" Nullable="true" />
+        </ComplexType>
+        <ComplexType Name="TrailImage_RawResult">
+          <Property Type="Int64" Name="Id" Nullable="false" />
+          <Property Type="Int64" Name="Id_Trail" Nullable="true" />
+          <Property Type="String" Name="ImageUrl" Nullable="true" MaxLength="1000" />
+        </ComplexType>
+        <ComplexType Name="NearbyTrail_RawResult">
+          <Property Type="Int64" Name="ID" Nullable="false" />
+          <Property Type="String" Name="Name" Nullable="true" MaxLength="1000" />
+          <Property Type="String" Name="Thumbnail" Nullable="true" MaxLength="1000" />
+          <Property Type="Int32" Name="Difficulty_Level" Nullable="true" />
+          <Property Type="String" Name="Difficulty_Name" Nullable="true" MaxLength="50" />
+          <Property Type="String" Name="City_From" Nullable="true" MaxLength="200" />
+          <Property Type="String" Name="City_From_Path" Nullable="true" MaxLength="4000" />
+          <Property Type="String" Name="Season" Nullable="true" MaxLength="100" />
+          <Property Type="Int64" Name="Length" Nullable="false" />
+          <Property Type="Int64" Name="Duration" Nullable="true" />
+          </ComplexType>
+        <ComplexType Name="TrailMap_RawResult">
+          <Property Type="String" Name="Title" Nullable="true" MaxLength="1000" />
+          <Property Type="Int64" Name="Scale" Nullable="true" />
+          <Property Type="String" Name="URL" Nullable="true" MaxLength="600" />
+        </ComplexType>
+      </Schema>
+    </edmx:ConceptualModels>
+    <!-- C-S mapping content -->
+    <edmx:Mappings>
+      <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+        <EntityContainerMapping StorageEntityContainer="LazzorModelStoreContainer" CdmEntityContainer="LazzorDbContext">
+          <FunctionImportMapping FunctionImportName="GetTrailById" FunctionName="LazzorModel.Store.GetTrailByID">
+            <ResultMapping>
+              <ComplexTypeMapping TypeName="Lazzor.Model.Trail_RawResult">
+                <ScalarProperty Name="Name" ColumnName="Name" />
+                <ScalarProperty Name="Type" ColumnName="Type" />
+                <ScalarProperty Name="Thumbnail" ColumnName="Thumbnail" />
+                <ScalarProperty Name="Difficulty_Level" ColumnName="Difficulty_Level" />
+                <ScalarProperty Name="Difficulty_Name" ColumnName="Difficulty_Name" />
+                <ScalarProperty Name="City_From" ColumnName="City_From" />
+                <ScalarProperty Name="City_From_Path" ColumnName="City_From_Path" />
+                <ScalarProperty Name="Season" ColumnName="Season" />
+                <ScalarProperty Name="Length" ColumnName="Length" />
+                <ScalarProperty Name="Duration" ColumnName="Duration" />
+                <ScalarProperty Name="Description" ColumnName="Description" />
+                <ScalarProperty Name="Guide" ColumnName="Guide" />
+                <ScalarProperty Name="SOSService" ColumnName="SOSService" />
+                <ScalarProperty Name="ID" ColumnName="ID" />
+                <ScalarProperty Name="KmlPath" ColumnName="KmlPath" />
+                <ScalarProperty Name="ElevationProfile" ColumnName="ElevationProfile" />
+                <ScalarProperty Name="StreetViewURL" ColumnName="StreetViewURL" />
+                <ScalarProperty Name="VirtualTour" ColumnName="VirtualTour" />
+              </ComplexTypeMapping>
+            </ResultMapping>
+          </FunctionImportMapping>
+          <FunctionImportMapping FunctionImportName="SearchTrails" FunctionName="LazzorModel.Store.SearchTrail">
+            <ResultMapping>
+              <ComplexTypeMapping TypeName="Lazzor.Model.SearchItem_RawResult">
+                <ScalarProperty Name="ID" ColumnName="ID" />
+                <ScalarProperty Name="Name" ColumnName="Name" />
+                <ScalarProperty Name="Thumbnail" ColumnName="Thumbnail" />
+                <ScalarProperty Name="Difficulty_Level" ColumnName="Difficulty_Level" />
+                <ScalarProperty Name="Difficulty_Name" ColumnName="Difficulty_Name" />
+                <ScalarProperty Name="City_From" ColumnName="City_From" />
+                <ScalarProperty Name="City_From_Path" ColumnName="City_From_Path" />
+                <ScalarProperty Name="Season" ColumnName="Season" />
+                <ScalarProperty Name="Length" ColumnName="Length" />
+                <ScalarProperty Name="Duration" ColumnName="Duration" />
+              </ComplexTypeMapping>
+            </ResultMapping>
+          </FunctionImportMapping>
+          <FunctionImportMapping FunctionImportName="GetTrailImages" FunctionName="LazzorModel.Store.GetTrailImages">
+            <ResultMapping>
+              <ComplexTypeMapping TypeName="Lazzor.Model.TrailImage_RawResult">
+                <ScalarProperty Name="Id" ColumnName="Id" />
+                <ScalarProperty Name="Id_Trail" ColumnName="Id_Trail" />
+                <ScalarProperty Name="ImageUrl" ColumnName="ImageUrl" />
+              </ComplexTypeMapping>
+            </ResultMapping>
+          </FunctionImportMapping>
+          <FunctionImportMapping FunctionImportName="GetNearbyTrails" FunctionName="LazzorModel.Store.SearchNearbyTrail">
+            <ResultMapping>
+              <ComplexTypeMapping TypeName="Lazzor.Model.NearbyTrail_RawResult">
+                <ScalarProperty Name="ID" ColumnName="ID" />
+                <ScalarProperty Name="Name" ColumnName="Name" />
+                <ScalarProperty Name="Thumbnail" ColumnName="Thumbnail" />
+                <ScalarProperty Name="Difficulty_Level" ColumnName="Difficulty_Level" />
+                <ScalarProperty Name="Difficulty_Name" ColumnName="Difficulty_Name" />
+                <ScalarProperty Name="City_From" ColumnName="City_From" />
+                <ScalarProperty Name="City_From_Path" ColumnName="City_From_Path" />
+                <ScalarProperty Name="Season" ColumnName="Season" />
+                <ScalarProperty Name="Length" ColumnName="Length" />
+                <ScalarProperty Name="Duration" ColumnName="Duration" />
+                </ComplexTypeMapping>
+            </ResultMapping>
+          </FunctionImportMapping>
+          <FunctionImportMapping FunctionImportName="GetTrailMaps" FunctionName="LazzorModel.Store.GetMap">
+            <ResultMapping>
+              <ComplexTypeMapping TypeName="Lazzor.Model.TrailMap_RawResult">
+                <ScalarProperty Name="Title" ColumnName="Title" />
+                <ScalarProperty Name="Scale" ColumnName="Scale" />
+                <ScalarProperty Name="URL" ColumnName="URL" />
+              </ComplexTypeMapping>
+            </ResultMapping>
+          </FunctionImportMapping>
+        </EntityContainerMapping>
+      </Mapping>
+    </edmx:Mappings>
+  </edmx:Runtime>
+  <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer>
+    <edmx:Connection>
+      <edmx:DesignerInfoPropertySet>
+        <edmx:DesignerProperty Name="MetadataArtifactProcessing" Value="EmbedInOutputAssembly" />
+      </edmx:DesignerInfoPropertySet>
+    </edmx:Connection>
+    <edmx:Options>
+      <edmx:DesignerInfoPropertySet>
+        <edmx:DesignerProperty Name="ValidateOnBuild" Value="true" />
+        <edmx:DesignerProperty Name="EnablePluralization" Value="true" />
+        <edmx:DesignerProperty Name="IncludeForeignKeysInModel" Value="true" />
+        <edmx:DesignerProperty Name="UseLegacyProvider" Value="false" />
+        <edmx:DesignerProperty Name="CodeGenerationStrategy" Value="None" />
+      </edmx:DesignerInfoPropertySet>
+    </edmx:Options>
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams />
+  </edmx:Designer>
+</edmx:Edmx>

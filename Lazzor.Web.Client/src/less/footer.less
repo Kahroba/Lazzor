@@ -1,0 +1,145 @@
+
+@import (reference) "_variables.less";
+
+footer {
+    background-color: @dark-green;
+    color: @white;
+    padding: 20px 0;
+
+    @media screen and (min-width: @width-sm) {
+        padding-top: 60px;
+    }
+
+    .footer-wrap {
+        padding: 0;
+
+        > div {
+            text-align: center;
+        }
+    }
+
+    .introduce {
+        margin-bottom: 30px;
+        padding-right: 25px;
+    }
+
+    .title {
+        h3 {
+            font-size: 18px;
+            margin-top: 0;
+            display: inline-block;
+        }
+
+        span {
+            font-size: 13px;
+        }
+    }
+
+    .social-media {
+        margin-top: 10px;
+
+        .fa {
+            font-size: 30px;
+            margin-left: 40px;
+
+            &:last-child {
+                margin-left: 0;
+            }
+        }
+    }
+
+    .newsletter {
+        margin-bottom: 19px;
+
+        input {
+            width: 200px;
+            color: @black;
+            font-size: 11px;
+            direction: ltr;
+            border: none;
+            border-radius: @border-radius;
+            padding: 6px 5px 4px;
+
+            @media screen and (min-width: @width-sm) {
+                width: 215px;
+            }
+        }
+
+        button {
+            background-color: @orange;
+            border: none;
+            border-radius: @border-radius;
+            padding: 4px 9px;
+
+            &:hover {
+                background-color: @light-green;
+                color: @dark-green;
+            }
+        }
+    }
+
+    .copyright {
+        vertical-align: bottom;
+
+        .notice {
+            position: relative;
+            top: -1px;
+        }
+    }
+
+    .ministry {
+        img {
+            @media screen and (max-width: @width-sm) {
+                margin-top: -15px;
+            }
+        }
+    }
+}
+
+/*
+Sticky Footer Solution
+by Steve Hatcher
+http://stever.ca
+http://www.cssstickyfooter.com
+*/
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* must declare 0 margins on everything, also for main layout components use padding, not
+vertical margins (top and bottom) to add spacing, else those margins get added to total height
+and your footer gets pushed down a bit more, creating vertical scroll bars in the browser */
+
+@footer-height: 200px;
+
+html, body {
+    height: 100%;
+}
+
+.page-wrap {
+    min-height: 100%;
+}
+
+.content-wrap {
+    overflow: auto;
+    padding-bottom: @footer-height;
+}  /* must be same height as the footer */
+
+footer {
+    position: relative;
+    margin-top: -@footer-height + 20px; /* negative value of footer height */
+    height: @footer-height;
+    clear: both;
+}
+
+/*Opera Fix*/
+body:before {
+    /* thanks to Maleika (Kohoutec)*/
+    content: "";
+    height: 100%;
+    float: left;
+    width: 0;
+    margin-top: -32767px; /* thank you Erik J - negate effect of float*/
+}
